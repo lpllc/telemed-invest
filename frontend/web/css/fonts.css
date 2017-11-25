@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'PF DinDisplay Pro ExtraThin';
-    src: url('../fonts/FDinDisplayPro-ExtraThin.eot');
+    src: url('P../fonts/FDinDisplayPro-ExtraThin.eot');
     src: url('../fonts/PFDinDisplayPro-ExtraThin.eot?#iefix') format('embedded-opentype'),
         url('../fonts/PFDinDisplayPro-ExtraThin.woff') format('woff'),
         url('../fonts/PFDinDisplayPro-ExtraThin.ttf') format('truetype');

@@ -16,19 +16,21 @@ AppAsset::register($this);
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
-    <meta charset="<?= Yii::$app->charset ?>">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Doctor Smart - инновационная экосистема для цифровой медицины">
+    <meta name="keywords" content="Сервис предлагает высокотехнологичное решение, способное вывести качество медицины в мире на новый уровень и сделать ее по-настоящему доступной для каждого.">
     <meta name="author" content="Boris Adamyan Boramos">
     <link rel='shortcut icon' type=image/vnd.microsoft.icon href=img/logo.png>
     <link rel=apple-touch-icon type=image/png href=img/logo.png>
     <link rel=apple-touch-icon type=image/png sizes=72x72 href=img/logo.png>
     <link rel=apple-touch-icon type=image/png sizes=114x114 href=img/logo.png>
     <link rel=icon type=image/png href=img/logo.png>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
     <?= Html::csrfMetaTags() ?>
-    <title>Doctor Smart</title>
+    <title>Doctor Smart - инновационная экосистема для цифровой медицины</title>
     <?php $this->head() ?>
 </head>
 <body>

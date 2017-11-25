@@ -15,6 +15,7 @@ return [
         'request' => [
             'csrfParam' => '_csrf-frontend',
         ],
+        'geoip' => ['class' => 'lysenkobv\GeoIP\GeoIP'],
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,

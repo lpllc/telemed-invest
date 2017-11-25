@@ -20,7 +20,19 @@ $(document).ready(function() {
 	$('.lang').on('click', function(){
 		lg_menu.toggle();
 	})
-
+	var lg_menu_mob = $('.select-lang-mob');
+	lg_menu_mob.hide();
+	$('.lang_mob').on('click', function(){
+		lg_menu_mob.toggle();
+	})
+	var mob_burger = $('.mob_burger');
+	mob_burger.on('click', function(){
+		$('.mob-nav').addClass('active');
+	})
+	var close_menu = $('.close-menu');
+	close_menu.on('click', function(){
+		$('.mob-nav').removeClass('active');
+	})
 });
 
 

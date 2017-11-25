@@ -70,19 +70,75 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+
+        // $ip = Yii::$app->geoip->ip();
+        // $ip = Yii::$app->geoip->ip("46.71.41.167");
+        // $ip->city; // "San Francisco"
+        // $ip->country; // "United States"
+        // $ip->location->lng; // 37.7898
+        // $ip->location->lat; // -122.3942
+        // $ip->isoCode; // "US"
+
         $feedback = new Feedback();
-        $lng = Yii::$app->request->get('lng')?:'ru';
-        $this->layout = 'main_'.$lng;
-        return $this->render('index_'.$lng,['feedback' => $feedback]);
-//        if(Yii::$app->request->get('lng') == 'ru'){
-//            return $this->render('index_ru',['feedback' => $feedback]);
-//        }
-//        else if(Yii::$app->request->get('lng') == 'en'){
-//            return $this->render('index_en',['feedback' => $feedback]);
-//        }
-//        else {
-//            return $this->render('index_ru',['feedback' => $feedback]);
-//        }
+        
+        $user_language = 'ru';
+       
+        if(Yii::$app->request->get('lng') == 'ru'){
+            $user_language = 'ru';
+        }
+        else if(Yii::$app->request->get('lng') == 'en'){
+            $user_language = 'en';
+        }
+        else {
+            $sng_countries_codes = [
+                'AM', // 'Armenia'
+                'AZ', //'Azerbaijan'
+                'BY', // 'Belarus'
+                'KZ', // 'Kazakhstan'
+                'KG', // 'Kyrgyz Republic'
+                'MD', // 'Moldova'
+                'RU', // 'Russian Federation'
+                'TJ', //  'Tajikistan';
+                'TM', // 'Turkmenistan'
+                'UZ', // 'Uzbekistan'
+                'UA', // 'Ukraine';
+                'GE', // 'Georgia'
+            ];
+
+            $url = 'https://freegeoip.net/json/';
+            $ch = curl_init();
+            // Disable SSL verification
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            // Will return the response, if false it print the response
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            // Set the url
+            curl_setopt($ch, CURLOPT_URL,$url);
+            // Execute
+            $result=curl_exec($ch);
+            // Closing
+            curl_close($ch);
+            
+            $json = $result;
+            
+            if ($json) {
+                $info = json_decode($json);
+
+                if (in_array($info->country_code, $sng_countries_codes)) {
+                    $user_language = 'ru';
+                } else {
+                    $user_language = 'en';
+                }                
+            } else {
+                $user_language = 'en';
+            }
+
+        }
+
+        $this->layout = 'main_' . $user_language;
+        return $this->render('index_' . $user_language ,[
+            'feedback' => $feedback,
+            'user_language' => $user_language
+        ]);
 
     }
 
