@@ -494,6 +494,7 @@ use yii\helpers\Html;
     <div class="hidden">
     <form id="form1" class="feedback">
         <h3>Contact Us</h3>
+        <input type="hidden" class="choose-language" value='en'><br>
         <input type="text" name="Name" placeholder="Your name" required class="name"><br>
         <input type="text" name="E-mail" placeholder="Your contacts" required class="contacts"><br>
         <input type="text" name="Subject" placeholder="Subject" required class="theme"><br>

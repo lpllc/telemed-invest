@@ -569,6 +569,8 @@ use yii\helpers\Html;
 <div class="hidden">
     <form id="form1" class="feedback">
         <h3>Связь с разработчиками</h3>
+        <input type="hidden" class="choose-language" value='ru'><br>
+
         <input type="text" name="Name" placeholder="Ваше имя" required class="name"><br>
         <input type="text" name="E-mail" placeholder="Ваши контакты" required class="contacts"><br>
         <input type="text" name="Subject" placeholder="Тема" required class="theme"><br>
