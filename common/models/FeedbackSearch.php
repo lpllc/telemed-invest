@@ -29,7 +29,7 @@ class FeedbackSearch extends Feedback
     }
     public function search($params)
     {
-        $query = Feedback::find()->orderBy(['created_at' => SORT_DESC]);
+        $query = Feedback::find();
 
 
         $dataProvider = new ActiveDataProvider([
