@@ -22,6 +22,7 @@ return [
             //'suffix' => '.html',
             'rules' => [
                 ''=>'site/index',
+                '/cookie'=>'/site/cookie',
                 '/<lng:\w*>' => 'site/index',
                 /*'/ru'=>'site/index/ru',
                 '/en'=>'site/index/en',*/

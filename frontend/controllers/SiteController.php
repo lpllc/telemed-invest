@@ -141,7 +141,7 @@ class SiteController extends Controller
         ]);
 
     }
-    public function actionAbout()
+    public function actionCookie()
     {
         $feedback = new Feedback();
         $this->layout = 'cookie';

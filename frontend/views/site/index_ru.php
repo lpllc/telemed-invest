@@ -607,19 +607,6 @@ use yii\helpers\Html;
         </div>
     </footer>
 
-    <?php
-    // Top of the page, before sending out ANY output to the page.
-    $user_is_first_timer = !isset( $_COOKIE["FirstTimer"] );
-    // Set the cookie so that the message doesn't show again
-    setcookie( "FirstTimer", 1, strtotime( '+1 year' ) );
-    ?>
-    <!-- Put this anywhere on your page. -->
-    <?php if( $user_is_first_timer ): ?>
-        <div id="snackbar"><span class="docSmart">Doctor Smart</span> uses cookies and similar  technologies on its websites. By continuing your browsing after being presented with the cookie information you consent to such use. <span class="close_snack">&times;</span><br>
-            <a href="/site/about" target="_blank" class="learn_more">Learn more</a>
-        </div>
-    <?php endif; ?>
-
 </div>
 
 

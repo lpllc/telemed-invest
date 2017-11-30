@@ -4,7 +4,7 @@ use yii\helpers\Html;
 ?>
 
 <sevtion id="about" class="cookie">
-    
+
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
