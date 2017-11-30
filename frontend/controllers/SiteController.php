@@ -70,6 +70,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+//        $hash = Yii::$app->getSecurity()->generatePasswordHash('admin1234');
+//        VarDumper::dump($hash,10,true);die;
 
         // $ip = Yii::$app->geoip->ip();
         // $ip = Yii::$app->geoip->ip("46.71.41.167");
