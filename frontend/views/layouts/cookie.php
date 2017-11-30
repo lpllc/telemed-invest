@@ -28,33 +28,22 @@ AppAsset::register($this);
     <link rel=apple-touch-icon type=image/png sizes=114x114 href=img/logo.png>
     <link rel=icon type=image/png href=img/logo.png>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    
+
     <?= Html::csrfMetaTags() ?>
     <title>Doctor Smart - инновационная экосистема для цифровой медицины</title>
     <?php $this->head() ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
-
-    <?= $content ?>
+<?= $content ?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<?php $this->registerJsFile('@web/js/script_about', ['depends' => [\yii\web\JqueryAsset::className()]]); ?>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <?php
 $this->registerJs(
-    "new WOW().init();
-    setTimeout(function(){
-        myFunc();
-    }, 1000);"
-);
-
-$this->registerJs(
-    "$.smartscroll({
-      mode: \"set\",
-      innerSectionScroll: false,
-      toptotop: true
-    });"
+    "new WOW().init();"
 );
 $this->endBody() ?>
 

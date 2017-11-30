@@ -141,6 +141,15 @@ class SiteController extends Controller
         ]);
 
     }
+    public function actionAbout()
+    {
+        $feedback = new Feedback();
+        $this->layout = 'cookie';
+        return $this->render('cookie' ,[
+            'feedback' => $feedback,
+        ]);
+
+    }
 
     public function actionFeedback(){
         $model = new Feedback();
