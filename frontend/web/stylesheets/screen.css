@@ -5082,4 +5082,20 @@ body .docSmart {
   .head .scroll_hidden {
     display: none;
   }
+  /* line 4406, ../sass/screen.scss */
+  .head nav .mob_burger {
+       position: fixed;
+  }
+  /* line 4410, ../sass/screen.scss */
+  .head .mob-nav {
+       position: fixed;
+       top: 0;
+       -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+       -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+       box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+  /* line 4417, ../sass/screen.scss */
+  .head .logo {
+       margin-top: 0;
+  }
 }
