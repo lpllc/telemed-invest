@@ -155,8 +155,12 @@ class SiteController extends Controller
 
     public function actionFeedback(){
         $model = new Feedback();
-        $model->setAttributes(Yii::$app->request->post());
-        if($model->save(false)){
+        $model->setAttribute('name',strip_tags(Yii::$app->request->post('name')));
+        $model->setAttribute('contacts',strip_tags(Yii::$app->request->post('contacts')));
+        $model->setAttribute('theme',strip_tags(Yii::$app->request->post('theme')));
+        $model->setAttribute('text',strip_tags(Yii::$app->request->post('text')));
+
+        if($model->save()){
             $model->refresh();
             return 'ok';
         }
