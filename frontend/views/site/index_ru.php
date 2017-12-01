@@ -14,6 +14,7 @@ use yii\helpers\Html;
                     <li><a href="#proect_creator">Команда</a></li>
                     <li><a href="#footer">Контакты</a></li>
                 </ul>
+                <?php /*
                 <a href="javascript:;" class="lang">
                     <?php if($user_language == 'ru') { ?>
                         <span class="display_lang">
@@ -37,6 +38,7 @@ use yii\helpers\Html;
                     </span>
                     <?php } ?>
                 </ul>
+                */ ?>
             </div>
         </div>
         <div class="overlay">
@@ -56,6 +58,7 @@ use yii\helpers\Html;
                                     <li><a href="#proect_creator">Команда</a></li>
                                     <li><a href="#footer">Контакты</a></li>
                                 </ul>
+                                <?php /*
                                 <a href="javascript:;" class="lang_mob">
                                     <?php if($user_language == 'ru') { ?>
                                         <span class="display_lang_mob">
@@ -77,6 +80,7 @@ use yii\helpers\Html;
                                         <li><a href="/ru"><img src="img/blank.gif" class="flag flag-ru" alt="Russian" /></a></li>
                                     <?php } ?>
                                 </ul>
+                                */ ?>
                             </div>
                             <!-- <ul class="menu">
                               <li><a href="#head">О сервисе</a></li>
