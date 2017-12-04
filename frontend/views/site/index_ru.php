@@ -597,11 +597,7 @@ use yii\helpers\Html;
         <input type="text" name="E-mail" placeholder="Ваши контакты" required class="contacts"><br>
         <input type="text" name="Subject" placeholder="Тема" required class="theme"><br>
         <textarea name="massage" class="text" placeholder="Сообщение" required></textarea><br>
-        <div><?= \himiklab\yii2\recaptcha\ReCaptcha::widget([
-                'name' => 'reCaptcha',
-                'siteKey' => '6Lf2gDsUAAAAAAx56lhEjlDryPPyNQweWomo_nBo',
-                'widgetOptions' => ['class' => 'col-sm-offset-3']
-            ]) ?></div>
+        <div class="g-recaptcha  col-lg-offset-2" data-sitekey="6Le8ljsUAAAAABlc6mXVaKOArBR7yd1gHd70RazD"></div>
 
         <button class="send_massage_btn">Отправить</button>
     </form>

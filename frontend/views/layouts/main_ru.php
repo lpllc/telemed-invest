@@ -31,6 +31,7 @@ AppAsset::register($this);
     
     <?= Html::csrfMetaTags() ?>
     <title>Doctor Smart - инновационная экосистема для цифровой медицины</title>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <?php $this->head() ?>
 </head>
 <body>

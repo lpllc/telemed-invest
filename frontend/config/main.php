@@ -12,12 +12,6 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
-        'reCaptcha' => [
-            'name' => 'reCaptcha',
-            'class' => 'himiklab\yii2\recaptcha\ReCaptcha',
-            'siteKey' => '6Lf2gDsUAAAAAAx56lhEjlDryPPyNQweWomo_nBo',
-            'secret' => '6Lf2gDsUAAAAAGlBwj0gPFceC0MEm2DDOKbY9D-H',
-        ],
         'request' => [
             'csrfParam' => '_csrf-frontend',
         ],

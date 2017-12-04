@@ -165,6 +165,7 @@ class SiteController extends Controller
         $model->setAttribute('text',strip_tags(Yii::$app->request->post('text')));
 
         $model->reCaptcha = Yii::$app->request->post('reCaptcha');
+        
 
         if($model->validate() && $model->save()){
             $model->refresh();

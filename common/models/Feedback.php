@@ -22,7 +22,7 @@ class Feedback extends \yii\db\ActiveRecord {
                 'theme',
                 'text',
             ], 'safe'],
-         [['reCaptcha'], \himiklab\yii2\recaptcha\ReCaptchaValidator::className(), 'secret' => '6Lf2gDsUAAAAAGlBwj0gPFceC0MEm2DDOKbY9D-H','skipOnEmpty' => false, 'uncheckedMessage' => 'Please confirm that you are not a bot.']
+         [['reCaptcha'], 'required']
         ];
 
     }
