@@ -16,23 +16,27 @@ $(document).ready(function() {
         $('body,html').animate({scrollTop: top}, 1000);
     });
 
-	var lg_menu = $('.select-lang');
-	lg_menu.hide();
-	$('.lang').on('click', function(){
-		lg_menu.toggle();
-		$('.fa-angle-down').toggleClass('active');
-	})
+	// var lg_menu = $('.select-lang');
+	// lg_menu.hide();
+	// $('.lang').on('click', function(){
+	// 	lg_menu.toggle();
+	// 	$('.fa-angle-down').toggleClass('active');
+	// })
 
-	var lg_menu_mob = $('.select-lang-mob');
-	lg_menu_mob.hide();
-	$('.lang_mob').on('click', function(){
-		lg_menu_mob.toggle();
-		$('.fa-angle-down').toggleClass('active');
-	})
+	$('#menu-button').on('click', function() {
+  $(document.body).toggleClass('menu-open');
+});
 
-	var mob_burger = $('.mob_burger');
+	// var lg_menu_mob = $('.select-lang-mob');
+	// lg_menu_mob.hide();
+	// $('.lang_mob').on('click', function(){
+	// 	lg_menu_mob.toggle();
+	// 	$('.fa-angle-down').toggleClass('active');
+	// })
+
+	var mob_burger = $('#menu-button');
 	mob_burger.on('click', function(){
-		$('.mob-nav').addClass('active');
+		$('.mob-nav').toggleClass('active');
 	})
 
 	var close_menu = $('.close-menu');
@@ -47,12 +51,19 @@ $(document).ready(function() {
 
  
 
- $('.hover_section, .box').on('mouseover',(function() {
+ $('#work .hover_section, #service .hover_section').on('mouseover',(function() {
     $('.desc').addClass('animated flipInY')
   }));
-$('.hover_section, .box').on('mouseleave',(function() {
+$('#work .hover_section, #service .hover_section').on('mouseleave',(function() {
     $('.desc').removeClass('animated flipInY')
   }));
+$('#proect_creator .hover_section, #team .hover_section, #edviser .hover_section').on('mouseover',(function() {
+    $('.desc').addClass('animated zoomIn')
+  }));
+$('#work .hover_section, #service .hover_section, #edviser .hover_section').on('mouseleave',(function() {
+    $('.desc').removeClass('animated zoomIn')
+  }));
+
 if($(window).width()<=480){
      $('.hover_section, .box').on('mouseover',(function() {
     $('.desc').removeClass('animated flipInY')
@@ -60,13 +71,19 @@ if($(window).width()<=480){
 		$('.hover_section, .box').on('mouseleave',(function() {
     $('.desc').removeClass('animated flipInY')
   }));
+		$('#proect_creator .hover_section, #team .hover_section, #edviser .hover_section').on('mouseover',(function() {
+    $('.desc').removeClass('animated zoomIn')
+  }));
+$('#work .hover_section, #service .hover_section, #edviser .hover_section').on('mouseleave',(function() {
+    $('.desc').removeClass('animated zoomIn')
+  }));
      }   
 });
  function myFunc() {
 		var x = $('#snackbar');
 		var close_snack = $('#snackbar span');
 		close_snack.on('click', function(){
-			x.removeClass('show');
+			x.removeClass('show')
 		})
 		x.addClass('show');
 	}      

@@ -14,29 +14,11 @@ use yii\helpers\Html;
                     <li><a href="#proect_creator">Команда</a></li>
                     <li><a href="#footer">Контакты</a></li>
                 </ul>
-                <a href="javascript:;" class="lang">
-                    <?php if($user_language == 'ru') { ?>
-                        <span class="display_lang">
-                        <img src="img/blank.gif" class="flag flag-ru " alt="Russian" />
-                    </span>
-                    <?php } ?>
-                    <?php if($user_language == 'en') { ?>
-                        <span class="display_lang">
-                        <img src="img/blank.gif" class="flag flag-us" alt="Usa" />
-                    </span>
-                    <?php } ?>
-                    <i class="fa fa-angle-down" aria-hidden="true"></i>
-                </a>
+                <!-- <a href="javascript:;" class="lang"> <span class="display_lang"><img src="img/blank.gif" class="flag flag-ru " alt="Russian" /></span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
                 <ul class="select-lang">
-                    <?php if($user_language == 'ru') { ?>
-                        <li><a href="/en"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
-                    </span>
-                    <?php } ?>
-                    <?php if($user_language == 'en') { ?>
-                        <li><a href="/ru"><img src="img/blank.gif" class="flag flag-ru " alt="Russian" /></a></li>
-                    </span>
-                    <?php } ?>
-                </ul>
+                  <li><a href="javascript:;"><img src="img/blank.gif" class="flag flag-ru " alt="Russian" /></a></li>
+                  <li><a href="javascript:;"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
+                </ul> -->
             </div>
         </div>
         <div class="overlay">
@@ -44,39 +26,24 @@ use yii\helpers\Html;
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <nav>
-                            <a href="javascript:;" class="visible-xs mob_burger">
-                                <i class="fa fa-bars" aria-hidden="true"></i>
-                            </a>
+                            <div id="menu-button" role="button" title="sweet hamburger">
+                                <div class="hamburger">
+                                    <div class="inner"></div>
+                                </div>
+                            </div>
                             <div class="mob-nav">
                                 <ul class="mob-menu">
-                                    <li><a class="close-menu" href="javascript:;"><i class="fa fa-times" aria-hidden="true"></i></a></li>
                                     <li><a href="#head">О сервисе</a></li>
                                     <li><a href="#obzor">Обзор рынка</a></li>
                                     <li><a href="#work">Принципы</a></li>
                                     <li><a href="#proect_creator">Команда</a></li>
                                     <li><a href="#footer">Контакты</a></li>
                                 </ul>
-                                <a href="javascript:;" class="lang_mob">
-                                    <?php if($user_language == 'ru') { ?>
-                                        <span class="display_lang_mob">
-                                            <img src="img/blank.gif" class="flag flag-ru " alt="Russian" />
-                                        </span>
-                                    <?php } ?>
-                                    <?php if($user_language == 'en') { ?>
-                                        <span class="display_lang_mob">
-                                            <img src="img/blank.gif" class="flag flag-us" alt="Usa" />
-                                        </span>
-                                    <?php } ?>
-                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
-                                </a>
+                                <!--   <a href="javascript:;" class="lang_mob"> <span class="display_lang_mob"><img src="img/blank.gif" class="flag flag-ru " alt="Russian" /></span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul class="select-lang-mob">
-                                    <?php if($user_language == 'ru') { ?>
-                                        <li><a href="/en"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
-                                    <?php } ?>
-                                    <?php if($user_language == 'en') { ?>
-                                        <li><a href="/ru"><img src="img/blank.gif" class="flag flag-ru" alt="Russian" /></a></li>
-                                    <?php } ?>
-                                </ul>
+                                  <li><a href="javascript:;"><img src="img/blank.gif" class="flag flag-ru" alt="Russian" /></a></li>
+                                  <li><a href="javascript:;"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
+                                </ul> -->
                             </div>
                             <!-- <ul class="menu">
                               <li><a href="#head">О сервисе</a></li>
@@ -98,7 +65,7 @@ use yii\helpers\Html;
                         <div class="logo">
                             <img src="img/logo.png" alt="">
                         </div>
-                        <p><span class="docSmart"> Doctor Smart </span>- и инновационная экосистема цифровых услуг в области здравоохранения на базе блокчейн и смарт-контрактов, открывающая полный цикл возможностей в области поддержания и укрепления здоровья и увеличения продолжительности жизни.</p>
+                        <p><span class="docSmart"> Doctor Smart </span>- инновационная экосистема цифровых услуг в области здравоохранения на базе блокчейн и смарт-контрактов, открывающая полный цикл возможностей в области поддержания и укрепления здоровья и увеличения продолжительности жизни.</p>
                         <p>Платформа, обеспечивающая мгновенную связь с авторитетными врачами, психологами, диетологами, ветеринарами и фитнес тренерами со всего мира.
                         </p>
                         <p>
@@ -466,7 +433,7 @@ use yii\helpers\Html;
             <div class="row">
                 <div class="col-lg-12">
                     <h3>Эдвайзеры проекта</h3>
-                    <h4>Мы собрали профессионалов со всего мира для участия в нашем проект</h4>
+                    <h4>Мы собрали профессионалов со всего мира для участия в нашем проекте</h4>
                 </div>
             </div>
             <div class="row top-row">
@@ -606,13 +573,14 @@ use yii\helpers\Html;
             </div>
         </div>
     </footer>
-
+    <!-- <div id="snackbar"><span class="docSmart">Doctor Smart</span> uses cookies and similar  technologies on its websites. By continuing your browsing after being presented with the cookie information you consent to such use. <span class="close_snack">&times;</span><br>
+    <a href="" class="learn_more">Learn more</a>
+    </div> -->
 </div>
-
 
 <div class="hidden">
     <form id="form1" class="feedback">
-        <h3>Связь с разработчиками</h3>
+        <h3>Пишите нам</h3>
         <input type="hidden" class="choose-language" value='ru'><br>
 
         <input type="text" name="Name" placeholder="Ваше имя" required class="name"><br>
