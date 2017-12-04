@@ -85,6 +85,7 @@ class SiteController extends Controller
         
         $user_language = 'ru';
        
+        /*
         if(Yii::$app->request->get('lng') == 'ru'){
             $user_language = 'ru';
         }
@@ -135,7 +136,8 @@ class SiteController extends Controller
             }
 
         }
-
+        */
+        
         $this->layout = 'main_' . $user_language;
         return $this->render('index_' . $user_language ,[
             'feedback' => $feedback,
