@@ -573,12 +573,22 @@ use yii\helpers\Html;
             </div>
         </div>
     </footer>
+
+    <div id="myModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Ваше сообщение отправлено</p>
+        </div>
+    </div>
     <!-- <div id="snackbar"><span class="docSmart">Doctor Smart</span> uses cookies and similar  technologies on its websites. By continuing your browsing after being presented with the cookie information you consent to such use. <span class="close_snack">&times;</span><br>
     <a href="" class="learn_more">Learn more</a>
     </div> -->
 </div>
 
 <div class="hidden">
+
+    <button id="myBtn">open</button>
+    <a href="#form2" class="pop thank-you"></a>
     <form id="form1" class="feedback">
         <h3>Пишите нам</h3>
         <input type="hidden" class="choose-language" value='ru'><br>
@@ -595,9 +605,4 @@ use yii\helpers\Html;
 
         <button class="send_massage_btn">Отправить</button>
     </form>
-
-    <a href="#form2" class="pop thank-you"></a>
-       <form action="" id="form2">
-           <p>Ваше сообщение отправлено</p>
-       </form>
 </div>

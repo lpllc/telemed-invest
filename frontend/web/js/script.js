@@ -86,7 +86,24 @@ $('#work .hover_section, #service .hover_section, #edviser .hover_section').on('
 			x.removeClass('show')
 		})
 		x.addClass('show');
-	}      
+	} 
+
+var modal = document.getElementById('myModal');
+var btn = document.getElementById('myBtn');
+var span = document.getElementsByClassName('close')[0];
+btn.onclick = function(){
+	modal.style.display = 'block';
+}
+span.onclick = function(){
+	modal.style.display = 'none';
+}
+window.onclick = function(event){
+	if(event.target == modal){
+		modal.style.display = "none";
+	}
+}
+
+     
 /*
 <script>
   setTimeout( 'location="index.htm";', 5000 );

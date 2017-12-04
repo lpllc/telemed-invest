@@ -35,9 +35,11 @@ $(document).ready(function(){
                     // alert(msg);
                     $('.pop').magnificPopup('close');
 
-                    setTimeout(function(){
-                        $('.thank-you').click();
-                    } , 500);
+                    // setTimeout(function(){
+                    //     $('.thank-you').click();
+                    // } , 500);
+
+                    $('#myBtn').click();
 
                     // $('.pop').dialog('close');
                     $('.name').val('');
