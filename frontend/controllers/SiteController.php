@@ -70,6 +70,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+
 //        $hash = Yii::$app->getSecurity()->generatePasswordHash('admin1234');
 //        VarDumper::dump($hash,10,true);die;
 
@@ -157,14 +158,19 @@ class SiteController extends Controller
 
     public function actionFeedback(){
         $model = new Feedback();
+
         $model->setAttribute('name',strip_tags(Yii::$app->request->post('name')));
         $model->setAttribute('contacts',strip_tags(Yii::$app->request->post('contacts')));
         $model->setAttribute('theme',strip_tags(Yii::$app->request->post('theme')));
         $model->setAttribute('text',strip_tags(Yii::$app->request->post('text')));
 
-        if($model->save()){
+        $model->reCaptcha = Yii::$app->request->post('reCaptcha');
+
+        if($model->validate() && $model->save()){
             $model->refresh();
-            return 'ok';
+            return true;
+        } else {
+            return false;
         }
     }
 //

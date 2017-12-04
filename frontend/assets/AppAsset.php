@@ -26,7 +26,7 @@ class AppAsset extends AssetBundle
     ];
     public $js = [
         'js/index.js',
-        'js/smartscroll.js',
+//        'js/smartscroll.js',
         'js/jquery.magnific-popup.min.js',
         'js/wow.min.js',
         'js/script.js',
