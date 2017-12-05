@@ -598,8 +598,7 @@ use yii\helpers\Html;
         <input type="text" name="E-mail" placeholder="Ваши контакты" required class="contacts"><br>
         <input type="text" name="Subject" placeholder="Тема" required class="theme"><br>
         <textarea name="massage" class="text" placeholder="Сообщение" required></textarea><br>
-        <div class="g-recaptcha  col-lg-offset-2" data-sitekey="6Le8ljsUAAAAABlc6mXVaKOArBR7yd1gHd70RazD"></div>
-
+        <div class="g-recaptcha col-lg-offset-2" data-sitekey="6LcUuzsUAAAAABjamv96ZxkOf6nIl3FKYiOYA9XX"></div>
         <button class="send_massage_btn">Отправить</button>
     </form>
 </div>
