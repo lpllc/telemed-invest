@@ -1261,16 +1261,7 @@ body .docSmart {
   margin: 0 auto;
   margin-top: 60px;
   position: relative;
-  left: -16px;
-  top: 0px;
-}
-/* line 600, ../sass/screen.scss */
-.proect_creator .round2 {
-  background-image: url(../img/creator2.jpg);
-  background-position: 0px -18px;
-  background-size: cover;
-  position: relative;
-  left: -48px;
+  left: 0px;
   top: 0px;
 }
 /* line 608, ../sass/screen.scss */
@@ -1290,8 +1281,8 @@ body .docSmart {
   color: #505050;
   font-size: 20px;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 25%;
+  width: 50%;
 }
 /* line 626, ../sass/screen.scss */
 .proect_creator .hover_section .desc span {
@@ -1330,7 +1321,7 @@ body .docSmart {
   color: #fff;
   padding-top: 39px;
   position: relative;
-  left: -21px;
+  left: 0px;
   line-height: 23px;
   padding-bottom: 156px;
 }
@@ -5343,5 +5334,10 @@ body .docSmart {
   /* line 4169, ../sass/screen.scss */
   .head .logo {
     margin-top: 0;
+  }
+
+  /* line 4175, ../sass/screen.scss */
+  .proect_creator .box .desc {
+    width: 100%;
   }
 }
