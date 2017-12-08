@@ -71,22 +71,21 @@ class SiteController extends Controller
     public function actionIndex()
     {
 
-//        $hash = Yii::$app->getSecurity()->generatePasswordHash('admin1234');
-//        VarDumper::dump($hash,10,true);die;
+        $hash = Yii::$app->getSecurity()->generatePasswordHash('admin1234');
 
-        // $ip = Yii::$app->geoip->ip();
-        // $ip = Yii::$app->geoip->ip("46.71.41.167");
-        // $ip->city; // "San Francisco"
-        // $ip->country; // "United States"
-        // $ip->location->lng; // 37.7898
-        // $ip->location->lat; // -122.3942
-        // $ip->isoCode; // "US"
+         $ip = Yii::$app->geoip->ip();
+         $ip = Yii::$app->geoip->ip("46.71.41.167");
+         $ip->city; // "San Francisco"
+         $ip->country; // "United States"
+         $ip->location->lng; // 37.7898
+         $ip->location->lat; // -122.3942
+         $ip->isoCode; // "US"
 
         $feedback = new Feedback();
         
         $user_language = 'ru';
        
-        /*
+
         if(Yii::$app->request->get('lng') == 'ru'){
             $user_language = 'ru';
         }
@@ -121,9 +120,9 @@ class SiteController extends Controller
             $result=curl_exec($ch);
             // Closing
             curl_close($ch);
-            
+
             $json = $result;
-            
+
             if ($json) {
                 $info = json_decode($json);
 
@@ -131,13 +130,13 @@ class SiteController extends Controller
                     $user_language = 'ru';
                 } else {
                     $user_language = 'en';
-                }                
+                }
             } else {
                 $user_language = 'en';
             }
 
         }
-        */
+
         
         $this->layout = 'main_' . $user_language;
         return $this->render('index_' . $user_language ,[

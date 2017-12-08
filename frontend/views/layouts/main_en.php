@@ -51,15 +51,14 @@ $this->registerJs(
     }, 1000);"
 );
 
-$this->registerJs(
-    "$.smartscroll({
-      mode: \"set\",
-      innerSectionScroll: false,
-      toptotop: true
-    });"
-);
+//$this->registerJs(
+//    "$.smartscroll({
+//      mode: \"set\",
+//      innerSectionScroll: false,
+//      toptotop: true
+//    });"
+//);
 $this->endBody() ?>
-
 </body>
 </html>
 <?php $this->endPage() ?>

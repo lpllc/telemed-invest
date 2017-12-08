@@ -16,23 +16,23 @@ $(document).ready(function() {
         $('body,html').animate({scrollTop: top}, 1000);
     });
 
-	// var lg_menu = $('.select-lang');
-	// lg_menu.hide();
-	// $('.lang').on('click', function(){
-	// 	lg_menu.toggle();
-	// 	$('.fa-angle-down').toggleClass('active');
-	// })
+	var lg_menu = $('.select-lang');
+	lg_menu.hide();
+	$('.lang').on('click', function(){
+		lg_menu.toggle();
+		$('.fa-angle-down').toggleClass('active');
+	})
 
 	$('#menu-button').on('click', function() {
   $(document.body).toggleClass('menu-open');
 });
 
-	// var lg_menu_mob = $('.select-lang-mob');
-	// lg_menu_mob.hide();
-	// $('.lang_mob').on('click', function(){
-	// 	lg_menu_mob.toggle();
-	// 	$('.fa-angle-down').toggleClass('active');
-	// })
+	var lg_menu_mob = $('.select-lang-mob');
+	lg_menu_mob.hide();
+	$('.lang_mob').on('click', function(){
+		lg_menu_mob.toggle();
+		$('.fa-angle-down').toggleClass('active');
+	})
 
 	var mob_burger = $('#menu-button');
 	mob_burger.on('click', function(){
@@ -102,11 +102,3 @@ window.onclick = function(event){
 		modal.style.display = "none";
 	}
 }
-
-     
-/*
-<script>
-  setTimeout( 'location="index.htm";', 5000 );
-  location.href = 'thanks.html';
-</script> 
-*/

@@ -3,367 +3,385 @@ use yii\widgets\ActiveForm;
 use yii\helpers\Html;
 ?>
 
-
-<div class="section-wrapper">
-    <section id="head" class="head sectio" data-hash="heads">
-        <div class="scroll_hidden">
-            <div class="container scroll_menu">
-                <ul class="menu">
-                    <li><a href="#head">О сервисе</a></li>
-                    <li><a href="#obzor">Обзор рынка</a></li>
-                    <li><a href="#work">Принципы</a></li>
-                    <li><a href="#proect_creator">Команда</a></li>
-                    <li><a href="#footer">Контакты</a></li>
-                </ul>
-                <!-- <a href="javascript:;" class="lang"> <span class="display_lang"><img src="img/blank.gif" class="flag flag-ru " alt="Russian" /></span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                <ul class="select-lang">
-                  <li><a href="javascript:;"><img src="img/blank.gif" class="flag flag-ru " alt="Russian" /></a></li>
-                  <li><a href="javascript:;"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
-                </ul> -->
-            </div>
+<section id="head" class="head sectio">
+    <div class="scroll_hidden">
+        <div class="container scroll_menu">
+            <ul class="menu">
+                <li><a href="#head">О сервисе</a></li>
+                <li><a href="#obzor">Обзор рынка</a></li>
+                <li><a href="#work">Принципы</a></li>
+                <li><a href="#proect_creator">Команда</a></li>
+                <li><a href="#footer">Контакты</a></li>
+            </ul>
+            <a href="javascript:;" class="lang">
+                <?php if($user_language == 'ru') { ?>
+                    <span class="display_lang">
+                  <img src="img/blank.gif" class="flag flag-ru " alt="Russian" />
+              </span>
+                <?php } ?>
+                <?php if($user_language == 'en') { ?>
+                    <span class="display_lang">
+                  <img src="img/blank.gif" class="flag flag-us" alt="Usa" />
+              </span>
+                <?php } ?>
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+            <ul class="select-lang">
+                <?php if($user_language == 'ru') { ?>
+                    <li><a href="/en"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
+                    </span>
+                <?php } ?>
+                <?php if($user_language == 'en') { ?>
+                    <li><a href="/ru"><img src="img/blank.gif" class="flag flag-ru " alt="Russian" /></a></li>
+                    </span>
+                <?php } ?>
+            </ul>
         </div>
-        <div class="overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <nav>
-                            <div id="menu-button" role="button" title="sweet hamburger">
-                                <div class="hamburger">
-                                    <div class="inner"></div>
-                                </div>
+    </div>
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <nav>
+                        <div id="menu-button" role="button" title="sweet hamburger">
+                            <div class="hamburger">
+                                <div class="inner"></div>
                             </div>
-                            <div class="mob-nav">
-                                <ul class="mob-menu">
-                                    <li><a href="#head">О сервисе</a></li>
-                                    <li><a href="#obzor">Обзор рынка</a></li>
-                                    <li><a href="#work">Принципы</a></li>
-                                    <li><a href="#proect_creator">Команда</a></li>
-                                    <li><a href="#footer">Контакты</a></li>
-                                </ul>
-                                <!--   <a href="javascript:;" class="lang_mob"> <span class="display_lang_mob"><img src="img/blank.gif" class="flag flag-ru " alt="Russian" /></span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul class="select-lang-mob">
-                                  <li><a href="javascript:;"><img src="img/blank.gif" class="flag flag-ru" alt="Russian" /></a></li>
-                                  <li><a href="javascript:;"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
-                                </ul> -->
-                            </div>
-                            <!-- <ul class="menu">
-                              <li><a href="#head">О сервисе</a></li>
-                              <li><a href="#obzor">Обзор рынка</a></li>
-                              <li><a href="#work">Принципы</a></li>
-                              <li><a href="#proect_creator">Команда</a></li>
-                              <li><a href="#footer">Контакты</a></li>
-                            </ul> -->
-                            <!--  <a href="javascript:;" class="lang"> <span class="display_lang">Ru</span><i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                             <ul class="select-lang">
-                               <li><a href="javascript:;">Ru</a></li>
-                               <li><a href="javascript:;">Eng</a></li>
-                             </ul> -->
-                        </nav>
-                    </div>
-                </div>
-                <div class="row mid-row">
-                    <div class="col-lg-6 col-md-6 col-sm-9 col-sm-offset-1">
-                        <div class="logo">
-                            <img src="img/logo.png" alt="">
                         </div>
-                        <p><span class="docSmart"> Doctor Smart </span>- инновационная экосистема цифровых услуг в области здравоохранения на базе блокчейн и смарт-контрактов, открывающая полный цикл возможностей в области поддержания и укрепления здоровья и увеличения продолжительности жизни.</p>
-                        <p>Платформа, обеспечивающая мгновенную связь с авторитетными врачами, психологами, диетологами, ветеринарами и фитнес тренерами со всего мира.
-                        </p>
-                        <p>
+                        <div class="mob-nav">
+                            <ul class="mob-menu">
+                                <li><a href="#head">О сервисе</a></li>
+                                <li><a href="#obzor">Обзор рынка</a></li>
+                                <li><a href="#work">Принципы</a></li>
+                                <li><a href="#proect_creator">Команда</a></li>
+                                <li><a href="#footer">Контакты</a></li>
+                            </ul>
+                            <a href="javascript:;" class="lang_mob">
+                                <?php if($user_language == 'ru') { ?>
+                                    <span class="display_lang_mob">
+                              <img src="img/blank.gif" class="flag flag-ru " alt="Russian" />
+                          </span>
+                                <?php } ?>
+                                <?php if($user_language == 'en') { ?>
+                                    <span class="display_lang_mob">
+                              <img src="img/blank.gif" class="flag flag-us" alt="Usa" />
+                          </span>
+                                <?php } ?>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="select-lang-mob">
+                                <?php if($user_language == 'ru') { ?>
+                                    <li><a href="/en"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
+                                <?php } ?>
+                                <?php if($user_language == 'en') { ?>
+                                    <li><a href="/ru"><img src="img/blank.gif" class="flag flag-ru" alt="Russian" /></a></li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row mid-row">
+                <div class="col-lg-6 col-md-6 col-sm-9 col-sm-offset-1">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <p><span class="docSmart"> Doctor Smart </span>- инновационная экосистема цифровых услуг в области здравоохранения на базе блокчейн и смарт-контрактов, открывающая полный цикл возможностей в области поддержания и укрепления здоровья и увеличения продолжительности жизни.</p>
+                    <p>Платформа, обеспечивающая мгновенную связь с авторитетными врачами, психологами, диетологами, ветеринарами и фитнес тренерами со всего мира.
+                    </p>
+                    <p>
               <span class="bottom_span">Доставляем здоровье в любое время,<br>
               в любом месте!</span>
-                        </p>
-                    </div>
-
+                    </p>
                 </div>
-
             </div>
         </div>
-    </section>
-    <section id="obzor" class="obzor sectio" data-hash="obzors">
+    </div>
+</section>
+<section id="obzor" class="obzor sectio">
+    <div class="container">
+        <div class="row bot-row">
+            <div class="col-lg-12">
+                <h4>Рынок интернет услуг в области здоровья</h4>
+            </div>
+        </div>
+        <div class="row bot-row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p>Человек должен жить до 140 лет, это заложено в его днк. Но нарушение сна, неправильное питание, стрессы и отсутствие своевременной медицинской помощи - враги нашего долголетия. </p>
+                <p>Почему мы не всегда следим за своим здоровьем? Чаще ввиду отсутствия времени и удобного доступа к основным велнес и медицинским услугам, а также по причине того, что устоявшаяся система ввиду своей бюрократической сложности приводит к завышенной стоимости услуг.</p>
+
+                <span><span class="docSmart">Doctor Smart</span>  изменит устоявшийся ход вещей.</span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p><span class="docSmart">Doctor Smart</span> предоставляет услуги широкого спектра, в котором одним из блоков являются телемедицинские услуги. Мировой рынок традиционных амбулаторных услуг к 2022 году составит более $3,3** трлн.</p>
+                <p> Согласно исследованию McKinsey 60% амбулаторных очных приемов могут быть оказаны удаленно и впоследствии заменены онлайн-услугами. Если добавить рынок удаленных консультаций психологов, диетологов, ветеринаров и фитнес тренеров, то потенциал мирового рынка интернет услуг в области здоровья может достигнуть более $2 трлн к 2022 году.</p>
+                <span class="grandview">Источник: grandviewresearch.com</span>
+            </div>
+        </div>
+        <!-- <div class="row bot-row">
+          <div class="col-lg-6 col-md-6 left-col">
+            <p class="usd-val">Объем рынка*, млрд USD</p>
+            <img class="img-responsive" src="img/graf.png" alt="">
+            <span>*Источник Becker's Healthcare</span>
+
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <h4>Рынок телемедицинских услуг</h4>
+            <p>Человек должен жить до 140 лет, это заложено в его днк. Но нарушение сна, неправильное питание, стрессы и отсутствие своевременной медицинской помощи - враги нашего долголетия.</p>
+            <p>Почему мы не всегда следим за своим здоровьем? Чаще ввиду отсутствия времени и удобного доступа к основным медицинским услугам, а также по причине завышенной стоимости услуг здравоохранения.
+            Doctor Smart может изменить устоявшийся ход вещей.</p>
+            <span class="ist-world-bank">*Источник The World Bank</span>
+          </div>
+        </div> -->
+    </div>
+</section>
+<section id="work" class="work sectio">
+    <div class="overlay1">
         <div class="container">
-            <div class="row bot-row">
+            <div class="row">
                 <div class="col-lg-12">
-                    <h4>Рынок интернет услуг в области здоровья</h4>
+                    <h3>Принципы работы</h3>
+                    <p>На первом этапе <span class="docSmart">Doctor Smart</span> планирует сфокусироваться на задачах объединения специалистов для предоставления комплексных услуг по здоровью, создав необходимый базис  для развития комплексной экосистемы.
+                    </p>
+                    <p><span class="docSmart">Doctor Smart</span> призван предложить высокотехнологичное решение, способное вывести качество предоставление услуг в области здоровья населения на новый уровень и сделать здоровье по-настоящему доступным для каждого. Для этого мы выделили 4 принципа, которых будет придерживаться наш продукт:</p>
                 </div>
             </div>
-            <div class="row bot-row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <p>Человек должен жить до 140 лет, это заложено в его днк. Но нарушение сна, неправильное питание, стрессы и отсутствие своевременной медицинской помощи - враги нашего долголетия. </p>
-                    <p>Почему мы не всегда следим за своим здоровьем? Чаще ввиду отсутствия времени и удобного доступа к основным велнес и медицинским услугам, а также по причине того, что устоявшаяся система ввиду своей бюрократической сложности приводит к завышенной стоимости услуг.</p>
-
-                    <span><span class="docSmart">Doctor Smart</span>  изменит устоявшийся ход вещей.</span>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <p><span class="docSmart">Doctor Smart</span> предоставляет услуги широкого спектра, в котором одним из блоков являются телемедицинские услуги. Мировой рынок традиционных амбулаторных услуг к 2022 году составит более $3,3** трлн.</p>
-                    <p> Согласно исследованию McKinsey 60% амбулаторных очных приемов могут быть оказаны удаленно и впоследствии заменены онлайн-услугами. Если добавить рынок удаленных консультаций психологов, диетологов, ветеринаров и фитнес тренеров, то потенциал мирового рынка интернет услуг в области здоровья может достигнуть более $2 трлн к 2022 году.</p>
-                    <span class="grandview">Источник: grandviewresearch.com</span>
-                </div>
-            </div>
-            <!-- <div class="row bot-row">
-              <div class="col-lg-6 col-md-6 left-col">
-                <p class="usd-val">Объем рынка*, млрд USD</p>
-                <img class="img-responsive" src="img/graf.png" alt="">
-                <span>*Источник Becker's Healthcare</span>
-
-              </div>
-              <div class="col-lg-6 col-md-6">
-                <h4>Рынок телемедицинских услуг</h4>
-                <p>Человек должен жить до 140 лет, это заложено в его днк. Но нарушение сна, неправильное питание, стрессы и отсутствие своевременной медицинской помощи - враги нашего долголетия.</p>
-                <p>Почему мы не всегда следим за своим здоровьем? Чаще ввиду отсутствия времени и удобного доступа к основным медицинским услугам, а также по причине завышенной стоимости услуг здравоохранения.
-                Doctor Smart может изменить устоявшийся ход вещей.</p>
-                <span class="ist-world-bank">*Источник The World Bank</span>
-              </div>
-            </div> -->
-        </div>
-    </section>
-    <section id="work" class="work sectio" data-hash="works">
-        <div class="overlay1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h3>Принципы работы</h3>
-                        <p>На первом этапе <span class="docSmart">Doctor Smart</span> планирует сфокусироваться на задачах объединения специалистов для предоставления комплексных услуг по здоровью, создав необходимый базис  для развития комплексной экосистемы.
-                        </p>
-                        <p><span class="docSmart">Doctor Smart</span> призван предложить высокотехнологичное решение, способное вывести качество предоставление услуг в области здоровья населения на новый уровень и сделать здоровье по-настоящему доступным для каждого. Для этого мы выделили 4 принципа, которых будет придерживаться наш продукт:</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                        <div class="box">
-                            <img src="img/w1.png" alt="">
-                            <p>Скорость</p>
-                            <div class="desc">
-                                <h5>Скорость:</h5>
-                                <span>Соединение с нужным<br>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
+                    <div class="box">
+                        <img src="img/w1.png" alt="">
+                        <p>Скорость</p>
+                        <div class="desc">
+                            <h5>Скорость:</h5>
+                            <span>Соединение с нужным<br>
                    специалистом меньше,<br>
                    чем за 1 минуту,<br>
                    круглосуточно,<br>
                    без выходных</span>
-                            </div>
-                            <div class="mob-view">
-                                <h5>Скорость:</h5>
-                                <span>Соединение с нужным
+                        </div>
+                        <div class="mob-view">
+                            <h5>Скорость:</h5>
+                            <span>Соединение с нужным
                    специалистом меньше,
                    чем за 1 минуту,
                    круглосуточно,
                    без выходных</span>
-                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                        <div class="box">
-                            <img src="img/w2.png" alt="">
-                            <p>Качество</p>
-                            <div class="desc">
-                                <h5>Качество:</h5>
-                                <span>Обязательная система<br>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
+                    <div class="box">
+                        <img src="img/w2.png" alt="">
+                        <p>Качество</p>
+                        <div class="desc">
+                            <h5>Качество:</h5>
+                            <span>Обязательная система<br>
                     сетритификации специалистов<br>
                     и инновационная<br>
                     система проверки<br>
                     качества<br>
                     рекомендаций</span>
-                            </div>
-                            <div class="mob-view">
-                                <h5>Качество:</h5>
-                                <span>Обязательная система
+                        </div>
+                        <div class="mob-view">
+                            <h5>Качество:</h5>
+                            <span>Обязательная система
                     сетритификации специалистов
                     и инновационная
                     система проверки
                     качества
                     рекомендаций</span>
-                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                        <div class="box">
-                            <img src="img/w3.png" alt="">
-                            <p>Прозрачность</p>
-                            <div class="desc flipInY">
-                                <h5>Прозрачность:</h5>
-                                <span>Открытая история<br>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
+                    <div class="box">
+                        <img src="img/w3.png" alt="">
+                        <p>Прозрачность</p>
+                        <div class="desc flipInY">
+                            <h5>Прозрачность:</h5>
+                            <span>Открытая история<br>
                    сертификации <br>
                    специалистов и<br>
                    прозрачные финансовые<br>
                    расчеты через<br>
                    smart-контракты</span>
-                            </div>
-                            <div class="mob-view">
-                                <h5>Прозрачность:</h5>
-                                <span>Открытая история
+                        </div>
+                        <div class="mob-view">
+                            <h5>Прозрачность:</h5>
+                            <span>Открытая история
                    сертификации
                    специалистов и
                    прозрачные финансовые
                    расчеты через
                    smart-контракты</span>
-                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                        <div class="box">
-                            <img src="img/w4.png" alt="">
-                            <p>Доступность</p>
-                            <div class="desc flipInY">
-                                <h5>Доступность:</h5>
-                                <span>Стоимость<br>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
+                    <div class="box">
+                        <img src="img/w4.png" alt="">
+                        <p>Доступность</p>
+                        <div class="desc flipInY">
+                            <h5>Доступность:</h5>
+                            <span>Стоимость<br>
                   консультаций <br>
                   в 2 раза ниже,<br>
                   чем при обычном<br>
                   визите</span>
-                            </div>
-                            <div class="mob-view">
-                                <h5>Доступность:</h5>
-                                <span>Стоимость
+                        </div>
+                        <div class="mob-view">
+                            <h5>Доступность:</h5>
+                            <span>Стоимость
                   консультаций
                   в 2 раза ниже,
                   чем при обычном
                   визите</span>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="garant" class="garant sectio" data-hash="garants">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-11 col-lg-offset-1 col-xs-offset-0">
-                    <h3>Подтверждение опыта</h3>
-                    <p><span class="docSmart">Doctor Smart</span> используется технологии искусственного интеллекта, наработки которого используются в клинике ОАО «Медицина». Это многопрофильный медицинский центр международного образца с высочайшим уровнем доверия и репутации в медицинском мире. В клинике «Медицина» предоставляется полный спектр медицинской помощи по 69 медицинским направлениям. Это первая клиника в России, аккредитованная множеством самых престижных международных комиссий по качеству медицинской помощи.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-11 col-lg-offset-1">
-                    <p class="serts_head">Награды и сертификаты</p>
-                </div>
-            </div>
-            <div class="row sert">
-                <div class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-6"><img class="sert1" src="img/sert1.png" alt=""></div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6"><img class="sert2" src="img/sert2.png" alt=""></div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6"><img class="sert3" src="img/sert3.png" alt=""></div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6"><img class="sert4" src="img/sert4.png" alt=""></div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6"><img class="sert5" src="img/sert5.png" alt=""></div>
+    </div>
+</section>
+<section id="garant" class="garant sectio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-11 col-lg-offset-1 col-xs-offset-0">
+                <h3>Подтверждение опыта</h3>
+                <p><span class="docSmart">Doctor Smart</span> используется технологии искусственного интеллекта, наработки которого используются в клинике ОАО «Медицина». Это многопрофильный медицинский центр международного образца с высочайшим уровнем доверия и репутации в медицинском мире. В клинике «Медицина» предоставляется полный спектр медицинской помощи по 69 медицинским направлениям. Это первая клиника в России, аккредитованная множеством самых престижных международных комиссий по качеству медицинской помощи.</p>
             </div>
         </div>
-    </section>
-    <section id="service" class="service sectio" data-hash="services">
-        <div class="overlay1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h3>Сервисы контроля качества</h3>
-                        <p>Мы не просто предоставляем любому оперативную онлайн-консультацию в области здоровья,<br> велнеса, фитнеса и диетологии. Мы открываем доступ к международному опыту <br>авторитетнейших специалистов и публично подтверждаем их качество.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                        <div class="box first_box">
-                            <img src="img/s1.png" alt="">
-                            <p>Сертификация <br>
-                                специалистов</p>
-                            <div class="desc">
-                                <span>Обязательная сертификация специалистов для работе в системе, разработанная при участии авторитетных врачей со всего мира. Благодаря использованию технологии блокчейн данные о сертификации открыты для всех пользователей и не могут быть подделаны.</span>
-                            </div>
-                            <div class="mob-view">
-                                <h5>Сертификация специалистов :</h5>
-                                <span>Обязательная сертификация специалистов для работе в системе, разработанная при участии авторитетных врачей со всего мира. Благодаря использованию технологии блокчейн данные о сертификации открыты для всех пользователей и не могут быть подделаны.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                        <div class="box">
-                            <img src="img/s2.png" alt="">
-                            <p>Система проверки<br>
-                                качества<br>
-                                рекомендаций</p>
-                            <div class="desc">
-                                <span class="check_system">Встроенные алгоритмы первичной проверки рекомендаций на соответствие международным стандартам здравоохранения и дополнительная выборочная проверка специалистами высшей категории.</span>
-                            </div>
-                            <div class="mob-view">
-                                <h5>Система проверки качества рекомендаций</h5>
-                                <span class="check_system">Встроенные алгоритмы первичной проверки рекомендаций на соответствие международным стандартам здравоохранения и дополнительная выборочная проверка специалистами высшей категории.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                        <div class="box">
-                            <img src="img/s3.png" alt="">
-                            <p>Система контроля<br>
-                                рекомендованных<br>
-                                лекарственных<br>
-                                препаратов</p>
-                            <div class="desc">
-                  <span class="control_system">Автоматизированная технология проверки рекомендованных лекарственных препаратов на предмет соответствия заявленной проблеме, медкарте пациента и взаимодействия с другими препаратами, реализованная с использованием технологий искусственного интеллекта.
-                  </span>
-                            </div>
-                            <div class="mob-view">
-                                <h5>Система контроля рекомендованных  лекарственных  препаратов </h5>
-                                <span class="control_system">Запатентованная автоматизированная технология проверки рекомендованных ЛС на предмет соответствия заявленной проблеме, медкарте клиента и взаимодействия с другими препаратами.
-                  </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                        <div class="box">
-                            <img src="img/s4.png" alt="">
-                            <p>Электронная история<br>
-                                болезни</p>
-                            <div class="desc">
-                  <span>Создание единой электронной медкарты клиента с использованием технологий криптошифрования, содержащей историю обращений, рекомендаций, данные с подключенных спортивных трекеров и загруженных в систему результатов анализов.
-                  </span>
-                            </div>
-                            <div class="mob-view">
-                                <h5>Электронная история
-                                    болезни</h5>
-                                <span>Создание единой электронной медкарты клиента с использованием технологий криптошифрования, содержащей историю обращений, рекомендаций, данные с подключенных спортивных трекеров и загруженных в систему результатов анализов.
-                  </span>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-lg-11 col-lg-offset-1">
+                <p class="serts_head">Награды и сертификаты</p>
             </div>
         </div>
-    </section>
-    <section id="proect_creator" class="proect_creator sectio" data-hash="proect_creators">
+        <div class="row sert">
+            <div class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-6"><img class="sert1" src="img/sert1.png" alt=""></div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6"><img class="sert2" src="img/sert2.png" alt=""></div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6"><img class="sert3" src="img/sert3.png" alt=""></div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6"><img class="sert4" src="img/sert4.png" alt=""></div>
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6"><img class="sert5" src="img/sert5.png" alt=""></div>
+        </div>
+    </div>
+</section>
+<section id="service" class="service sectio">
+    <div class="overlay1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h3>Основатель проекта</h3>
+                    <h3>Сервисы контроля качества</h3>
+                    <p>Мы не просто предоставляем любому оперативную онлайн-консультацию в области здоровья,<br> велнеса, фитнеса и диетологии. Мы открываем доступ к международному опыту <br>авторитетнейших специалистов и публично подтверждаем их качество.</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 hover_section">
-                    <div class="box">
-                        <div class="round1"></div>
-                        <p>Павел Г. Ройтберг<br>
-                            <span>Основатель</span></p>
+                <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
+                    <div class="box first_box">
+                        <img src="img/s1.png" alt="">
+                        <p>Сертификация <br>
+                            специалистов</p>
                         <div class="desc">
-                            <h5>Павел Г. Ройтберг<br>
-                                <span>Основатель Doctor Smart</span></h5>
-                            <span>Основатель ЗАО Цифровые Миры, член совета директоров в ОАО "Медицина", докладчик множества международных конференций. Участник Leadership in Healthcare в Harvard University TChang School. Более 20 лет опыта в разработке программного обеспечения для здравоохранения. Создал облачную историю болезни Smart Medicina (2014) и полнофункциональную экспертную медицинскую систему поддержки принятия решений (2015), систему контроля назначенных лекарственных препаратов (2015) и портала для пациентов Chirp.Ru (2017). Кандидат Экономических Наук с диссертацией на тему перевода наличного денежного оборота в цифровую форму (2003).</span>
+                            <span>Обязательная сертификация специалистов для работе в системе, разработанная при участии авторитетных врачей со всего мира. Благодаря использованию технологии блокчейн данные о сертификации открыты для всех пользователей и не могут быть подделаны.</span>
+                        </div>
+                        <div class="mob-view">
+                            <h5>Сертификация специалистов :</h5>
+                            <span>Обязательная сертификация специалистов для работе в системе, разработанная при участии авторитетных врачей со всего мира. Благодаря использованию технологии блокчейн данные о сертификации открыты для всех пользователей и не могут быть подделаны.</span>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-6 col-md-6 col-sm-6 hover_section">
-                  <div class="left-box">
-                   <div class="box">
-                  <div class="round2"></div>
-                  <p>Владимир Н. Никольский
-                    <br>
-                    <span>Основатель</span></p>
-                    <div class="desc">
-                        <h5>Владимир Н. Никольский<br>
-                          <span>Основатель Doctor Smart.</span></h5>
-                          <span class="right_doc">Операционный директор Mail.Ru Group с 2013 года. В Mail.ru работает с 2009 года, был вице президентом игрового направления. До прихода в Mail.ru был генеральным директором Astrum Online Entertainment, игровой холдинг объединивший наиболее крупные игровые компании России (2007-2009) и генеральным директором и сооснователем компании IT Territory, занимавшейся онлайн играми (2004-2007). Закончил Ивановский Энергетический университет.
-                          </span>
-                      </div>
-                </div> -->
+                <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
+                    <div class="box">
+                        <img src="img/s2.png" alt="">
+                        <p>Система проверки<br>
+                            качества<br>
+                            рекомендаций</p>
+                        <div class="desc">
+                            <span class="check_system">Встроенные алгоритмы первичной проверки рекомендаций на соответствие международным стандартам здравоохранения и дополнительная выборочная проверка специалистами высшей категории.</span>
+                        </div>
+                        <div class="mob-view">
+                            <h5>Система проверки качества рекомендаций</h5>
+                            <span class="check_system">Встроенные алгоритмы первичной проверки рекомендаций на соответствие международным стандартам здравоохранения и дополнительная выборочная проверка специалистами высшей категории.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
+                    <div class="box">
+                        <img src="img/s3.png" alt="">
+                        <p>Система контроля<br>
+                            рекомендованных<br>
+                            лекарственных<br>
+                            препаратов</p>
+                        <div class="desc">
+                  <span class="control_system">Автоматизированная технология проверки рекомендованных лекарственных препаратов на предмет соответствия заявленной проблеме, медкарте пациента и взаимодействия с другими препаратами, реализованная с использованием технологий искусственного интеллекта.
+                  </span>
+                        </div>
+                        <div class="mob-view">
+                            <h5>Система контроля рекомендованных  лекарственных  препаратов </h5>
+                            <span class="control_system">Запатентованная автоматизированная технология проверки рекомендованных ЛС на предмет соответствия заявленной проблеме, медкарте клиента и взаимодействия с другими препаратами.
+                  </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
+                    <div class="box">
+                        <img src="img/s4.png" alt="">
+                        <p>Электронная история<br>
+                            болезни</p>
+                        <div class="desc">
+                  <span>Создание единой электронной медкарты клиента с использованием технологий криптошифрования, содержащей историю обращений, рекомендаций, данные с подключенных спортивных трекеров и загруженных в систему результатов анализов.
+                  </span>
+                        </div>
+                        <div class="mob-view">
+                            <h5>Электронная история
+                                болезни</h5>
+                            <span>Создание единой электронной медкарты клиента с использованием технологий криптошифрования, содержащей историю обращений, рекомендаций, данные с подключенных спортивных трекеров и загруженных в систему результатов анализов.
+                  </span>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
-</div>
-</div>
+    </div>
+</section>
+<section id="proect_creator" class="proect_creator sectio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Основатель проекта</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 hover_section">
+                <div class="box">
+                    <div class="round1"></div>
+                    <p>Павел Г. Ройтберг<br>
+                        <span>Основатель</span></p>
+                    <div class="desc">
+                        <h5>Павел Г. Ройтберг<br>
+                            <span>Основатель Doctor Smart</span></h5>
+                        <span>Основатель ЗАО Цифровые Миры, член совета директоров в ОАО "Медицина", докладчик множества международных конференций. Участник Leadership in Healthcare в Harvard University TChang School. Более 20 лет опыта в разработке программного обеспечения для здравоохранения. Создал облачную историю болезни Smart Medicina (2014) и полнофункциональную экспертную медицинскую систему поддержки принятия решений (2015), систему контроля назначенных лекарственных препаратов (2015) и портала для пациентов Chirp.Ru (2017). Кандидат Экономических Наук с диссертацией на тему перевода наличного денежного оборота в цифровую форму (2003).</span>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-6 col-md-6 col-sm-6 hover_section">
+              <div class="left-box">
+               <div class="box">
+              <div class="round2"></div>
+              <p>Владимир Н. Никольский
+                <br>
+                <span>Основатель</span></p>
+                <div class="desc">
+                    <h5>Владимир Н. Никольский<br>
+                      <span>Основатель Doctor Smart.</span></h5>
+                      <span class="right_doc">Операционный директор Mail.Ru Group с 2013 года. В Mail.ru работает с 2009 года, был вице президентом игрового направления. До прихода в Mail.ru был генеральным директором Astrum Online Entertainment, игровой холдинг объединивший наиболее крупные игровые компании России (2007-2009) и генеральным директором и сооснователем компании IT Territory, занимавшейся онлайн играми (2004-2007). Закончил Ивановский Энергетический университет.
+                      </span>
+                  </div>
+            </div> -->
+        </div>
+    </div>
+    </div>
+    </div>
 </section>
 <section id="team" class="team sectio" data-hash="teams">
     <div class="container">
@@ -574,7 +592,6 @@ use yii\helpers\Html;
         </div>
     </div>
 </footer>
-
 <div id="myModal">
     <div class="modal-content">
         <span class="close">&times;</span>
@@ -584,12 +601,9 @@ use yii\helpers\Html;
 <!-- <div id="snackbar"><span class="docSmart">Doctor Smart</span> uses cookies and similar  technologies on its websites. By continuing your browsing after being presented with the cookie information you consent to such use. <span class="close_snack">&times;</span><br>
 <a href="" class="learn_more">Learn more</a>
 </div> -->
-</div>
 
 <div class="hidden">
-
     <button id="myBtn">open</button>
-    <a href="#form2" class="pop thank-you"></a>
     <form id="form1" class="feedback">
         <h3>Пишите нам</h3>
         <input type="hidden" class="choose-language" value='ru'><br>
