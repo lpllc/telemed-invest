@@ -87,7 +87,7 @@ use yii\helpers\Html;
                     <div class="logo">
                         <img src="img/logo.png" alt="">
                     </div>
-                    <p><span class="docSmart">Doctor Smart</span> is a ground-breaking digital healthcare system based on blockchain and smart contracts. The system offers a full range of opportunities in the field of healthcare support and recovery as well as opportunities to prolong life.</p>
+                    <p><span class="docSmart">Doctor Smart</span>  is a ground-breaking digital healthcare system based on blockchain and smart contracts. The system offers a full range of opportunities in the field of healthcare support and recovery as well as opportunities to prolong life.</p>
                     <p> The platform allows immediate access to highly qualified doctors, nutrition experts and fitness coaches from all over the world.</p>
                     <p>
                         <span class="bottom_span bottom_span_en">We bring health anytime,<br> anywhere!</span>
@@ -106,13 +106,12 @@ use yii\helpers\Html;
         </div>
         <div class="row bot-row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <p>Human beings should be live up to the age of 140 as part of our DNA programming. But what prevents us from living so long? Poor sleeping patterns, poor nutrition, stress, and poor or untimely treatment – these are what prevent long life</p>
+                <p>Human beings should be live up to the age of 140 as part of our DNA programming. But what prevents us from living so long? Poor sleeping patterns, poor nutrition, stress, and poor or untimely treatment – these are what prevent long life.</p>
                 <p>Why don’t we take care of our health? More often than not, we don’t have time or convenient access to medical services, not to mention the fact that current bureaucratic systems make access to medical services unnecessarily time and money consuming.</p>
                 <span><span class="docSmart">Doctor Smart</span> will make new inroads.</span>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <p><span class="docSmart">Doctor Smart</span> provides a wide range of services including telehealth care. The World Market of traditional outpatient services has a $3,3 * trillion market potential by 2022.
-                    Up to 60% of outpatient appointments could be delivered online and subsequently could be replaced with online healthcare services.</p>
+                <p><span class="docSmart">Doctor Smart</span>  provides a wide range of services including telehealth care. The World Market of traditional outpatient services has a $3,3 * trillion market potential by 2022. Up to 60% of outpatient appointments could be delivered online and subsequently could be replaced with online healthcare services.</p>
                 <p> It means the potential of the Global Telehealth  Services Market in the same period will reach $2 trillion.</p>
                 <span class="grandview grandview_eng">Source: grandviewresearch.com</span>
             </div>
@@ -140,7 +139,7 @@ use yii\helpers\Html;
                 <div class="col-lg-12">
                     <h3>WORKING PRINCIPLES</h3>
                     <p><span class="docSmart">Doctor Smart</span> first priority is to put a highly competent team together to provide comprehensive telehealth services. We aim to lay the necessary foundations for future development.</p>
-                    <p>We have designed <span class="docSmart">Doctor Smart</span>  to raise the quality of digital medicine to new world-class levels and make medical assistance actually available to everyone who needs it here and now. Here are the four principles we work by:</p>
+                    <p>We have designed <span class="docSmart">Doctor Smart</span> to raise the quality of digital medicine to new world-class levels and make medical assistance actually available to everyone who needs it here and now. Here are the four principles we work by:</p>
                 </div>
             </div>
             <div class="row">
@@ -150,11 +149,11 @@ use yii\helpers\Html;
                         <p>Quick response</p>
                         <div class="desc">
                             <h5>Quick response:</h5>
-                            <span>connect the expert<br> you need less<br> than in 1 minute;<br> our experts are<br> available 24 hours<br> 7 days a week.</span>
+                            <span> get put through to<br> the expert you<br>need less than<br>in 1 minute;<br>  our experts are<br>available 24 hours, <br>7 days a week.</span>
                         </div>
                         <div class="mob-view">
                             <h5>Quick response:</h5>
-                            <span>connect the expert you need less than in 1 minute; our experts are available 24 hours 7 days a week.</span>
+                            <span> get put through to the expert you need less than in 1 minute; our experts are available 24 hours 7 days a week.</span>
                         </div>
                     </div>
                 </div>
@@ -164,11 +163,11 @@ use yii\helpers\Html;
                         <p>High quality</p>
                         <div class="desc">
                             <h5>High quality:</h5>
-                            <span> only certified<br> doctors and innovative<br> Quality Check <br>System for doctor’s<br> recommendations.</span>
+                            <span> only certified<br> doctors,  vetted through <br>our innovative Quality <br>Check System for<br> doctor recommendations.</span>
                         </div>
                         <div class="mob-view">
                             <h5>High quality:</h5>
-                            <span> High quality: only certified doctors and innovative Quality Check System for doctor’s recommendations.</span>
+                            <span> only certified doctors, vetted through our innovative Quality Check System for doctor recommendations.</span>
                         </div>
                     </div>
                 </div>
@@ -242,7 +241,7 @@ use yii\helpers\Html;
                         <img src="img/s1.png" alt="">
                         <p>Certification of<br>the experts</p>
                         <div class="desc">
-                            <span class="service_first_prop"><span class="docSmart">Doctor Smart</span> experts have to be vetted and certified before being entered into the system. Thanks to blockchain technology, doctor certification data can't be forged and is available to all users.</span>
+                            <span class="service_first_prop"><span class="docSmart">Doctor Smart</span>experts have to be vetted and certified before being entered into the system. Thanks to blockchain technology, doctor certification data can't be forged and is available to all users.</span>
                         </div>
                         <div class="mob-view">
                             <h5>Certification of the experts :</h5>
@@ -273,7 +272,7 @@ use yii\helpers\Html;
                         </div>
                         <div class="mob-view">
                             <h5>Monitoring prescribed <br> medicines</h5>
-                            <span class="control_system">Our patent automated technology helps verify whether or not prescribed medicine complies with the stated diagnosis and the patient’s Electronic Medical Records. In addition, the technology enables us to detect interaction with other therapies
+                            <span class="control_system">Our patent automated technology helps verify whether or not prescribed medicine complies with the stated diagnosis and the patient’s Electronic Medical Records. In addition, the technology enables us to detect interaction with other therapies.
                   </span>
                         </div>
                     </div>
@@ -330,7 +329,7 @@ use yii\helpers\Html;
                 <div class="desc">
                     <h5>Vladimir Nikolsky<br>
                       <span>Founder Doctor Smart.</span></h5>
-                      <span class="right_doc">Operating Officer, Mail.Ru Group, since 2013.He joined Mail.Ru Group as the vice-president of Online Games Department in 2009. Mr. Nikolsky operated as CEO for Astrum Online Entertainment Holding (2007-2009). Prior to this Mr. Nikolsky became the co-founder and the CEO of “IT Territory”, company engaged in online games production (2004-2007).
+                      <span class="right_doc">Operating Officer, Mail.Ru Group, since 2013.He joined Mail.Ru Group as vice-president of Online Games Department in 2009. Mr. Nikolsky operated as CEO for Astrum Online Entertainment Holding (2007-2009). Prior to this Mr. Nikolsky became the co-founder and the CEO of “IT Territory”, a company engaged in online games production (2004-2007).
                       </span>
                   </div>
                 </div>
@@ -405,14 +404,14 @@ use yii\helpers\Html;
         <div class="row">
             <div class="col-lg-12">
                 <h3>PROJECT ADVISERS</h3>
-                <h4>We brought together professionals from all over the world to strengthen our project.</h4>
+                <h4>We have brought together professionals from all over the world to strengthen our project.</h4>
             </div>
         </div>
         <div class="row top-row">
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="box box1">
                     <div class="round round1"></div>
-                    <p>Grigory Roytberg Professor,<br>“MEDICINE”, JSC CEO & Founder</p>
+                    <p>Grigory Roytberg Professor</p>
                     <div class="desc">
                         <h5>Grigory Roytberg</h5>
                         <span>President of Meditsina JSC, Mr Roytberg holds a Post-Doctoral Degree in Medicine. Russian Academy of Sciences (RAS) member. Head of the Department for Therapy and Family Medicine at RNRMU. Honored Doctor of the Russian Federation. Winner of the RF Government Award in the field of education.
@@ -425,7 +424,7 @@ use yii\helpers\Html;
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="box box2">
+                <div class="box box2 box2_en">
                     <div class="round round2"></div>
                     <p>Alexander Rumyantsev Professor,<br> Post-Doctoral Degree in Medicine</p>
                     <div class="desc">
@@ -461,7 +460,7 @@ use yii\helpers\Html;
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="left-box">
-                    <div class="box box4">
+                    <div class="box box4 box4_en">
                         <div class="round round4"></div>
                         <p>Dmitry Khan
                             Co-founder <br> of “Dauria Aerospace”, the first<br> Russian Private Space Company </p>
