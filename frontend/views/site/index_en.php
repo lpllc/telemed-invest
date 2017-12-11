@@ -410,7 +410,7 @@ use yii\helpers\Html;
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="box box1">
                     <div class="round round1"></div>
-                    <p>Grigory Roytberg Professor</p>
+                    <p>Grigory Roytberg<br>Professor</p>
                     <div class="desc">
                         <h5>Grigory Roytberg</h5>
                         <span>President of Meditsina JSC, Mr Roytberg holds a Post-Doctoral Degree in Medicine. Russian Academy of Sciences (RAS) member. Head of the Department for Therapy and Family Medicine at RNRMU. Honored Doctor of the Russian Federation. Winner of the RF Government Award in the field of education.
@@ -529,9 +529,9 @@ use yii\helpers\Html;
             </div>
             <div class="col-lg-4  col-md-4 col-sm-4">
                 <ul class="social_icons">
-                    <li><a href=""><img src="img/telegram.svg" alt=""></a></li>
-                    <li><a href=""><img src="img/facebook.svg" alt=""></a></li>
-                    <li><a href=""><img src="img/linkdin.svg" alt=""></a></li>
+                    <li><a href="https://t.me/doctor_smart" target="_blank"><img src="img/telegram.svg" alt=""></a></li>
+                    <li><a href="https://www.facebook.com/Doctor-Smart-294801964343401/" target="_blank"><img src="img/facebook.svg" alt=""></a></li>
+                    <li><a href="https://www.linkedin.com/company/13590576/" target="_blank"><img src="img/linkdin.svg" alt=""></a></li>
                 </ul>
             </div>
         </div>
