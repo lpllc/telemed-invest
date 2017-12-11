@@ -22,11 +22,11 @@ AppAsset::register($this);
     <meta name="description" content="Doctor Smart - инновационная экосистема для цифровой медицины">
     <meta name="keywords" content="Сервис предлагает высокотехнологичное решение, способное вывести качество медицины в мире на новый уровень и сделать ее по-настоящему доступной для каждого.">
     <meta name="author" content="Boris Adamyan Boramos">
-    <link rel='shortcut icon' type=image/vnd.microsoft.icon href=img/logo.png>
-    <link rel=apple-touch-icon type=image/png href=img/logo.png>
-    <link rel=apple-touch-icon type=image/png sizes=72x72 href=img/logo.png>
-    <link rel=apple-touch-icon type=image/png sizes=114x114 href=img/logo.png>
-    <link rel=icon type=image/png href=img/logo.png>
+    <link rel='shortcut icon' type=image/vnd.microsoft.icon href=img/favico.png>
+    <link rel=apple-touch-icon type=image/png href=img/favico.png>
+    <link rel=apple-touch-icon type=image/png sizes=72x72 href=img/favico.png>
+    <link rel=apple-touch-icon type=image/png sizes=114x114 href=img/favico.png>
+    <link rel=icon type=image/png href=img/favico.png>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     
     <?= Html::csrfMetaTags() ?>
