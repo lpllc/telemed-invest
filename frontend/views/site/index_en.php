@@ -9,7 +9,7 @@ use yii\helpers\Html;
             <ul class="menu">
                 <li><a href="#head">About Service</a></li>
                 <li><a href="#obzor">Market Review</a></li>
-                <li><a href="#work">How it work</a></li>
+                <li><a href="#work">How it works</a></li>
                 <li><a href="#proect_creator">Team</a></li>
                 <li><a href="#footer">Contacts</a></li>
             </ul>
@@ -52,7 +52,7 @@ use yii\helpers\Html;
                             <ul class="mob-menu">
                                 <li><a href="#head">About Service</a></li>
                                 <li><a href="#obzor">Market Review</a></li>
-                                <li><a href="#work">How it work</a></li>
+                                <li><a href="#work">How it works</a></li>
                                 <li><a href="#proect_creator">Team</a></li>
                                 <li><a href="#footer">Contacts</a></li>
                             </ul>
