@@ -50,7 +50,6 @@ use yii\helpers\Html;
                         </div>
                         <div class="mob-nav">
                             <ul class="mob-menu">
-                                <li><a class="close-menu" href="javascript:;"><i class="fa fa-times" aria-hidden="true"></i></a></li>
                                 <li><a href="#head">About Service</a></li>
                                 <li><a href="#obzor">Market Review</a></li>
                                 <li><a href="#work">How it work</a></li>
