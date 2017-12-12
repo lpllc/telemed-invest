@@ -429,7 +429,7 @@ use yii\helpers\Html;
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="box box2 box2_en">
                     <div class="round round2"></div>
-                    <p>Alexander Rumyantsev Professor,<br> Post-Doctoral Degree in Medicine</p>
+                    <p>Alexander Rumyantsev<br> Professor, Post-Doctoral Degree<br> in Medicine</p>
                     <div class="desc">
                         <h5>Alexander Rumyantsev</h5>
                         <span>Soviet and Russian paediatrician. RAS and Russian Academy of Medical Science member. CEO of  “Dmitry Rogachev National Research Center of Pediatric Hematology, Oncology and Immunology” at Russian Ministry of Health. Mr. Rumyantsev is Honored Professor of Department of oncology, hematology and radiation therapy at RNRMU. Chief external expert for pediatric hematology of the Russian Ministry of Health. President of National Society of Pediatric Hematologists and Oncologists. Member of RAS General Committee (since 2017).
@@ -465,8 +465,8 @@ use yii\helpers\Html;
                 <div class="left-box">
                     <div class="box box4 box4_en">
                         <div class="round round4"></div>
-                        <p>Dmitry Khan
-                            Co-founder <br> of “Dauria Aerospace”, the first<br> Russian Private Space Company </p>
+                        <p>Dmitry Khan<br>
+                            Co-founder  of “Dauria Aerospace”,<br> the first Russian Private<br> Space Company </p>
                         <div class="desc">
                             <h5>Dmitry Khan</h5>
                             <span>More than 20 years of business activity in IT, bio and space exploration industries.Co-founder of “Rostock Biotech One” investment fund which focuses on biotechnology solutions for prolonging human lifespan, medical problems of aging and cancer treatment. Dmitry has vast experience in investment bank activities, mergers and acquisitions in the telecommunication and IT markets. Dmitry participated in the Management of Sustainable Development program at Sustainability Challenge Foundation. Mr. Khan has experience in the development of international joint ventures. He is keen on such kinds of sport as ultra-marathon and oriental martial arts.
