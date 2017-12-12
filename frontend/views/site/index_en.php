@@ -536,6 +536,7 @@ use yii\helpers\Html;
             </div>
         </div>
     </div>
+    <p class="copyright">Copyright 2017. All Rights Reserved</p>
 </footer>
 
 <?php
