@@ -71,15 +71,15 @@ class SiteController extends Controller
     public function actionIndex()
     {
 
-        $hash = Yii::$app->getSecurity()->generatePasswordHash('admin1234');
+//        $hash = Yii::$app->getSecurity()->generatePasswordHash('admin1234');
 
-         $ip = Yii::$app->geoip->ip();
-         $ip = Yii::$app->geoip->ip("46.71.41.167");
-         $ip->city; // "San Francisco"
-         $ip->country; // "United States"
-         $ip->location->lng; // 37.7898
-         $ip->location->lat; // -122.3942
-         $ip->isoCode; // "US"
+//         $ip = Yii::$app->geoip->ip();
+//         $ip = Yii::$app->geoip->ip("46.71.41.167");
+//         $ip->city; // "San Francisco"
+//         $ip->country; // "United States"
+//         $ip->location->lng; // 37.7898
+//         $ip->location->lat; // -122.3942
+//         $ip->isoCode; // "US"
 
         $feedback = new Feedback();
         
