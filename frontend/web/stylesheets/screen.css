@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -465,152 +465,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     padding: 10px;
   }
 }
-/* line 1, ../sass/_menu_button.scss */
-#menu-button {
-  border: none;
-  background: #5cb4ce;
-  padding: 14px;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  -webkit-transition: background 750ms ease-in-out;
-  -moz-transition: background 750ms ease-in-out;
-  -ms-transition: background 750ms ease-in-out;
-  -o-transition: background 750ms ease-in-out;
-  transition: background 750ms ease-in-out;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
+/* line 5, ../sass/_menu_button.scss */
+path {
+  fill: none;
+  stroke-width: 4;
+  stroke: #fff;
+}
+
+/* line 10, ../sass/_menu_button.scss */
+#woho {
   display: none;
+  margin-top: 30px;
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  left: 35px;
+  top: -25px;
+  transform: translateX(-50%);
+  z-index: 102;
 }
 
-/* line 20, ../sass/_menu_button.scss */
-.menu-open #menu-button {
-  background: #5cb4ce;
-}
-
-/* line 24, ../sass/_menu_button.scss */
-.hamburger {
-  position: relative;
-  width: 25px;
-  height: 20px;
-  -webkit-transition: -webkit-transform 750ms ease-in-out;
-  -moz-transition: transform 750ms ease-in-out;
-  -ms-transition: transform 750ms ease-in-out;
-  -o-transition: transform 750ms ease-in-out;
-  transition: transform 750ms ease-in-out;
-}
-
-/* line 35, ../sass/_menu_button.scss */
-#menu-button:active .hamburger {
-  -webkit-transition: -webkit-transform 50ms;
-  -moz-transition: transform 50ms;
-  -ms-transition: transform 50ms;
-  -o-transition: transform 50ms;
-  transition: transform 50ms;
-  -webkit-transform: scale(0.95);
-  -moz-transform: scale(0.95);
-  -ms-transform: scale(0.95);
-  -o-transform: scale(0.95);
-  transform: scale(0.95);
-}
-
-/* line 48, ../sass/_menu_button.scss */
-.hamburger::before, .hamburger::after, .hamburger .inner {
-  content: '';
+/* line 21, ../sass/_menu_button.scss */
+#toggle {
   position: absolute;
-  width: 25px;
-  height: 2px;
-  background: #fff;
-  -webkit-transform-origin: 100% 50%;
-  -moz-transform-origin: 100% 50%;
-  -o-transform-origin: 100% 50%;
-  -ms-transform-origin: 100% 50%;
-  transform-origin: 100% 50%;
-  -webkit-transition: all 750ms ease-in-out;
-  -moz-transition: all 750ms ease-in-out;
-  -ms-transition: all 750ms ease-in-out;
-  -o-transition: all 750ms ease-in-out;
-  transition: all 750ms ease-in-out;
+  top: 63%;
+  left: 61%;
+  width: 70%;
+  transform: translate(-50%, -50%);
+  height: 70%;
+  background: #5cb4ce;
+  border-radius: 0px;
+  border: none;
+  outline: none;
 }
 
-/* line 65, ../sass/_menu_button.scss */
-.hamburger::before {
-  top: -1px;
-}
-
-/* line 68, ../sass/_menu_button.scss */
-.hamburger .inner {
-  top: 9px;
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-}
-
-/* line 76, ../sass/_menu_button.scss */
-.hamburger::after {
-  top: 19px;
-}
-
-/* line 80, ../sass/_menu_button.scss */
-.menu-open .hamburger {
-  -webkit-transform: rotateY(-180deg);
-  -moz-transform: rotateY(-180deg);
-  -ms-transform: rotateY(-180deg);
-  -o-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
-}
-
-/* line 87, ../sass/_menu_button.scss */
-.menu-open #menu-button:active .hamburger {
-  -webkit-transform: scale(0.95) rotateY(-180deg);
-  -moz-transform: scale(0.95) rotateY(-180deg);
-  -ms-transform: scale(0.95) rotateY(-180deg);
-  -o-transform: scale(0.95) rotateY(-180deg);
-  transform: scale(0.95) rotateY(-180deg);
-}
-
-/* line 95, ../sass/_menu_button.scss */
-.menu-open .hamburger::before,
-.menu-open .hamburger::after,
-.menu-open .hamburger .inner {
-  background: #29252f;
-}
-
-/* line 101, ../sass/_menu_button.scss */
-.menu-open .hamburger::before {
-  -webkit-transform: translate3d(-4px, 1px, 0) rotateZ(-45deg);
-  -moz-transform: translate3d(-4px, 1px, 0) rotateZ(-45deg);
-  -ms-transform: translate3d(-4px, 1px, 0) rotateZ(-45deg);
-  -o-transform: translate3d(-4px, 1px, 0) rotateZ(-45deg);
-  transform: translate3d(-4px, 1px, 0) rotateZ(-45deg);
-}
-
-/* line 108, ../sass/_menu_button.scss */
-.menu-open .hamburger .inner {
-  -webkit-transform: rotateY(-90deg);
-  -moz-transform: rotateY(-90deg);
-  -ms-transform: rotateY(-90deg);
-  -o-transform: rotateY(-90deg);
-  transform: rotateY(-90deg);
-  -webkit-transition: -webkit-transform 375ms, background-color 750ms ease-in-out;
-  -moz-transition: transform 375ms, background-color 750ms ease-in-out;
-  -ms-transition: transform 375ms, background-color 750ms ease-in-out;
-  -o-transition: transform 375ms, background-color 750ms ease-in-out;
-  transition: transform 375ms, background-color 750ms ease-in-out;
-}
-
-/* line 120, ../sass/_menu_button.scss */
-.menu-open .hamburger::after {
-  -webkit-transform: translate3d(-4px, -1px, 0) rotateZ(45deg);
-  -moz-transform: translate3d(-4px, -1px, 0) rotateZ(45deg);
-  -ms-transform: translate3d(-4px, -1px, 0) rotateZ(45deg);
-  -o-transform: translate3d(-4px, -1px, 0) rotateZ(45deg);
-  transform: translate3d(-4px, -1px, 0) rotateZ(45deg);
+/* line 33, ../sass/_menu_button.scss */
+#toggle-svg {
+  position: absolute;
+  z-index: 1;
 }
 
 /* line 11, ../sass/screen.scss */
@@ -5674,7 +5566,7 @@ body .docSmart {
 }
 @media (min-width: 320px) and (max-width: 767px) {
   /* line 4438, ../sass/screen.scss */
-  #menu-button {
+  #woho {
     display: block;
     z-index: 101;
     position: fixed;

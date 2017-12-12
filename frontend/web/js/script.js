@@ -23,7 +23,7 @@ $(document).ready(function() {
 		$('.fa-angle-down').toggleClass('active');
 	})
 
-	$('#menu-button').on('click', function() {
+	$('#woho').on('click', function() {
   $(document.body).toggleClass('menu-open');
 });
 
@@ -34,7 +34,7 @@ $(document).ready(function() {
 		$('.fa-angle-down').toggleClass('active');
 	})
 
-	var mob_burger = $('#menu-button');
+	var mob_burger = $('#woho');
 	mob_burger.on('click', function(){
 		$('.mob-nav').toggleClass('active');
 	})
@@ -101,4 +101,84 @@ window.onclick = function(event){
 	if(event.target == modal){
 		modal.style.display = "none";
 	}
+}
+var pathA = document.getElementById("pathA"),
+    pathC = document.getElementById("pathC"),
+    pathB = document.getElementById("pathB"),
+    segmentA = new Segment(pathA, 8, 32),
+    segmentC = new Segment(pathC, 8, 32),
+    segmentB = new Segment(pathB, 8, 32),
+    btnToggle = document.getElementById("toggle-svg"),
+    toggle = true;
+
+
+function inAC(s) {
+  s.draw('80% - 24', '80%', 0.3, {
+    delay: 0.3,
+    callback: function() {
+      inAC2(s);
+    }
+  })
+}
+
+function inAC2(s) { 
+  s.draw('100% - 54.5', '100% - 30.5', 0.3, {
+    easing: d3_ease.elasticOut
+  });
+}
+
+function inB(s) {
+  s.draw(8 - 6, 32 - 6, 0.3, {
+    callback: function() {
+      inB2(s);
+    }
+  });
+}
+
+function inB2(s) {
+  s.draw(8 + 12, 32 - 12, 0.3, {
+    easing: d3_ease.bounceOut
+  });
+}
+
+function outAC(s) { 
+  s.draw('90% - 24', '90%', 0.3, {
+    easing: d3_ease.elasticIn, 
+    callback: function(){ 
+      outAC2(s) 
+    }
+  }); 
+}
+
+function outAC2(s) { 
+  s.draw('20% - 24', '20%', 0.4, {
+    callback: function(){ 
+      outAC3(s) 
+    }
+  }); 
+}
+
+function outAC3(s) { 
+  s.draw(8, 32, 0.3, {
+    easing: d3_ease.elasticOut
+  }); 
+}
+
+function outB(s) { 
+  s.draw(8, 32, 0.4, {
+    delay: 0.3, easing: d3_ease.elasticOut
+  });
+}
+
+btnToggle.onclick = function() {
+  if (toggle) {
+    inB(segmentB);
+    inAC(segmentA);
+    inAC(segmentC);
+  }else{
+    outAC(segmentA);
+    outB(segmentB);
+    outAC(segmentC);
+  }
+  toggle = !toggle;
 }

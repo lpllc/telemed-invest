@@ -43,11 +43,16 @@ use yii\helpers\Html;
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <nav>
-                        <div id="menu-button" role="button" title="sweet hamburger">
-                            <div class="hamburger">
-                                <div class="inner"></div>
-                            </div>
+                        <div id="woho">
+                            <svg id="toggle-svg"  width="80px" height="80px">
+                                <path id="pathA" d="M 30 40 L 70 40 C 90 40 90 75 60 85 A 40 40 0 0 1 20 20 L 80 80"/>
+                                <path id="pathB" d="M 30 50 L 70 50"/>
+                                <path id="pathC" d="M 70 60 L 30 60 C 10 60 10 20 40 15 A 40 38 0 1 1 20 80 L 80 20"/>
+                            </svg>
+                            <button id="toggle">
+                            </button>
                         </div>
+
                         <div class="mob-nav">
                             <ul class="mob-menu">
                                 <li><a href="#head">О сервисе</a></li>
@@ -528,9 +533,6 @@ use yii\helpers\Html;
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row bottom-row_2">
-
         </div>
 </section>
 <section id="welcome" class="welcome sectio" data-hash="welcomes">
