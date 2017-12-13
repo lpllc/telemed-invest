@@ -211,13 +211,13 @@ use yii\helpers\Html;
         <div class="row">
             <div class="col-lg-11 col-lg-offset-1 col-xs-offset-0">
                 <h3>SERVICE QUALITY CONFIRMATION</h3>
-                <p><span class="docSmart">Doctor Smart</span>uses artificial intelligence technology with applications that are also used by “Meditsina Clinic”, JSC. This world class multi-field medical center has an impeccable record in the medical world. “Meditsina”, JCS provides a full range of health care in 69 medical fields. This is the first Russian clinic to gain accreditation by the most prestigious international commissions on medical care quality.
+                <p><span class="docSmart">Doctor Smart</span> uses artificial intelligence technology with applications that are also used by “Medicina Clinic”, JSC. This world class multi-field medical center has an impeccable record in the medical world. “Medicina”, JCS provides a full range of health care in 69 medical fields. This is the first Russian clinic to gain accreditation by the most prestigious international commissions on medical care quality.
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-11 col-lg-offset-1">
-                <p class="serts_head">“Meditsina Clinic” Awards & Certificates:</p>
+                <p class="serts_head">“Medicina Clinic” Awards & Certificates:</p>
             </div>
         </div>
         <div class="row sert">
@@ -316,7 +316,7 @@ use yii\helpers\Html;
                     <div class="desc">
                         <h5>Pavel Roytberg<br>
                             <span>Founder Doctor Smart.</span></h5>
-                        <span>Digital Worlds, CJSC founder. Board member of “Meditsina”, JSC. Speaker at many international conferences, “Leadership in Healthcare in Harvard University TChang School” participant.
+                        <span>Digital Worlds, CJSC founder. Board member of “Medicina”, JSC. Speaker at many international conferences, “Leadership in Healthcare in Harvard University TChang School” participant.
                   Mr. Roytberg has gained more than 20 years of experience in software development for the health care industry. He created “Smart Medicina” (2014), Electronic Medical Records system, and fully functional expert Medical Decision Support System (2015), Monitoring System for Prescribed Medicines (2015) as well as a website for patients Chirp.Ru (2017),. Pavel G. Roytberg, holds a PhD in Economics whose Dissertation Theme was “Digitalising cash turnover” (2003).
                   </span>
                     </div>
@@ -417,8 +417,8 @@ use yii\helpers\Html;
                     <p>Grigory Roytberg<br>Professor</p>
                     <div class="desc">
                         <h5>Grigory Roytberg</h5>
-                        <span>President of Meditsina JSC, Mr Roytberg holds a Post-Doctoral Degree in Medicine. Russian Academy of Sciences (RAS) member. Head of the Department for Therapy and Family Medicine at RNRMU. Honored Doctor of the Russian Federation. Winner of the RF Government Award in the field of education.
-              In 1990 - founded “Meditsina Clinic”, JSC.
+                        <span>President of Medicina JSC, Mr Roytberg holds a Post-Doctoral Degree in Medicine. Russian Academy of Sciences (RAS) member. Head of the Department for Therapy and Family Medicine at RNRMU. Honored Doctor of the Russian Federation. Winner of the RF Government Award in the field of education.
+              In 1990 - founded “Medicina Clinic”, JSC.
               In 2005 - elected Associate Member of the Russian Academy of Medical Sciences.
               In 2014 - elected the Regular Member of RAS.
               On December 21, 2010 by order of V.V. Putin, the Russian Prime Minister, Professor G.E. Roytberg gained the Award of the RF Government in the field of education with rank: "The Winner of the Russian Federation Government Award in the Field of Education".
