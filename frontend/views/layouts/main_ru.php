@@ -19,8 +19,8 @@ AppAsset::register($this);
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Doctor Smart - инновационная экосистема для цифровой медицины">
-    <meta name="keywords" content="Сервис предлагает высокотехнологичное решение, способное вывести качество медицины в мире на новый уровень и сделать ее по-настоящему доступной для каждого.">
+    <meta name="description" content="Сервис обеспечивает мгновенную связь с врачами, психологами, диетологами, ветеринарами и фитнес тренерами со всего мира.">
+    <meta name="keywords" content="Сервис обеспечивает мгновенную связь с врачами, психологами, диетологами, ветеринарами и фитнес тренерами со всего мира.">
     <meta name="author" content="Boris Adamyan Boramos">
     <link rel='shortcut icon' type=image/vnd.microsoft.icon href=img/favico.png>
     <link rel=apple-touch-icon type=image/png href=img/favico.png>
@@ -30,7 +30,7 @@ AppAsset::register($this);
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     
     <?= Html::csrfMetaTags() ?>
-    <title>Doctor Smart - инновационная экосистема для цифровой медицины</title>
+    <title>Doctor Smart  платформа для консультаций в сфере здоровья</title>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

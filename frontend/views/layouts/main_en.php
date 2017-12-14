@@ -22,18 +22,18 @@ AppAsset::register($this);
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The service can raise the quality of the world digital medicine to a new level and make the medical assistance actually available to everyone.">
-    <meta name="keywords" content="Doctor Smart is the ground-braking ecosystem for digital medicine">
+    <meta name="description" content="The platform allows immediate access to highly qualified doctors, nutrition experts and fitness coaches from all over the world.">
+    <meta name="keywords" content="The platform allows immediate access to highly qualified doctors, nutrition experts and fitness coaches from all over the world.">
     <meta name="author" content="Boris Adamyan Boramos">
     <link rel='shortcut icon' type=image/vnd.microsoft.icon href=img/favico.png>
     <link rel=apple-touch-icon type=image/png href=img/favico.png>
     <link rel=apple-touch-icon type=image/png sizes=72x72 href=img/favico.png>
     <link rel=apple-touch-icon type=image/png sizes=114x114 href=img/favico.png>
     <link rel=icon type=image/png href=img/favico.png>
+
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <?= Html::csrfMetaTags() ?>
-    <title>Doctor Smart is the ground-braking ecosystem for digital medicine</title>
-
+    <title> Doctor Smart is a digital healthcare system</title>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
