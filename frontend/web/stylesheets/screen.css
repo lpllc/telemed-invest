@@ -980,9 +980,9 @@ body .docSmart {
   display: inline-block;
   font-size: 20px;
   font-weight: 100;
-  padding-top: 60px;
+  padding-top: 5px;
   color: #777;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 /* line 404, ../sass/screen.scss */
 .obzor .grandview {
@@ -990,7 +990,7 @@ body .docSmart {
 }
 /* line 407, ../sass/screen.scss */
 .obzor .grandview_eng {
-  padding-top: 80px;
+  padding-top: 31px;
 }
 /* line 410, ../sass/screen.scss */
 .obzor .ist-world-bank {
@@ -1777,11 +1777,6 @@ body .docSmart {
     background-position: -240px 58px;
   }
 
-  /* line 1121, ../sass/screen.scss */
-  .obzor .grandview_eng {
-    padding-top: 85px;
-  }
-
   /* line 1125, ../sass/screen.scss */
   .service {
     background-position: 0 -359px;
@@ -1837,11 +1832,6 @@ body .docSmart {
   /* line 1178, ../sass/screen.scss */
   .head .overlay {
     background-position: -240px 58px;
-  }
-
-  /* line 1183, ../sass/screen.scss */
-  .obzor .grandview_eng {
-    padding-top: 85px;
   }
 
   /* line 1190, ../sass/screen.scss */
@@ -2176,7 +2166,7 @@ body .docSmart {
   }
   /* line 1502, ../sass/screen.scss */
   .obzor .grandview_eng {
-    padding-top: 85px;
+    padding-top: 28px;
   }
 
   /* line 1507, ../sass/screen.scss */

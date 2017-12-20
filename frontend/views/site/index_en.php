@@ -366,11 +366,15 @@ use yii\helpers\Html;
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="box box2">
                     <div class="round round2"></div>
-                    <p>Vyacheslav Potyomkin <br>
+                    <p>Viacheslav Potyomkin <br>
                         Chief Product Officer</p>
                     <div class="desc">
-                        <h5>Vyacheslav Potyomkin</h5>
-                        <span>Project Manager for Mobile Department of HeadHunter. Mr. Potemkin is a highly experienced project developer for the Game Industry with more than 8 years of leadership in project development. He has managed projects with audiences of more than 75 million users. Certified Agile Professional (KMP, ICP, ICP-ATF).</span>
+                        <h5>Viacheslav Potyomkin</h5>
+                        <span>Project Leader in mobile and web design with more than 9 years experience. He joined the Doctor Smart team
+              through HeadHunter where he led the mobile technology department. Prior to that he led design and launch of
+              tens of game projects. He has worked on products with audiences of more than 75 million users in 42 countries.
+              Certified agile professional (KMP, ICP, ICP-ATF) and experienced scrum-master and facilitator.
+              </span>
                     </div>
                 </div>
             </div>
