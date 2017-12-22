@@ -308,7 +308,7 @@ use yii\helpers\Html;
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 hover_section">
+            <div class="col-lg-6 col-md-6 col-sm-6 hover_section">
                 <div class="box">
                     <div class="round1"></div>
                     <p>Pavel Roytberg<br>
@@ -322,22 +322,22 @@ use yii\helpers\Html;
                     </div>
                 </div>
             </div>
-            <!-- <div class="col-lg-6 col-md-6 col-sm-6 hover_section">
-              <div class="left-box">
-               <div class="box">
-              <div class="round2"></div>
-              <p>Vladimir Nikolsky
-                <br>
-                <span>Founder Doctor Smart</span></p>
-                <div class="desc">
-                    <h5>Vladimir Nikolsky<br>
-                      <span>Founder Doctor Smart.</span></h5>
-                      <span class="right_doc">Operating Officer, Mail.Ru Group, since 2013.He joined Mail.Ru Group as vice-president of Online Games Department in 2009. Mr. Nikolsky operated as CEO for Astrum Online Entertainment Holding (2007-2009). Prior to this Mr. Nikolsky became the co-founder and the CEO of “IT Territory”, a company engaged in online games production (2004-2007).
-                      </span>
-                  </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 hover_section">
+                <div class="left-box">
+                    <div class="box">
+                        <div class="round2"></div>
+                        <p>Vladimir Nikolsky
+                            <br>
+                            <span>Founder Doctor Smart</span></p>
+                        <div class="desc">
+                            <h5>Vladimir Nikolsky<br>
+                                <span>Founder Doctor Smart.</span></h5>
+                            <span class="right_doc">Operating Officer, Mail.Ru Group, since 2013.He joined Mail.Ru Group as vice-president of Online Games Department in 2009. Mr. Nikolsky operated as CEO for Astrum Online Entertainment Holding (2007-2009). Prior to this Mr. Nikolsky became the co-founder and the CEO of “IT Territory”, a company engaged in online games production (2004-2007).
+                    </span>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </section>
@@ -399,8 +399,22 @@ use yii\helpers\Html;
                         <div class="desc">
                             <h5>Olga Sharkhun</h5>
                             <span>Physician, gastroenterologist, general practitioner. Mrs. Sharkhun is a Member of Russian Gastroenterological Association, Member of Scientific Society of Gastroenterology of Russia, and Member of the European Association for the Study of the Liver (EASL). Mrs. Sharkhun has participated in a wide range of Russian and international conferences. She has more than 18 years of medical experience. In 1998, Olga took her PhD Medical Degree. She is a co-author of the "Metabolic Syndrome" monograph and author of methodological recommendations series. Olga had her traineeship at the University of Iowa (The USA) and Muenster (Germany).
-              </span>
+                  </span>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bottom-row battom-row-2">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="box box5">
+                    <div class="round round5"></div>
+                    <p>Ivan Tiutiundzhi<br>Doctor Smart CCO</p>
+                    <div class="desc">
+                        <h5>Ivan Tiutiundzhi</h5>
+                        <span>PhD degree in Sociology. Best Public Affairs Director in professional services 2014&2017 according to Managers Association and Kommersant Newspaper managers rating.
+            Career started in Political consulting and marketing researches. During last 7 years worked as PR Head at HeadHunter - Russia and CIS online HR-solutions leader. With Ivan HeadHunter became the most quoted business in Russian labour market as well as one of the most innovative internet companies.
+            </span>
                     </div>
                 </div>
             </div>
