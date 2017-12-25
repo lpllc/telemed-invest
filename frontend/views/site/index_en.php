@@ -2,7 +2,6 @@
 use yii\widgets\ActiveForm;
 use yii\helpers\Html;
 ?>
-
 <section id="head" class="head sectio" >
     <div class="scroll_hidden">
         <div class="container scroll_menu">
@@ -312,10 +311,10 @@ use yii\helpers\Html;
                 <div class="box">
                     <div class="round1"></div>
                     <p>Pavel Roytberg<br>
-                        <span>Founder</span></p>
+                        <span>Co-founder</span></p>
                     <div class="desc">
                         <h5>Pavel Roytberg<br>
-                            <span>Founder Doctor Smart.</span></h5>
+                            <span>Co-founder</span></h5>
                         <span>Digital Worlds, CJSC founder. Board member of “Medicina”, JSC. Speaker at many international conferences, “Leadership in Healthcare in Harvard University TChang School” participant.
                   Mr. Roytberg has gained more than 20 years of experience in software development for the health care industry. He created “Smart Medicina” (2014), Electronic Medical Records system, and fully functional expert Medical Decision Support System (2015), Monitoring System for Prescribed Medicines (2015) as well as a website for patients Chirp.Ru (2017),. Pavel G. Roytberg, holds a PhD in Economics whose Dissertation Theme was “Digitalising cash turnover” (2003).
                   </span>
@@ -328,10 +327,10 @@ use yii\helpers\Html;
                         <div class="round2"></div>
                         <p>Vladimir Nikolsky
                             <br>
-                            <span>Founder Doctor Smart</span></p>
+                            <span>Co-founder</span></p>
                         <div class="desc">
                             <h5>Vladimir Nikolsky<br>
-                                <span>Founder Doctor Smart.</span></h5>
+                                <span>Co-founder</span></h5>
                             <span class="right_doc">Operating Officer, Mail.Ru Group, since 2013.He joined Mail.Ru Group as vice-president of Online Games Department in 2009. Mr. Nikolsky operated as CEO for Astrum Online Entertainment Holding (2007-2009). Prior to this Mr. Nikolsky became the co-founder and the CEO of “IT Territory”, a company engaged in online games production (2004-2007).
                     </span>
                         </div>
@@ -561,7 +560,6 @@ use yii\helpers\Html;
     <p class="copyright">Copyright 2017. All Rights Reserved</p>
 
 </footer>
-
 <?php
 // Top of the page, before sending out ANY output to the page.
 $user_is_first_timer = !isset( $_COOKIE["FirstTimer"] );
