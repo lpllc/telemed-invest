@@ -87,7 +87,7 @@ use yii\helpers\Html;
             <div class="row mid-row mid-row-eng">
                 <div class="col-lg-6 col-md-6 col-sm-9 col-sm-offset-1">
                     <div class="logo">
-                        <img src="img/logo.png" alt="">
+                        <img src="img/logo_1.png" alt="">
                     </div>
                     <p><span class="docSmart">Doctor Smart</span>is an innovative platform for digital healthcare and wellness services, based on blockchain technology, AI and smart contracts. The system offers a full range of opportunities from telehealth and telemedicine to tele-wellness and offline healthcare, from dietary support to patients recovery as well as opportunities to prolong life.</p>
                     <p>The platform allows immediate access to highly qualified doctors, nutrition experts and fitness and wellness coaches from all over the world.</p>
