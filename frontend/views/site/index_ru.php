@@ -95,7 +95,7 @@ use yii\helpers\Html;
                     <p>Платформа, обеспечивающая мгновенную связь с авторитетными врачами, психологами, диетологами, ветеринарами и фитнес-тренерами со всего мира.
                     </p>
                     <p>
-              <span class="bottom_span">Доставляем здоровье в любое время,<br>
+              <span class="bottom_span">Доставляем здоровье в любое время<br>
               и место!</span>
                     </p>
                 </div>
@@ -123,27 +123,26 @@ use yii\helpers\Html;
                         <div class="main">
                             <img src="img/Diagram.png" alt="" class="diagram">
                             <div class="center">
-                                <p>The World Market of traditional outpatient services is estimated to esceed 3.3$ trillion by 2022 *</p>
+                                <p>Мировой рынок амбулаторных услуг $3.3 трлн к 2022 году *</p>
                             </div>
                             <div class="number">
                                 <span class="num num1">60%</span>
-                                <span class="num num2">$2 trillion</span>
+                                <span class="num num2">$2 трлн</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 diagram-block-right">
-                        <div class="line">--------------------</div>
-                        <p><span class="bold">Up to 60% of outpatient appointments cloud be delivered online</span> and subsequently could be replaced eith online healthcare services**</p>
-                        <div class="line line2">------------------------</div>
+                        <div class="line"></div>
+                        <p class="top-p"><span class="bold">до 60% амбулаторных</span> очных приемов могут быть оказаны удаленно и впоследствии заменены онлайн-услугами**</p>
+                        <div class="line line2"></div>
                         <ul class="list">
                             <li>* - Grand View Reserch. Inc.</li>
                             <li>** - McKinsey</li>
                         </ul>
-                        <p class="potencial">Digital health markrt potential</p>
+                        <p class="potencial">Потенциал рынка интернет-услуг в области здоровья</p>
                     </div>
                 </div>
             </div>
-            <span class="grandview">Источник: grandviewresearch.com</span>
         </div>
     </div>
     </div>
@@ -529,7 +528,7 @@ use yii\helpers\Html;
                     <h4>Приглашаем в свою команду!</h4>
                     <p>Мы приглашаем в наш проект тех, кому небезразлична идея использования самых передовых технологий для поддержания здоровья людей. </p>
                     <p class="mid-p"> - Специалисты по технологии блокчейн <br>
-                        - Эксперты по A<br>
+                        - Эксперты по AI<br>
                         - Маркетологи <br>
                         - Региональные представители <br>
                         - Переводчики<br>

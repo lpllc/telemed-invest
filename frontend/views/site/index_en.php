@@ -89,8 +89,9 @@ use yii\helpers\Html;
                     <div class="logo">
                         <img src="img/logo_1.png" alt="">
                     </div>
-                    <p><span class="docSmart">Doctor Smart</span>is an innovative platform for digital healthcare and wellness services, based on blockchain technology, AI and smart contracts. The system offers a full range of opportunities from telehealth and telemedicine to tele-wellness and offline healthcare, from dietary support to patients recovery as well as opportunities to prolong life.</p>
-                    <p>The platform allows immediate access to highly qualified doctors, nutrition experts and fitness and wellness coaches from all over the world.</p>
+                    <p><span class="docSmart">Doctor Smart</span> is an innovative platform for digital healthcare and wellness services, based on blockchain technology, AI and smart contracts.</p>
+                    <p> The system offers a full range of opportunities from telehealth and telemedicine to tele-wellness and offline healthcare, from dietary support to patients recovery as well as opportunities to prolong life.</p>
+                    <!-- <p>The platform allows immediate access to highly qualified doctors, nutrition experts and fitness and wellness coaches from all over the world.</p> -->
                     <p>
                         <span class="bottom_span bottom_span_en">We bring health anytime,<br> anywhere!</span>
                     </p>
@@ -123,23 +124,23 @@ use yii\helpers\Html;
                             </div>
                             <div class="number">
                                 <span class="num num1">60%</span>
-                                <span class="num num2">$2 trillion</span>
+                                <span class="num num2">$2 trn</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 diagram-block-right">
-                        <div class="line">--------------------</div>
-                        <p><span class="bold">Up to 60% of outpatient appointments cloud be delivered online</span> and subsequently could be replaced eith online healthcare services**</p>
-                        <div class="line line2">------------------------</div>
+                        <div class="line"></div>
+                        <p class="top-p"><span class="bold">Up to 60% of outpatient appointments cloud be delivered online</span> and subsequently could be replaced with online healthcare services**</p>
+                        <div class="line line2"></div>
                         <ul class="list">
                             <li>* - Grand View Reserch. Inc.</li>
                             <li>** - McKinsey</li>
                         </ul>
-                        <p class="potencial">Digital health markrt potential</p>
+                        <p class="potencial">Digital health market potential</p>
                     </div>
                 </div>
             </div>
-            <span class="grandview">Источник: grandviewresearch.com</span>
+
         </div>
     </div>
 </section>
@@ -275,7 +276,7 @@ use yii\helpers\Html;
                 <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
                     <div class="box">
                         <img src="img/s3.png" alt="">
-                        <p>Monitoring prescribed <br> medicines</p>
+                        <p>Monitoring  prescribed <br> medicines</p>
                         <div class="desc">
                   <span class="control_system">Our decision support system helps verify whether or not prescribed medicine complies with the stated diagnosis and the client’s Electronic Health Data. In addition, the technology enables us to detect interaction with other therapies.
                   </span>
