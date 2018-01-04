@@ -160,11 +160,11 @@ use yii\helpers\Html;
                         <img src="img/w1.png" alt="">
                         <p>Availability </p>
                         <div class="desc">
-                            <h5>Availability:</h5>
+                            <h5>Availability</h5>
                             <span>Access to the specialist you need in less than 1 minute, 24/7, at weekends, from any point in the world. Consultation fee is half the price of an ordinary daytime visit</span>
                         </div>
                         <div class="mob-view">
-                            <h5>Availability:</h5>
+                            <h5>Availability</h5>
                             <span>Access to the specialist you need in less than 1 minute, 24/7, at weekends, from any point in the world. Consultation fee is half the price of an ordinary daytime visit</span>
                         </div>
                     </div>
@@ -174,11 +174,11 @@ use yii\helpers\Html;
                         <img src="img/w2.png" alt="">
                         <p>Quality </p>
                         <div class="desc">
-                            <h5>Quality:</h5>
+                            <h5>Quality</h5>
                             <span>A compulsory system of certifying experts and specialists and an innovative system of vetting and checking the quality of expert recommendations.</span>
                         </div>
                         <div class="mob-view">
-                            <h5>Quality:</h5>
+                            <h5>Quality</h5>
                             <span>A compulsory system of certifying experts and specialists and an innovative system of vetting and checking the quality of expert recommendations.</span>
                         </div>
                     </div>
@@ -192,7 +192,7 @@ use yii\helpers\Html;
                             <span>A transparent financial system and open access to specialist certification history.</span>
                         </div>
                         <div class="mob-view">
-                            <h5>Transparency:</h5>
+                            <h5>Transparency</h5>
                             <span>A transparent financial system and open access to specialist certification history.</span>
                         </div>
                     </div>
@@ -228,7 +228,7 @@ use yii\helpers\Html;
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h3>ПЛАН ЗАПУСКА ПРОЕКТА</h3>
+                <h3>ROADMAP</h3>
                 <div class="map">
                     <img src="img/work-map.png" alt="">
                 </div>
@@ -248,11 +248,11 @@ use yii\helpers\Html;
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                    <div class="box">
+                    <div class="box first_box_en">
                         <img src="img/s1.png" alt="">
                         <p>Certification of<br>experts</p>
                         <div class="desc">
-                            <span class="service_first_prop"><span class="docSmart">Doctor Smart</span>experts have to be vetted and certified before being entered into the system. Thanks to blockchain technology, experts certification data can't be forged and is available to all users.</span>
+                            <span class="service_first_prop"><span class="docSmart">Doctor Smart</span> experts have to be vetted and certified before being entered into the system. Thanks to blockchain technology, experts certification data can't be forged and is available to all users.</span>
                         </div>
                         <div class="mob-view">
                             <h5>Certification of experts :</h5>
@@ -261,7 +261,7 @@ use yii\helpers\Html;
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                    <div class="box">
+                    <div class="box second_box_en">
                         <img src="img/s2.png" alt="">
                         <p>Expert<br> recommendation<br> monitoring system</p>
                         <div class="desc">
@@ -274,7 +274,7 @@ use yii\helpers\Html;
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                    <div class="box">
+                    <div class="box third_box_en">
                         <img src="img/s3.png" alt="">
                         <p>Monitoring  prescribed <br> medicines</p>
                         <div class="desc">
@@ -289,7 +289,7 @@ use yii\helpers\Html;
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 hover_section">
-                    <div class="box">
+                    <div class="box last_box_en">
                         <img src="img/s4.png" alt="">
                         <p>Electronic Health <br> Data</p>
                         <div class="desc">
