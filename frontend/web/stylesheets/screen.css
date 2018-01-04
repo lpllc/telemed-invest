@@ -935,7 +935,7 @@ body .docSmart {
 /* line 359, ../sass/screen.scss */
 .head .mid-row-eng {
   padding-bottom: 0px;
-  margin-bottom: 172px;
+  margin-bottom: 150px;
 }
 /* line 362, ../sass/screen.scss */
 .head .mid-row-eng p {
@@ -3281,7 +3281,7 @@ body .docSmart {
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
-    top: -70px;
+    top: -50px;
   }
 
   /* line 2479, ../sass/screen.scss */
@@ -4043,7 +4043,7 @@ body .docSmart {
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
-    top: -70px;
+    top: -50px;
   }
 
   /* line 3135, ../sass/screen.scss */
@@ -4803,7 +4803,7 @@ body .docSmart {
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
-    top: -70px;
+    top: -50px;
   }
 
   /* line 3789, ../sass/screen.scss */
@@ -5558,7 +5558,7 @@ body .docSmart {
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
-    top: -70px;
+    top: -50px;
   }
 
   /* line 4439, ../sass/screen.scss */
@@ -6102,36 +6102,43 @@ body .docSmart {
     left: 0;
   }
 
-  /* line 4909, ../sass/screen.scss */
+  /* line 4910, ../sass/screen.scss */
+  .obzor .diagram-block-right .list {
+    width: 180px;
+    margin: 20px auto;
+    text-align: left;
+  }
+
+  /* line 4918, ../sass/screen.scss */
   .team .bottom-row {
     border: none;
   }
-  /* line 4912, ../sass/screen.scss */
+  /* line 4921, ../sass/screen.scss */
   .team .box5 {
     border: none;
   }
 
-  /* line 4918, ../sass/screen.scss */
+  /* line 4927, ../sass/screen.scss */
   .proect_creator .box .desc {
     width: 100%;
   }
 }
 @media (min-width: 480px) and (max-width: 567px) {
-  /* line 4929, ../sass/screen.scss */
+  /* line 4938, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 4931, ../sass/screen.scss */
+  /* line 4940, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 215px;
   }
-  /* line 4934, ../sass/screen.scss */
+  /* line 4943, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -350px;
     right: 30px;
   }
-  /* line 4940, ../sass/screen.scss */
+  /* line 4949, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 175px;
@@ -6141,21 +6148,21 @@ body .docSmart {
     font-size: 17px;
     line-height: 20px;
   }
-  /* line 4950, ../sass/screen.scss */
+  /* line 4959, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 100%;
   }
-  /* line 4954, ../sass/screen.scss */
+  /* line 4963, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 4956, ../sass/screen.scss */
+  /* line 4965, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 4961, ../sass/screen.scss */
+  /* line 4970, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6163,23 +6170,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 4968, ../sass/screen.scss */
+  /* line 4977, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -490px;
     left: 0;
   }
-  /* line 4973, ../sass/screen.scss */
+  /* line 4982, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 4977, ../sass/screen.scss */
+  /* line 4986, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -620px;
   }
-  /* line 4981, ../sass/screen.scss */
+  /* line 4990, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
@@ -6187,21 +6194,21 @@ body .docSmart {
   }
 }
 @media (min-width: 568px) and (max-width: 639px) {
-  /* line 4991, ../sass/screen.scss */
+  /* line 5000, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 4993, ../sass/screen.scss */
+  /* line 5002, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 255px;
   }
-  /* line 4996, ../sass/screen.scss */
+  /* line 5005, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -350px;
     right: 30px;
   }
-  /* line 5002, ../sass/screen.scss */
+  /* line 5011, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 178px;
@@ -6211,21 +6218,21 @@ body .docSmart {
     font-size: 18px;
     line-height: 20px;
   }
-  /* line 5012, ../sass/screen.scss */
+  /* line 5021, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 85%;
   }
-  /* line 5016, ../sass/screen.scss */
+  /* line 5025, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 5018, ../sass/screen.scss */
+  /* line 5027, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 5023, ../sass/screen.scss */
+  /* line 5032, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6233,23 +6240,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 5030, ../sass/screen.scss */
+  /* line 5039, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -490px;
     left: 0;
   }
-  /* line 5035, ../sass/screen.scss */
+  /* line 5044, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 5039, ../sass/screen.scss */
+  /* line 5048, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -620px;
   }
-  /* line 5043, ../sass/screen.scss */
+  /* line 5052, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
@@ -6257,21 +6264,21 @@ body .docSmart {
   }
 }
 @media (min-width: 640px) and (max-width: 666px) {
-  /* line 5053, ../sass/screen.scss */
+  /* line 5062, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 5055, ../sass/screen.scss */
+  /* line 5064, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 295px;
   }
-  /* line 5058, ../sass/screen.scss */
+  /* line 5067, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -350px;
     right: 30px;
   }
-  /* line 5064, ../sass/screen.scss */
+  /* line 5073, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 174px;
@@ -6281,21 +6288,21 @@ body .docSmart {
     font-size: 20px;
     line-height: 20px;
   }
-  /* line 5074, ../sass/screen.scss */
+  /* line 5083, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 75%;
   }
-  /* line 5078, ../sass/screen.scss */
+  /* line 5087, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 5080, ../sass/screen.scss */
+  /* line 5089, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 5085, ../sass/screen.scss */
+  /* line 5094, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6303,23 +6310,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 5092, ../sass/screen.scss */
+  /* line 5101, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -515px;
     left: 0;
   }
-  /* line 5097, ../sass/screen.scss */
+  /* line 5106, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 5101, ../sass/screen.scss */
+  /* line 5110, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -610px;
   }
-  /* line 5105, ../sass/screen.scss */
+  /* line 5114, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
@@ -6327,21 +6334,21 @@ body .docSmart {
   }
 }
 @media (min-width: 667px) and (max-width: 731px) {
-  /* line 5115, ../sass/screen.scss */
+  /* line 5124, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 5117, ../sass/screen.scss */
+  /* line 5126, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 295px;
   }
-  /* line 5120, ../sass/screen.scss */
+  /* line 5129, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -350px;
     right: 30px;
   }
-  /* line 5126, ../sass/screen.scss */
+  /* line 5135, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 180px;
@@ -6351,21 +6358,21 @@ body .docSmart {
     font-size: 20px;
     line-height: 20px;
   }
-  /* line 5136, ../sass/screen.scss */
+  /* line 5145, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 75%;
   }
-  /* line 5140, ../sass/screen.scss */
+  /* line 5149, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 5142, ../sass/screen.scss */
+  /* line 5151, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 5147, ../sass/screen.scss */
+  /* line 5156, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6373,23 +6380,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 5154, ../sass/screen.scss */
+  /* line 5163, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -515px;
     left: 0;
   }
-  /* line 5159, ../sass/screen.scss */
+  /* line 5168, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 5163, ../sass/screen.scss */
+  /* line 5172, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -610px;
   }
-  /* line 5167, ../sass/screen.scss */
+  /* line 5176, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
@@ -6397,21 +6404,21 @@ body .docSmart {
   }
 }
 @media (min-width: 732px) and (max-width: 735px) {
-  /* line 5177, ../sass/screen.scss */
+  /* line 5186, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 5179, ../sass/screen.scss */
+  /* line 5188, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 335px;
   }
-  /* line 5182, ../sass/screen.scss */
+  /* line 5191, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -410px;
     right: 30px;
   }
-  /* line 5188, ../sass/screen.scss */
+  /* line 5197, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 199px;
@@ -6421,21 +6428,21 @@ body .docSmart {
     font-size: 21px;
     line-height: 20px;
   }
-  /* line 5198, ../sass/screen.scss */
+  /* line 5207, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 75%;
   }
-  /* line 5202, ../sass/screen.scss */
+  /* line 5211, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 5204, ../sass/screen.scss */
+  /* line 5213, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 5209, ../sass/screen.scss */
+  /* line 5218, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6443,23 +6450,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 5216, ../sass/screen.scss */
+  /* line 5225, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -570px;
     left: 0;
   }
-  /* line 5221, ../sass/screen.scss */
+  /* line 5230, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 5225, ../sass/screen.scss */
+  /* line 5234, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -670px;
   }
-  /* line 5229, ../sass/screen.scss */
+  /* line 5238, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
@@ -6467,21 +6474,21 @@ body .docSmart {
   }
 }
 @media (min-width: 736px) and (max-width: 767px) {
-  /* line 5239, ../sass/screen.scss */
+  /* line 5248, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 5241, ../sass/screen.scss */
+  /* line 5250, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 335px;
   }
-  /* line 5244, ../sass/screen.scss */
+  /* line 5253, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -410px;
     right: 30px;
   }
-  /* line 5250, ../sass/screen.scss */
+  /* line 5259, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 199px;
@@ -6491,21 +6498,21 @@ body .docSmart {
     font-size: 21px;
     line-height: 20px;
   }
-  /* line 5260, ../sass/screen.scss */
+  /* line 5269, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 75%;
   }
-  /* line 5264, ../sass/screen.scss */
+  /* line 5273, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 5266, ../sass/screen.scss */
+  /* line 5275, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 5271, ../sass/screen.scss */
+  /* line 5280, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6513,23 +6520,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 5278, ../sass/screen.scss */
+  /* line 5287, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -570px;
     left: 0;
   }
-  /* line 5283, ../sass/screen.scss */
+  /* line 5292, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 5287, ../sass/screen.scss */
+  /* line 5296, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -670px;
   }
-  /* line 5291, ../sass/screen.scss */
+  /* line 5300, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
