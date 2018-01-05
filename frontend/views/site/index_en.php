@@ -52,13 +52,9 @@ use yii\helpers\Html;
                             </button>
                         </div>
                         <div class="mob-nav">
-                            <ul class="mob-menu">
-                                <li><a href="#head">About Service</a></li>
-                                <li><a href="#obzor">Market Review</a></li>
-                                <li><a href="#work">How it works</a></li>
-                                <li><a href="#proect_creator">Team</a></li>
-                                <li><a href="#footer">Contacts</a></li>
-                            </ul>
+                            <div class="logo">
+                                <img src="img/logo_1.png" alt="">
+                            </div>
                             <a href="javascript:;" class="lang_mob">
                                 <?php if($user_language == 'ru') { ?>
                                     <span class="display_lang_mob">
@@ -80,6 +76,19 @@ use yii\helpers\Html;
                                     <li><a href="/ru"><img src="img/blank.gif" class="flag flag-ru" alt="Russian" /></a></li>
                                 <?php } ?>
                             </ul>
+                            <ul class="mob-menu">
+                                <li><a href="#head">About Service</a></li>
+                                <li><a href="#obzor">Market Review</a></li>
+                                <li><a href="#work">How it works</a></li>
+                                <li><a href="#proect_creator">Team</a></li>
+                                <li><a href="#footer">Contacts</a></li>
+                            </ul>
+                            <div class="menu-soc">
+                                <a href="https://www.facebook.com/Doctor-Smart-294801964343401/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://t.me/doctor_smart" target="_blank"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/company/13590576/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </div>
                         </div>
                     </nav>
                 </div>
@@ -549,14 +558,14 @@ use yii\helpers\Html;
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 emal">
                 <ul class="contacts">
-                    <li>Email:<a href="mailto:info@drs.team">
+                    <li>Email:<a href="javascript:send_email_1('my massage')">
                             <span>info@drs.team</span>
                         </a></li>
                     <!-- <li><a href="javascript:;">
                       <img src="img/tel.svg" alt=""><br>
                       <span>7(XXX) XXX-XX-XX</span>
                     </a></li> -->
-                    <li>Press inquiries:<a href="mailto:pr@drs.team">
+                    <li>Press inquiries:<a href="javascript:send_email_2('my massage')">
                             <span>pr@drs.team</span>
                         </a></li>
                 </ul>
