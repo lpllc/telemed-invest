@@ -465,44 +465,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     padding: 10px;
   }
 }
-/* line 5, ../sass/_menu_button.scss */
-path {
-  fill: none;
-  stroke-width: 4;
-  stroke: #fff;
-}
-
 /* line 10, ../sass/_menu_button.scss */
 #woho {
   display: none;
-  margin-top: 30px;
-  width: 70px;
-  height: 70px;
-  position: fixed;
-  left: 20px;
-  top: -25px;
-  transform: translateX(-50%);
+  margin-top: 20px;
   z-index: 102;
+  height: 42px;
+  background-color: #5cb4ce;
+  border-radius: 0;
 }
 
-/* line 21, ../sass/_menu_button.scss */
-#toggle {
-  position: absolute;
-  top: 70%;
-  left: 70%;
-  width: 70%;
-  transform: translate(-50%, -50%);
-  height: 70%;
-  background: #5cb4ce;
-  border-radius: 0px;
-  border: none;
-  outline: none;
+/* line 34, ../sass/_menu_button.scss */
+.navbar-toggle .icon-bar:nth-of-type(2) {
+  top: 1px;
 }
 
-/* line 33, ../sass/_menu_button.scss */
-#toggle-svg {
-  position: absolute;
-  z-index: 1;
+/* line 38, ../sass/_menu_button.scss */
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  top: 2px;
+}
+
+/* line 42, ../sass/_menu_button.scss */
+.navbar-toggle .icon-bar {
+  position: relative;
+  transition: all 500ms ease-in-out;
+  background-color: #fff;
+}
+
+/* line 48, ../sass/_menu_button.scss */
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+  top: 6px;
+  transform: rotate(45deg);
+}
+
+/* line 53, ../sass/_menu_button.scss */
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+  background-color: transparent;
+}
+
+/* line 57, ../sass/_menu_button.scss */
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+  top: -6px;
+  transform: rotate(-45deg);
 }
 
 /* line 11, ../sass/screen.scss */
@@ -715,11 +719,11 @@ body .docSmart {
 .head .mob-nav .select-lang-mob {
   background-color: #fff;
   font-size: 20px;
-  width: 30%;
+  width: 11%;
   margin: 0 auto;
   margin-bottom: 20px;
   position: absolute;
-  right: 0;
+  right: 24px;
   top: 70px;
   -webkit-box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.65);
   -moz-box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.65);

@@ -42,15 +42,20 @@ use yii\helpers\Html;
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <nav>
-                        <div id="woho">
-                            <svg id="toggle-svg"  width="80px" height="80px">
-                                <path id="pathA" d="M 30 40 L 70 40 C 90 40 90 75 60 85 A 40 40 0 0 1 20 20 L 80 80"/>
-                                <path id="pathB" d="M 30 50 L 70 50"/>
-                                <path id="pathC" d="M 70 60 L 30 60 C 10 60 10 20 40 15 A 40 38 0 1 1 20 80 L 80 20"/>
-                            </svg>
-                            <button id="toggle">
-                            </button>
-                        </div>
+                        <!-- <div id="woho">
+                         <svg id="toggle-svg"  width="80px" height="80px">
+                           <path id="pathA" d="M 30 40 L 70 40 C 90 40 90 75 60 85 A 40 40 0 0 1 20 20 L 80 80"/>
+                           <path id="pathB" d="M 30 50 L 70 50"/>
+                           <path id="pathC" d="M 70 60 L 30 60 C 10 60 10 20 40 15 A 40 38 0 1 1 20 80 L 80 20"/>
+                         </svg>
+                         <button id="toggle">
+                         </button>
+                       </div> -->
+                        <button id="woho" type="button" class="navbar-toggle" data-toggle=" collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                         <div class="mob-nav">
                             <div class="logo">
                                 <img src="img/logo_1.png" alt="">
