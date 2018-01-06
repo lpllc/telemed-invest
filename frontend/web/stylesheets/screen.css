@@ -658,7 +658,7 @@ body .docSmart {
   display: inline-block;
   margin-bottom: 10px;
   position: absolute;
-  top: 7px;
+  top: 14px;
   right: 0;
 }
 /* line 123, ../sass/screen.scss */
@@ -681,8 +681,8 @@ body .docSmart {
 .head .overlay .select-lang-mob {
   background-color: #fff;
   font-size: 20px;
-  width: 42px;
   margin: 0 auto;
+  text-align: center;
   margin-bottom: 20px;
   position: absolute;
   right: 15px;
@@ -698,8 +698,8 @@ body .docSmart {
 /* line 151, ../sass/screen.scss */
 .head .overlay .select-lang-mob li a {
   display: inline-block;
-  padding: 5px;
   color: #73d0d5;
+  padding: 7px;
 }
 /* line 159, ../sass/screen.scss */
 .head .mob_burger {
@@ -763,7 +763,7 @@ body .docSmart {
 .head .mob-nav .menu-soc {
   display: flex;
   position: fixed;
-  bottom: 60px;
+  bottom: 20px;
   left: 17%;
   width: 65%;
   margin: 0 auto;
@@ -771,12 +771,12 @@ body .docSmart {
 }
 /* line 215, ../sass/screen.scss */
 .head .mob-nav .menu-soc i {
-  padding: 16px 10px;
+  padding: 11px 9px;
   background-color: #77d1da;
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   color: #fff;
-  font-size: 25px;
+  font-size: 23px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   margin-bottom: 0;
@@ -784,8 +784,8 @@ body .docSmart {
 /* line 228, ../sass/screen.scss */
 .head .mob-nav.active {
   visibility: visible;
-  -webkit-animation: fadein_menu .5s;
-  animation: fadein_menu .5s;
+  -webkit-animation: fadein_menu 0s;
+  animation: fadein_menu 0s;
 }
 @-webkit-keyframes fadein_menu {
   from {
@@ -882,7 +882,7 @@ body .docSmart {
   font-weight: 100;
   margin-left: 322px;
   position: relative;
-  top: -3px;
+  top: -15px;
 }
 /* line 300, ../sass/screen.scss */
 .head nav .lang img, .head .scroll_hidden .lang img {
@@ -892,13 +892,16 @@ body .docSmart {
 /* line 304, ../sass/screen.scss */
 .head nav .lang i, .head .scroll_hidden .lang i {
   margin-left: 15px;
+  position: relative;
+  top: 10px;
+  left: -10px;
   color: #73d0d5;
 }
-/* line 308, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 .head nav .lang i.active, .head .scroll_hidden .lang i.active {
   transform: rotate(180deg);
 }
-/* line 312, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 .head nav .select-lang, .head .scroll_hidden .select-lang {
   position: absolute;
   top: 55px;
@@ -908,13 +911,13 @@ body .docSmart {
   -moz-box-shadow: 0px 6px 8px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 6px 8px -1px rgba(0, 0, 0, 0.75);
 }
-/* line 320, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 .head nav .select-lang li, .head .scroll_hidden .select-lang li {
   padding-bottom: 10px;
   padding-top: 10px;
-  padding: 0px 15px;
+  padding: 0px 5px;
 }
-/* line 324, ../sass/screen.scss */
+/* line 327, ../sass/screen.scss */
 .head nav .select-lang li a, .head .scroll_hidden .select-lang li a {
   text-decoration: none;
   color: #505050;
@@ -923,11 +926,11 @@ body .docSmart {
   padding: 10px;
   display: inline-block;
 }
-/* line 332, ../sass/screen.scss */
+/* line 335, ../sass/screen.scss */
 .head nav .select-lang li:hover, .head .scroll_hidden .select-lang li:hover {
   background-color: #73d0d5;
 }
-/* line 338, ../sass/screen.scss */
+/* line 341, ../sass/screen.scss */
 .head .scroll_hidden {
   display: none;
   position: fixed;
@@ -943,7 +946,7 @@ body .docSmart {
   margin-top: -1px;
   height: 60px;
 }
-/* line 352, ../sass/screen.scss */
+/* line 355, ../sass/screen.scss */
 .head .scroll_hidden .scroll_menu {
   display: -webkit-flex;
   display: -webkit-box;
@@ -952,16 +955,16 @@ body .docSmart {
   display: -ms-flexbox;
   display: flex;
 }
-/* line 360, ../sass/screen.scss */
+/* line 363, ../sass/screen.scss */
 .head .scroll_hidden .lang {
   line-height: 65px;
 }
-/* line 363, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
 .head .scroll_hidden .select-lang {
   right: 400px;
   top: 60px;
 }
-/* line 368, ../sass/screen.scss */
+/* line 371, ../sass/screen.scss */
 .head .logo {
   margin: 0;
   position: relative;
@@ -971,15 +974,15 @@ body .docSmart {
   width: 302px;
   height: 90px;
 }
-/* line 376, ../sass/screen.scss */
+/* line 379, ../sass/screen.scss */
 .head .logo img {
   width: 100%;
 }
-/* line 380, ../sass/screen.scss */
+/* line 383, ../sass/screen.scss */
 .head .mid-row {
   margin-bottom: 113px;
 }
-/* line 382, ../sass/screen.scss */
+/* line 385, ../sass/screen.scss */
 .head .mid-row p {
   font-size: 22px;
   color: #777777;
@@ -990,32 +993,32 @@ body .docSmart {
   top: 2px;
   line-height: 22px;
 }
-/* line 391, ../sass/screen.scss */
+/* line 394, ../sass/screen.scss */
 .head .mid-row p span {
   font-weight: normal;
 }
-/* line 396, ../sass/screen.scss */
+/* line 399, ../sass/screen.scss */
 .head .mid-row-eng {
   padding-bottom: 0px;
   margin-bottom: 150px;
 }
-/* line 399, ../sass/screen.scss */
+/* line 402, ../sass/screen.scss */
 .head .mid-row-eng p {
   padding-bottom: 10px;
 }
 
-/* line 404, ../sass/screen.scss */
+/* line 407, ../sass/screen.scss */
 .obzor {
   background-color: #f1f1f1;
   text-align: center;
 }
-/* line 407, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 .obzor .left-col {
   padding-top: 35px;
   text-align: center;
   padding-bottom: 88px;
 }
-/* line 411, ../sass/screen.scss */
+/* line 414, ../sass/screen.scss */
 .obzor .left-col span {
   display: inline-block;
   font-size: 20px;
@@ -1026,7 +1029,7 @@ body .docSmart {
   left: -112px;
   top: 11px;
 }
-/* line 422, ../sass/screen.scss */
+/* line 425, ../sass/screen.scss */
 .obzor h4 {
   text-align: center;
   font-size: 32px;
@@ -1039,7 +1042,7 @@ body .docSmart {
   letter-spacing: -0.1px;
   text-transform: uppercase;
 }
-/* line 434, ../sass/screen.scss */
+/* line 437, ../sass/screen.scss */
 .obzor p {
   font-size: 22px;
   font-weight: 100;
@@ -1050,7 +1053,7 @@ body .docSmart {
   position: initial;
   left: -50px;
 }
-/* line 444, ../sass/screen.scss */
+/* line 447, ../sass/screen.scss */
 .obzor span {
   display: inline-block;
   font-size: 20px;
@@ -1058,16 +1061,16 @@ body .docSmart {
   padding-top: 5px;
   color: #777;
 }
-/* line 451, ../sass/screen.scss */
+/* line 454, ../sass/screen.scss */
 .obzor .grandview {
   padding-top: 0px;
   margin-bottom: 30px;
 }
-/* line 455, ../sass/screen.scss */
+/* line 458, ../sass/screen.scss */
 .obzor .grandview_eng {
   padding-top: 31px;
 }
-/* line 458, ../sass/screen.scss */
+/* line 461, ../sass/screen.scss */
 .obzor .ist-world-bank {
   display: inline-block;
   font-size: 20px;
@@ -1077,55 +1080,55 @@ body .docSmart {
   position: relative;
   right: 68px;
 }
-/* line 467, ../sass/screen.scss */
+/* line 470, ../sass/screen.scss */
 .obzor .usd-val {
   margin-bottom: 40px;
   position: relative;
   left: -30px;
   top: 31px;
 }
-/* line 473, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 .obzor .img-responsive {
   position: relative;
   left: -38px;
   top: 10px;
 }
-/* line 478, ../sass/screen.scss */
+/* line 481, ../sass/screen.scss */
 .obzor .diagram-block {
   position: relative;
 }
-/* line 480, ../sass/screen.scss */
+/* line 483, ../sass/screen.scss */
 .obzor .diagram-block img {
   width: 80%;
 }
-/* line 483, ../sass/screen.scss */
+/* line 486, ../sass/screen.scss */
 .obzor .diagram-block .main {
   text-align: center;
 }
-/* line 486, ../sass/screen.scss */
+/* line 489, ../sass/screen.scss */
 .obzor .diagram-block .number {
   position: absolute;
   top: 50px;
   right: 260px;
 }
-/* line 490, ../sass/screen.scss */
+/* line 493, ../sass/screen.scss */
 .obzor .diagram-block .number .num {
   font-size: 22px;
   color: #fff;
   font-weight: bold;
   position: absolute;
 }
-/* line 496, ../sass/screen.scss */
+/* line 499, ../sass/screen.scss */
 .obzor .diagram-block .number .num2 {
   bottom: -350px;
   right: 0;
 }
-/* line 501, ../sass/screen.scss */
+/* line 504, ../sass/screen.scss */
 .obzor .diagram-block .center {
   position: absolute;
   top: 0;
 }
-/* line 504, ../sass/screen.scss */
+/* line 507, ../sass/screen.scss */
 .obzor .diagram-block .center p {
   position: absolute;
   top: 160px;
@@ -1134,19 +1137,19 @@ body .docSmart {
   text-align: center;
   font-size: 19px;
 }
-/* line 514, ../sass/screen.scss */
+/* line 517, ../sass/screen.scss */
 .obzor .diagram-block-right {
   text-align: left;
 }
-/* line 516, ../sass/screen.scss */
+/* line 519, ../sass/screen.scss */
 .obzor .diagram-block-right p {
   padding-top: 35px;
 }
-/* line 518, ../sass/screen.scss */
+/* line 521, ../sass/screen.scss */
 .obzor .diagram-block-right p span {
   font-weight: bold;
 }
-/* line 522, ../sass/screen.scss */
+/* line 525, ../sass/screen.scss */
 .obzor .diagram-block-right .line {
   border-bottom: 2px dashed #73d0d5;
   position: absolute;
@@ -1156,31 +1159,31 @@ body .docSmart {
   height: 1px;
   width: 25%;
 }
-/* line 532, ../sass/screen.scss */
+/* line 535, ../sass/screen.scss */
 .obzor .diagram-block-right .line2 {
   top: 360px;
   left: -120px;
   width: 35%;
 }
-/* line 537, ../sass/screen.scss */
+/* line 540, ../sass/screen.scss */
 .obzor .diagram-block-right .list {
   margin-bottom: 135px;
 }
-/* line 539, ../sass/screen.scss */
+/* line 542, ../sass/screen.scss */
 .obzor .diagram-block-right .list li {
   color: #777;
 }
-/* line 543, ../sass/screen.scss */
+/* line 546, ../sass/screen.scss */
 .obzor .diagram-block-right .potencial {
   margin-left: 100px;
   margin-top: 160px;
 }
-/* line 547, ../sass/screen.scss */
+/* line 550, ../sass/screen.scss */
 .obzor .diagram-block-right .potencial-eng {
   margin-top: 150px;
 }
 
-/* line 552, ../sass/screen.scss */
+/* line 555, ../sass/screen.scss */
 .work {
   background-image: url(../img/work-bg2.jpg);
   background-repeat: no-repeat;
@@ -1188,12 +1191,12 @@ body .docSmart {
   text-align: center;
   color: #fff;
 }
-/* line 558, ../sass/screen.scss */
+/* line 561, ../sass/screen.scss */
 .work .overlay1 {
   background-color: rgba(47, 144, 141, 0.9);
   background-size: cover;
 }
-/* line 562, ../sass/screen.scss */
+/* line 565, ../sass/screen.scss */
 .work h3 {
   font-size: 32px;
   font-weight: 100;
@@ -1203,18 +1206,18 @@ body .docSmart {
   left: -8px;
   text-transform: uppercase;
 }
-/* line 571, ../sass/screen.scss */
+/* line 574, ../sass/screen.scss */
 .work p {
   font-size: 22px;
   font-weight: 100;
   line-height: 26px;
   padding-bottom: 34px;
 }
-/* line 577, ../sass/screen.scss */
+/* line 580, ../sass/screen.scss */
 .work .hover_section {
   cursor: pointer;
 }
-/* line 579, ../sass/screen.scss */
+/* line 582, ../sass/screen.scss */
 .work .hover_section .desc {
   display: none;
   position: absolute;
@@ -1226,41 +1229,41 @@ body .docSmart {
   width: 100%;
   height: 100%;
 }
-/* line 589, ../sass/screen.scss */
+/* line 592, ../sass/screen.scss */
 .work .hover_section .desc h5 {
   font-weight: 500;
   padding-top: 90px;
   padding-bottom: 30px;
 }
-/* line 594, ../sass/screen.scss */
+/* line 597, ../sass/screen.scss */
 .work .hover_section .desc span {
   display: inline-block;
   font-weight: 100;
   line-height: 25px;
   padding: 10px;
 }
-/* line 602, ../sass/screen.scss */
+/* line 605, ../sass/screen.scss */
 .work .hover_section:hover .desc {
   display: block;
 }
-/* line 607, ../sass/screen.scss */
+/* line 610, ../sass/screen.scss */
 .work .box {
   position: relative;
   left: -9px;
   top: -8px;
 }
-/* line 611, ../sass/screen.scss */
+/* line 614, ../sass/screen.scss */
 .work .box p {
   padding-bottom: 137px;
   margin-top: 45px;
 }
 
-/* line 617, ../sass/screen.scss */
+/* line 620, ../sass/screen.scss */
 .garant {
   text-align: center;
   background-color: #fff;
 }
-/* line 620, ../sass/screen.scss */
+/* line 623, ../sass/screen.scss */
 .garant h3 {
   font-size: 32px;
   color: #777777;
@@ -1272,7 +1275,7 @@ body .docSmart {
   text-transform: uppercase;
   top: 1px;
 }
-/* line 631, ../sass/screen.scss */
+/* line 634, ../sass/screen.scss */
 .garant p {
   font-weight: 100;
   padding-bottom: 26px;
@@ -1283,7 +1286,7 @@ body .docSmart {
   position: relative;
   left: -52px;
 }
-/* line 641, ../sass/screen.scss */
+/* line 644, ../sass/screen.scss */
 .garant .sert {
   font-weight: 100;
   text-align: center;
@@ -1294,11 +1297,11 @@ body .docSmart {
   top: 65px;
   margin-bottom: 128px;
 }
-/* line 650, ../sass/screen.scss */
+/* line 653, ../sass/screen.scss */
 .garant .sert img {
   margin-left: 0px;
 }
-/* line 654, ../sass/screen.scss */
+/* line 657, ../sass/screen.scss */
 .garant p.serts_head {
   text-align: center;
   position: relative;
@@ -1308,11 +1311,11 @@ body .docSmart {
   font-weight: 400;
 }
 
-/* line 663, ../sass/screen.scss */
+/* line 666, ../sass/screen.scss */
 .plan {
   padding-bottom: 40px;
 }
-/* line 665, ../sass/screen.scss */
+/* line 668, ../sass/screen.scss */
 .plan h3 {
   text-align: center;
   font-size: 32px;
@@ -1321,12 +1324,12 @@ body .docSmart {
   font-weight: 300;
   text-transform: uppercase;
 }
-/* line 674, ../sass/screen.scss */
+/* line 677, ../sass/screen.scss */
 .plan .map img {
   width: 100%;
 }
 
-/* line 679, ../sass/screen.scss */
+/* line 682, ../sass/screen.scss */
 .service {
   background-image: url(../img/serv-bg3.png);
   background-repeat: no-repeat;
@@ -1335,11 +1338,11 @@ body .docSmart {
   text-align: center;
   color: #fff;
 }
-/* line 686, ../sass/screen.scss */
+/* line 689, ../sass/screen.scss */
 .service .overlay1 {
   background-color: rgba(47, 144, 141, 0.9);
 }
-/* line 689, ../sass/screen.scss */
+/* line 692, ../sass/screen.scss */
 .service h3 {
   font-size: 32px;
   font-weight: 100;
@@ -1349,7 +1352,7 @@ body .docSmart {
   padding-bottom: 33px;
   text-transform: uppercase;
 }
-/* line 698, ../sass/screen.scss */
+/* line 701, ../sass/screen.scss */
 .service p {
   font-size: 22px;
   font-weight: 100;
@@ -1358,11 +1361,11 @@ body .docSmart {
   position: relative;
   left: -7px;
 }
-/* line 706, ../sass/screen.scss */
+/* line 709, ../sass/screen.scss */
 .service .hover_section {
   cursor: pointer;
 }
-/* line 708, ../sass/screen.scss */
+/* line 711, ../sass/screen.scss */
 .service .hover_section .desc {
   display: none;
   position: absolute;
@@ -1374,64 +1377,64 @@ body .docSmart {
   width: 100%;
   height: 100%;
 }
-/* line 718, ../sass/screen.scss */
+/* line 721, ../sass/screen.scss */
 .service .hover_section .desc span {
   display: inline-block;
   font-weight: 100;
   line-height: 25px;
   padding: 35px 10px 30px;
 }
-/* line 724, ../sass/screen.scss */
+/* line 727, ../sass/screen.scss */
 .service .hover_section .desc .check_system {
   padding-bottom: 90px;
 }
-/* line 727, ../sass/screen.scss */
+/* line 730, ../sass/screen.scss */
 .service .hover_section .desc .control_system {
   padding-bottom: 76px;
 }
-/* line 730, ../sass/screen.scss */
+/* line 733, ../sass/screen.scss */
 .service .hover_section .desc .service_first_prop {
   padding-bottom: 60px;
   padding-top: 40px;
 }
-/* line 734, ../sass/screen.scss */
+/* line 737, ../sass/screen.scss */
 .service .hover_section .desc .service_last_prop {
   padding-bottom: 20px;
   padding-top: 25px;
 }
-/* line 740, ../sass/screen.scss */
+/* line 743, ../sass/screen.scss */
 .service .hover_section:hover .desc {
   display: block;
 }
-/* line 746, ../sass/screen.scss */
+/* line 749, ../sass/screen.scss */
 .service .box p {
   font-weight: 100;
   padding-bottom: 52px;
   margin-top: 39px;
 }
-/* line 753, ../sass/screen.scss */
+/* line 756, ../sass/screen.scss */
 .service .first_box {
   position: relative;
   left: -17px;
   padding-bottom: 52px;
 }
-/* line 758, ../sass/screen.scss */
+/* line 761, ../sass/screen.scss */
 .service .last_box {
   padding-bottom: 52px;
 }
-/* line 761, ../sass/screen.scss */
+/* line 764, ../sass/screen.scss */
 .service .first_box_en,
 .service .third_box_en,
 .service .last_box_en {
   padding-bottom: 26px;
 }
 
-/* line 767, ../sass/screen.scss */
+/* line 770, ../sass/screen.scss */
 .proect_creator {
   background-color: #73d0d5;
   text-align: center;
 }
-/* line 770, ../sass/screen.scss */
+/* line 773, ../sass/screen.scss */
 .proect_creator .round1, .proect_creator .round2 {
   background-image: url(../img/creator.jpg);
   background-repeat: no-repeat;
@@ -1446,7 +1449,7 @@ body .docSmart {
   left: 0px;
   top: 0px;
 }
-/* line 784, ../sass/screen.scss */
+/* line 787, ../sass/screen.scss */
 .proect_creator .round2 {
   background-image: url(../img/creator2.jpg);
   background-position: 0px -18px;
@@ -1455,7 +1458,7 @@ body .docSmart {
   left: -48px;
   top: 0px;
 }
-/* line 792, ../sass/screen.scss */
+/* line 795, ../sass/screen.scss */
 .proect_creator h3 {
   padding-top: 50px;
   margin-left: 0px;
@@ -1465,7 +1468,7 @@ body .docSmart {
   font-weight: 100;
   text-transform: uppercase;
 }
-/* line 802, ../sass/screen.scss */
+/* line 805, ../sass/screen.scss */
 .proect_creator .hover_section .desc {
   display: none;
   position: absolute;
@@ -1475,37 +1478,37 @@ body .docSmart {
   top: 0;
   left: 0;
 }
-/* line 810, ../sass/screen.scss */
+/* line 813, ../sass/screen.scss */
 .proect_creator .hover_section .desc span {
   display: inline-block;
   font-weight: 300;
   line-height: 24px;
   padding: 20px 30px 25px;
 }
-/* line 816, ../sass/screen.scss */
+/* line 819, ../sass/screen.scss */
 .proect_creator .hover_section .desc .right_doc {
   padding-bottom: 120px;
 }
-/* line 819, ../sass/screen.scss */
+/* line 822, ../sass/screen.scss */
 .proect_creator .hover_section .desc h5 {
   font-weight: 500;
   padding-top: 25px;
 }
-/* line 822, ../sass/screen.scss */
+/* line 825, ../sass/screen.scss */
 .proect_creator .hover_section .desc h5 span {
   font-weight: 300;
   padding-top: 10px;
   padding-bottom: 0;
 }
-/* line 830, ../sass/screen.scss */
+/* line 833, ../sass/screen.scss */
 .proect_creator .hover_section:hover .desc {
   display: block;
 }
-/* line 835, ../sass/screen.scss */
+/* line 838, ../sass/screen.scss */
 .proect_creator .box {
   cursor: pointer;
 }
-/* line 837, ../sass/screen.scss */
+/* line 840, ../sass/screen.scss */
 .proect_creator .box p {
   font-size: 22px;
   font-weight: 300;
@@ -1516,21 +1519,21 @@ body .docSmart {
   line-height: 23px;
   padding-bottom: 156px;
 }
-/* line 846, ../sass/screen.scss */
+/* line 849, ../sass/screen.scss */
 .proect_creator .box p span {
   font-weight: 100;
 }
-/* line 852, ../sass/screen.scss */
+/* line 855, ../sass/screen.scss */
 .proect_creator .left-box p {
   left: -45px;
 }
 
-/* line 857, ../sass/screen.scss */
+/* line 860, ../sass/screen.scss */
 .team {
   text-align: center;
   background-color: #f1f1f1;
 }
-/* line 860, ../sass/screen.scss */
+/* line 863, ../sass/screen.scss */
 .team h3 {
   font-size: 32px;
   font-weight: 100;
@@ -1541,7 +1544,7 @@ body .docSmart {
   left: -6px;
   text-transform: uppercase;
 }
-/* line 870, ../sass/screen.scss */
+/* line 873, ../sass/screen.scss */
 .team h4 {
   font-size: 28px;
   font-weight: 100;
@@ -1550,18 +1553,18 @@ body .docSmart {
   position: relative;
   left: -6px;
 }
-/* line 878, ../sass/screen.scss */
+/* line 881, ../sass/screen.scss */
 .team p {
   font-size: 22px;
   color: #505050;
   font-weight: 100;
 }
-/* line 883, ../sass/screen.scss */
+/* line 886, ../sass/screen.scss */
 .team .box {
   padding-bottom: 120px;
   cursor: pointer;
 }
-/* line 886, ../sass/screen.scss */
+/* line 889, ../sass/screen.scss */
 .team .box .desc {
   display: none;
   position: absolute;
@@ -1573,33 +1576,33 @@ body .docSmart {
   width: 100%;
   height: 100%;
 }
-/* line 896, ../sass/screen.scss */
+/* line 899, ../sass/screen.scss */
 .team .box .desc span {
   display: inline-block;
   font-weight: 300;
   line-height: 24px;
   padding: 20px 30px 25px;
 }
-/* line 903, ../sass/screen.scss */
+/* line 906, ../sass/screen.scss */
 .team .box .desc .right_doc {
   padding-bottom: 120px;
 }
-/* line 906, ../sass/screen.scss */
+/* line 909, ../sass/screen.scss */
 .team .box .desc h5 {
   font-weight: 500;
   padding-top: 25px;
 }
-/* line 909, ../sass/screen.scss */
+/* line 912, ../sass/screen.scss */
 .team .box .desc h5 span {
   font-weight: 300;
   padding-top: 10px;
   padding-bottom: 0;
 }
-/* line 917, ../sass/screen.scss */
+/* line 920, ../sass/screen.scss */
 .team .box:hover .desc {
   display: block;
 }
-/* line 923, ../sass/screen.scss */
+/* line 926, ../sass/screen.scss */
 .team .round {
   width: 180px;
   height: 180px;
@@ -1608,13 +1611,13 @@ body .docSmart {
   margin: 0 auto;
   margin-bottom: 25px;
 }
-/* line 931, ../sass/screen.scss */
+/* line 934, ../sass/screen.scss */
 .team .round1 {
   background-image: url(../img/team1.jpg);
   background-position: 0px -25px;
   background-size: cover;
 }
-/* line 936, ../sass/screen.scss */
+/* line 939, ../sass/screen.scss */
 .team .round2 {
   background-image: url(../img/team2.jpg);
   background-position: 0 -25px;
@@ -1622,13 +1625,13 @@ body .docSmart {
   position: relative;
   left: -43px;
 }
-/* line 943, ../sass/screen.scss */
+/* line 946, ../sass/screen.scss */
 .team .round3 {
   background-image: url(../img/team3.jpg);
   background-position: 0 -25px;
   background-size: cover;
 }
-/* line 948, ../sass/screen.scss */
+/* line 951, ../sass/screen.scss */
 .team .round4 {
   background-image: url(../img/team4.jpg);
   background-position: 0 0;
@@ -1636,55 +1639,55 @@ body .docSmart {
   position: relative;
   left: -45px;
 }
-/* line 955, ../sass/screen.scss */
+/* line 958, ../sass/screen.scss */
 .team .round5 {
   background-image: url(../img/team5.jpg);
   background-position: 0 0;
   background-size: cover;
   position: relative;
 }
-/* line 961, ../sass/screen.scss */
+/* line 964, ../sass/screen.scss */
 .team .box1 {
   border-right: 1px solid #fff;
 }
-/* line 966, ../sass/screen.scss */
+/* line 969, ../sass/screen.scss */
 .team .box2 p {
   margin-left: -90px;
 }
-/* line 970, ../sass/screen.scss */
+/* line 973, ../sass/screen.scss */
 .team .box3 {
   border-right: 1px solid #fff;
   padding-top: 65px;
 }
-/* line 974, ../sass/screen.scss */
+/* line 977, ../sass/screen.scss */
 .team .box4 {
   padding-top: 65px;
 }
-/* line 976, ../sass/screen.scss */
+/* line 979, ../sass/screen.scss */
 .team .box4 p {
   margin-left: -94px;
 }
-/* line 980, ../sass/screen.scss */
+/* line 983, ../sass/screen.scss */
 .team .box5 {
   padding-top: 65px;
   border-right: 1px solid #fff;
 }
-/* line 984, ../sass/screen.scss */
+/* line 987, ../sass/screen.scss */
 .team .top-row {
   border-bottom: 1px solid #fff;
 }
-/* line 987, ../sass/screen.scss */
+/* line 990, ../sass/screen.scss */
 .team .bottom-row {
   padding-bottom: 0px;
   border-bottom: 1px solid #fff;
 }
 
-/* line 992, ../sass/screen.scss */
+/* line 995, ../sass/screen.scss */
 .edviser {
   text-align: center;
   background-color: #73d0d5;
 }
-/* line 995, ../sass/screen.scss */
+/* line 998, ../sass/screen.scss */
 .edviser h3 {
   font-size: 32px;
   font-weight: 100;
@@ -1695,7 +1698,7 @@ body .docSmart {
   margin-left: 0px;
   text-transform: uppercase;
 }
-/* line 1005, ../sass/screen.scss */
+/* line 1008, ../sass/screen.scss */
 .edviser h4 {
   font-size: 22px;
   font-weight: 100;
@@ -1704,7 +1707,7 @@ body .docSmart {
   letter-spacing: -0.1px;
   margin-left: 0px;
 }
-/* line 1013, ../sass/screen.scss */
+/* line 1016, ../sass/screen.scss */
 .edviser p {
   color: #fff;
   font-size: 22px;
@@ -1712,7 +1715,7 @@ body .docSmart {
   letter-spacing: 0.1px;
   font-weight: 100;
 }
-/* line 1020, ../sass/screen.scss */
+/* line 1023, ../sass/screen.scss */
 .edviser .round {
   width: 175px;
   height: 175px;
@@ -1723,42 +1726,42 @@ body .docSmart {
   position: relative;
   left: 0px;
 }
-/* line 1030, ../sass/screen.scss */
+/* line 1033, ../sass/screen.scss */
 .edviser .round1 {
   background-image: url(../img/ed1.jpg);
   background-position: 0;
   background-size: cover;
 }
-/* line 1035, ../sass/screen.scss */
+/* line 1038, ../sass/screen.scss */
 .edviser .round2 {
   background-image: url(../img/ed2.jpg);
   background-position: 0 0;
   background-size: cover;
 }
-/* line 1040, ../sass/screen.scss */
+/* line 1043, ../sass/screen.scss */
 .edviser .round3 {
   background-image: url(../img/ed3.jpg);
   background-position: 0 0;
   background-size: cover;
 }
-/* line 1045, ../sass/screen.scss */
+/* line 1048, ../sass/screen.scss */
 .edviser .round4 {
   background-image: url(../img/ed4.jpg);
   background-position: 0 0;
   background-size: cover;
 }
-/* line 1050, ../sass/screen.scss */
+/* line 1053, ../sass/screen.scss */
 .edviser .round5 {
   background-image: url(../img/ed5.jpg);
   background-position: 0 0;
   background-size: cover;
 }
-/* line 1055, ../sass/screen.scss */
+/* line 1058, ../sass/screen.scss */
 .edviser .box {
   cursor: pointer;
   padding-top: 45px;
 }
-/* line 1058, ../sass/screen.scss */
+/* line 1061, ../sass/screen.scss */
 .edviser .box .desc {
   display: none;
   position: absolute;
@@ -1770,84 +1773,84 @@ body .docSmart {
   width: 100%;
   height: 100%;
 }
-/* line 1068, ../sass/screen.scss */
+/* line 1071, ../sass/screen.scss */
 .edviser .box .desc span {
   display: inline-block;
   font-weight: 300;
   line-height: 22px;
   padding: 20px 15px 25px;
 }
-/* line 1074, ../sass/screen.scss */
+/* line 1077, ../sass/screen.scss */
 .edviser .box .desc .right_doc {
   padding-bottom: 120px;
 }
-/* line 1077, ../sass/screen.scss */
+/* line 1080, ../sass/screen.scss */
 .edviser .box .desc h5 {
   font-weight: 500;
   padding-top: 25px;
 }
-/* line 1080, ../sass/screen.scss */
+/* line 1083, ../sass/screen.scss */
 .edviser .box .desc h5 span {
   font-weight: 300;
   padding-top: 10px;
   padding-bottom: 0;
 }
-/* line 1088, ../sass/screen.scss */
+/* line 1091, ../sass/screen.scss */
 .edviser .box:hover .desc {
   display: block;
 }
-/* line 1093, ../sass/screen.scss */
+/* line 1096, ../sass/screen.scss */
 .edviser .box1 {
   border-right: 1px solid #fff;
   padding-bottom: 135px;
 }
-/* line 1097, ../sass/screen.scss */
+/* line 1100, ../sass/screen.scss */
 .edviser .box2 {
   padding-bottom: 135px;
 }
-/* line 1100, ../sass/screen.scss */
+/* line 1103, ../sass/screen.scss */
 .edviser .box2_en {
   padding-bottom: 113px;
 }
-/* line 1103, ../sass/screen.scss */
+/* line 1106, ../sass/screen.scss */
 .edviser .box3 {
   border-right: 1px solid #fff;
   padding-top: 65px;
   padding-bottom: 124px;
 }
-/* line 1108, ../sass/screen.scss */
+/* line 1111, ../sass/screen.scss */
 .edviser .box4 {
   padding-top: 65px;
   padding-bottom: 123px;
 }
-/* line 1112, ../sass/screen.scss */
+/* line 1115, ../sass/screen.scss */
 .edviser .box4_en {
   padding-bottom: 102px;
 }
-/* line 1115, ../sass/screen.scss */
+/* line 1118, ../sass/screen.scss */
 .edviser .box5 {
   border-right: 1px solid #fff;
   padding-bottom: 122px;
   padding-top: 66px;
 }
-/* line 1120, ../sass/screen.scss */
+/* line 1123, ../sass/screen.scss */
 .edviser .en_box_5 {
   padding-bottom: 101px;
 }
-/* line 1123, ../sass/screen.scss */
+/* line 1126, ../sass/screen.scss */
 .edviser .top-row {
   border-bottom: 1px solid #fff;
 }
-/* line 1127, ../sass/screen.scss */
+/* line 1130, ../sass/screen.scss */
 .edviser .bottom-row_2 {
   border-top: 1px solid #fff;
 }
 
-/* line 1131, ../sass/screen.scss */
+/* line 1134, ../sass/screen.scss */
 .welcome {
   background-color: #fff;
 }
-/* line 1133, ../sass/screen.scss */
+/* line 1136, ../sass/screen.scss */
 .welcome h4 {
   font-weight: 100;
   font-size: 32px;
@@ -1857,7 +1860,7 @@ body .docSmart {
   letter-spacing: -0.3px;
   text-transform: uppercase;
 }
-/* line 1142, ../sass/screen.scss */
+/* line 1145, ../sass/screen.scss */
 .welcome p {
   z-index: 1;
   position: relative;
@@ -1867,19 +1870,19 @@ body .docSmart {
   line-height: 25px;
   margin-bottom: 16px;
 }
-/* line 1151, ../sass/screen.scss */
+/* line 1154, ../sass/screen.scss */
 .welcome .mid-p {
   font-weight: normal;
   margin-left: 20px;
 }
-/* line 1155, ../sass/screen.scss */
+/* line 1158, ../sass/screen.scss */
 .welcome .right-box {
   margin-top: 39px;
   text-align: center;
   position: relative;
   left: -21px;
 }
-/* line 1160, ../sass/screen.scss */
+/* line 1163, ../sass/screen.scss */
 .welcome .right-box .send {
   padding: 11px 49px;
   font-size: 28px;
@@ -1890,24 +1893,24 @@ body .docSmart {
   bottom: 37px;
   right: 145px;
 }
-/* line 1169, ../sass/screen.scss */
+/* line 1172, ../sass/screen.scss */
 .welcome .right-box .send:hover {
   background-color: #2670b1;
   transition: .2s ease all;
 }
-/* line 1175, ../sass/screen.scss */
+/* line 1178, ../sass/screen.scss */
 .welcome .left-box {
   position: relative;
   left: 51px;
 }
 
-/* line 1180, ../sass/screen.scss */
+/* line 1183, ../sass/screen.scss */
 .footer {
   text-align: center;
   background-color: #73d0d5;
   padding-bottom: 50px;
 }
-/* line 1184, ../sass/screen.scss */
+/* line 1187, ../sass/screen.scss */
 .footer h4 {
   font-size: 32px;
   color: #fff;
@@ -1916,14 +1919,14 @@ body .docSmart {
   padding-bottom: 55px;
   text-transform: uppercase;
 }
-/* line 1192, ../sass/screen.scss */
+/* line 1195, ../sass/screen.scss */
 .footer span {
   font-size: 22px;
   font-weight: 300;
   color: #fff;
   padding-bottom: 0px;
 }
-/* line 1198, ../sass/screen.scss */
+/* line 1201, ../sass/screen.scss */
 .footer img {
   width: 60px;
   height: 60px;
@@ -1931,38 +1934,38 @@ body .docSmart {
   border-radius: 50%;
   margin-bottom: 10px;
 }
-/* line 1205, ../sass/screen.scss */
+/* line 1208, ../sass/screen.scss */
 .footer p {
   color: #fff;
   margin-bottom: 10px;
   font-size: 17px;
 }
-/* line 1209, ../sass/screen.scss */
+/* line 1212, ../sass/screen.scss */
 .footer p a {
   color: #fff;
   font-weight: bold;
 }
-/* line 1215, ../sass/screen.scss */
+/* line 1218, ../sass/screen.scss */
 .footer .contacts li {
   float: left;
   margin-right: 0px;
   color: #fff;
 }
-/* line 1219, ../sass/screen.scss */
+/* line 1222, ../sass/screen.scss */
 .footer .contacts li a {
   text-decoration: none;
   color: #fff;
 }
-/* line 1226, ../sass/screen.scss */
+/* line 1229, ../sass/screen.scss */
 .footer .social_icons li {
   float: left;
   margin-right: 40px;
 }
-/* line 1229, ../sass/screen.scss */
+/* line 1232, ../sass/screen.scss */
 .footer .social_icons li a {
   text-decoration: none;
 }
-/* line 1234, ../sass/screen.scss */
+/* line 1237, ../sass/screen.scss */
 .footer .copyright {
   position: relative;
   bottom: -20px;
@@ -1971,193 +1974,193 @@ body .docSmart {
 }
 
 @media (min-width: 1922px) and (max-width: 2560px) {
-  /* line 1244, ../sass/screen.scss */
+  /* line 1247, ../sass/screen.scss */
   .head .overlay {
     background-size: cover;
   }
-  /* line 1247, ../sass/screen.scss */
+  /* line 1250, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 214px;
   }
-  /* line 1251, ../sass/screen.scss */
+  /* line 1254, ../sass/screen.scss */
   .head .scroll_hidden .select-lang {
     right: 715px;
   }
 }
 @media (min-width: 1920px) and (max-width: 1921px) {
-  /* line 1259, ../sass/screen.scss */
+  /* line 1262, ../sass/screen.scss */
   .head .overlay {
     background-size: cover;
   }
 }
 @media (min-width: 1600px) and (max-width: 1919px) {
-  /* line 1267, ../sass/screen.scss */
+  /* line 1270, ../sass/screen.scss */
   .head .scroll_hidden .select-lang {
     right: 240px;
     top: 59px;
   }
 
-  /* line 1276, ../sass/screen.scss */
+  /* line 1279, ../sass/screen.scss */
   .edviser .box .desc span {
     line-height: 22px;
     padding: 20px 15px 25px;
   }
 }
 @media (min-width: 1440px) and (max-width: 1599px) {
-  /* line 1287, ../sass/screen.scss */
+  /* line 1290, ../sass/screen.scss */
   .head .scroll_hidden .select-lang {
     right: 160px;
     top: 59px;
   }
-  /* line 1292, ../sass/screen.scss */
+  /* line 1295, ../sass/screen.scss */
   .head .overlay {
     background-position: -240px 58px;
   }
 
-  /* line 1301, ../sass/screen.scss */
+  /* line 1304, ../sass/screen.scss */
   .service {
     background-position: 0 -359px;
   }
 
-  /* line 1305, ../sass/screen.scss */
+  /* line 1308, ../sass/screen.scss */
   .proect_creator .round2 {
     left: 0;
   }
-  /* line 1309, ../sass/screen.scss */
+  /* line 1312, ../sass/screen.scss */
   .proect_creator .left-box p {
     left: 0;
   }
 
-  /* line 1316, ../sass/screen.scss */
+  /* line 1319, ../sass/screen.scss */
   .team .box2 p {
     margin-left: 0;
   }
-  /* line 1319, ../sass/screen.scss */
+  /* line 1322, ../sass/screen.scss */
   .team .box2 .round2 {
     left: 0;
   }
-  /* line 1324, ../sass/screen.scss */
+  /* line 1327, ../sass/screen.scss */
   .team .box4 .round4 {
     left: 0;
   }
-  /* line 1327, ../sass/screen.scss */
+  /* line 1330, ../sass/screen.scss */
   .team .box4 p {
     margin-left: 0;
   }
 
-  /* line 1333, ../sass/screen.scss */
+  /* line 1336, ../sass/screen.scss */
   .edviser .box5 {
     padding-bottom: 123px;
     padding-top: 65px;
   }
-  /* line 1337, ../sass/screen.scss */
+  /* line 1340, ../sass/screen.scss */
   .edviser .box4_en {
     padding-top: 65px;
     padding-bottom: 102px;
   }
-  /* line 1341, ../sass/screen.scss */
+  /* line 1344, ../sass/screen.scss */
   .edviser .en_box_5 {
     padding-bottom: 102px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1439px) {
-  /* line 1349, ../sass/screen.scss */
+  /* line 1352, ../sass/screen.scss */
   .head .scroll_hidden .select-lang {
     right: 125px;
     top: 59px;
   }
-  /* line 1354, ../sass/screen.scss */
+  /* line 1357, ../sass/screen.scss */
   .head .overlay {
     background-position: -240px 58px;
   }
 
-  /* line 1366, ../sass/screen.scss */
+  /* line 1369, ../sass/screen.scss */
   .work .hover_section .desc h5 {
     padding-top: 40px;
   }
 
-  /* line 1372, ../sass/screen.scss */
+  /* line 1375, ../sass/screen.scss */
   .service {
     background-position: 0 -320px;
   }
 
-  /* line 1376, ../sass/screen.scss */
+  /* line 1379, ../sass/screen.scss */
   .proect_creator .box {
     left: 25px;
     position: relative;
   }
 
-  /* line 1382, ../sass/screen.scss */
+  /* line 1385, ../sass/screen.scss */
   .team .bottom-row {
     padding-bottom: 0px;
   }
 
-  /* line 1387, ../sass/screen.scss */
+  /* line 1390, ../sass/screen.scss */
   .edviser .round {
     left: 0;
   }
-  /* line 1390, ../sass/screen.scss */
+  /* line 1393, ../sass/screen.scss */
   .edviser p {
     margin-left: 0;
   }
-  /* line 1393, ../sass/screen.scss */
+  /* line 1396, ../sass/screen.scss */
   .edviser .box4 {
     padding-bottom: 124px;
   }
-  /* line 1396, ../sass/screen.scss */
+  /* line 1399, ../sass/screen.scss */
   .edviser .box4_en {
     padding-top: 69px;
     padding-bottom: 120px;
   }
-  /* line 1400, ../sass/screen.scss */
+  /* line 1403, ../sass/screen.scss */
   .edviser .box5 {
     padding-bottom: 119px;
     padding-top: 70px;
   }
 }
 @media (min-width: 1199px) and (max-width: 1365px) {
-  /* line 1408, ../sass/screen.scss */
+  /* line 1411, ../sass/screen.scss */
   .head .overlay {
     background-position: -310px 58px;
   }
-  /* line 1412, ../sass/screen.scss */
+  /* line 1415, ../sass/screen.scss */
   .head nav .menu {
     left: 0;
   }
-  /* line 1416, ../sass/screen.scss */
+  /* line 1419, ../sass/screen.scss */
   .head .logo {
     left: 0;
   }
-  /* line 1420, ../sass/screen.scss */
+  /* line 1423, ../sass/screen.scss */
   .head .mid-row p {
     left: 0;
     font-size: 20px;
   }
-  /* line 1425, ../sass/screen.scss */
+  /* line 1428, ../sass/screen.scss */
   .head .mid-row-eng {
     margin-bottom: 170px;
   }
-  /* line 1429, ../sass/screen.scss */
+  /* line 1432, ../sass/screen.scss */
   .head .scroll_hidden .select-lang {
     right: 100px;
     top: 59px;
   }
 
-  /* line 1436, ../sass/screen.scss */
+  /* line 1439, ../sass/screen.scss */
   .obzor p {
     font-size: 20px;
   }
-  /* line 1440, ../sass/screen.scss */
+  /* line 1443, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 48px;
     right: 260px;
   }
-  /* line 1443, ../sass/screen.scss */
+  /* line 1446, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -350px;
     right: 20px;
   }
-  /* line 1449, ../sass/screen.scss */
+  /* line 1452, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 183px;
@@ -2167,47 +2170,47 @@ body .docSmart {
     font-size: 14px;
     line-height: 22px;
   }
-  /* line 1461, ../sass/screen.scss */
+  /* line 1464, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 160px;
   }
-  /* line 1464, ../sass/screen.scss */
+  /* line 1467, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     top: 360px;
   }
-  /* line 1467, ../sass/screen.scss */
+  /* line 1470, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-top: 170px;
   }
-  /* line 1470, ../sass/screen.scss */
+  /* line 1473, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial-eng {
     margin-top: 170px;
   }
 
-  /* line 1476, ../sass/screen.scss */
+  /* line 1479, ../sass/screen.scss */
   .work h3 {
     padding-top: 40px;
   }
-  /* line 1479, ../sass/screen.scss */
+  /* line 1482, ../sass/screen.scss */
   .work p {
     font-size: 20px;
     padding-bottom: 50px;
   }
-  /* line 1484, ../sass/screen.scss */
+  /* line 1487, ../sass/screen.scss */
   .work .box p {
     padding-bottom: 100px;
     margin-top: 20px;
   }
-  /* line 1491, ../sass/screen.scss */
+  /* line 1494, ../sass/screen.scss */
   .work .hover_section .desc h5 {
     padding-top: 40px;
   }
 
-  /* line 1498, ../sass/screen.scss */
+  /* line 1501, ../sass/screen.scss */
   .garant h3 {
     left: 0;
   }
-  /* line 1501, ../sass/screen.scss */
+  /* line 1504, ../sass/screen.scss */
   .garant p {
     left: 0;
     text-align: center;
@@ -2215,239 +2218,239 @@ body .docSmart {
     line-height: 24px;
     font-size: 20px;
   }
-  /* line 1508, ../sass/screen.scss */
+  /* line 1511, ../sass/screen.scss */
   .garant p.serts_head {
     left: 0;
   }
-  /* line 1511, ../sass/screen.scss */
+  /* line 1514, ../sass/screen.scss */
   .garant .sert {
     left: 0;
   }
-  /* line 1513, ../sass/screen.scss */
+  /* line 1516, ../sass/screen.scss */
   .garant .sert img {
     margin-left: 0;
   }
 
-  /* line 1518, ../sass/screen.scss */
+  /* line 1521, ../sass/screen.scss */
   .service {
     background-position: 0 0;
   }
-  /* line 1520, ../sass/screen.scss */
+  /* line 1523, ../sass/screen.scss */
   .service p {
     font-size: 20px;
   }
-  /* line 1523, ../sass/screen.scss */
+  /* line 1526, ../sass/screen.scss */
   .service .overlay1 {
     background-position: 0;
   }
-  /* line 1528, ../sass/screen.scss */
+  /* line 1531, ../sass/screen.scss */
   .service .box .desc span {
     line-height: 20px;
     padding: 35px 20px 40px;
     font-size: 18px;
   }
 
-  /* line 1537, ../sass/screen.scss */
+  /* line 1540, ../sass/screen.scss */
   .proect_creator .box {
     position: relative;
     left: 25px;
   }
-  /* line 1541, ../sass/screen.scss */
+  /* line 1544, ../sass/screen.scss */
   .proect_creator .box .desc span {
     line-height: 21px;
     padding: 20px 30px 21px;
     font-size: 18px;
   }
-  /* line 1546, ../sass/screen.scss */
+  /* line 1549, ../sass/screen.scss */
   .proect_creator .box .desc .right_doc {
     padding-bottom: 105px;
   }
 
-  /* line 1553, ../sass/screen.scss */
+  /* line 1556, ../sass/screen.scss */
   .team h3 {
     font-size: 30px;
   }
-  /* line 1556, ../sass/screen.scss */
+  /* line 1559, ../sass/screen.scss */
   .team h4 {
     font-size: 24px;
   }
-  /* line 1560, ../sass/screen.scss */
+  /* line 1563, ../sass/screen.scss */
   .team .box span {
     padding: 15px 40px;
     font-size: 15px;
     line-height: 20px;
   }
-  /* line 1565, ../sass/screen.scss */
+  /* line 1568, ../sass/screen.scss */
   .team .box .desc {
     left: -16px;
   }
-  /* line 1569, ../sass/screen.scss */
+  /* line 1572, ../sass/screen.scss */
   .team .box1 {
     padding-bottom: 120px;
   }
-  /* line 1572, ../sass/screen.scss */
+  /* line 1575, ../sass/screen.scss */
   .team .bottom-row {
     padding-bottom: 0;
   }
-  /* line 1575, ../sass/screen.scss */
+  /* line 1578, ../sass/screen.scss */
   .team p {
     font-size: 18px;
   }
-  /* line 1579, ../sass/screen.scss */
+  /* line 1582, ../sass/screen.scss */
   .team .box2 .round2 {
     left: 0;
   }
-  /* line 1582, ../sass/screen.scss */
+  /* line 1585, ../sass/screen.scss */
   .team .box2 p {
     margin-left: 0;
   }
-  /* line 1587, ../sass/screen.scss */
+  /* line 1590, ../sass/screen.scss */
   .team .box4 p {
     margin-left: 0;
   }
-  /* line 1590, ../sass/screen.scss */
+  /* line 1593, ../sass/screen.scss */
   .team .box4 .round4 {
     left: 0;
   }
 
-  /* line 1596, ../sass/screen.scss */
+  /* line 1599, ../sass/screen.scss */
   .edviser .round {
     left: 0;
   }
-  /* line 1599, ../sass/screen.scss */
+  /* line 1602, ../sass/screen.scss */
   .edviser p {
     margin-left: 0;
     font-size: 19px;
   }
-  /* line 1604, ../sass/screen.scss */
+  /* line 1607, ../sass/screen.scss */
   .edviser .box .desc {
     left: -15px;
   }
-  /* line 1606, ../sass/screen.scss */
+  /* line 1609, ../sass/screen.scss */
   .edviser .box .desc span {
     font-size: 16px;
     line-height: 22px;
   }
-  /* line 1612, ../sass/screen.scss */
+  /* line 1615, ../sass/screen.scss */
   .edviser .box4 {
     padding-bottom: 148px;
   }
-  /* line 1615, ../sass/screen.scss */
+  /* line 1618, ../sass/screen.scss */
   .edviser .box4_en {
     padding-top: 69px;
     padding-bottom: 120px;
   }
-  /* line 1619, ../sass/screen.scss */
+  /* line 1622, ../sass/screen.scss */
   .edviser .box5 {
     padding-bottom: 119px;
     padding-top: 70px;
   }
 
-  /* line 1625, ../sass/screen.scss */
+  /* line 1628, ../sass/screen.scss */
   .welcome h4 {
     font-size: 26px;
     padding-top: 65px;
   }
-  /* line 1629, ../sass/screen.scss */
+  /* line 1632, ../sass/screen.scss */
   .welcome p {
     font-size: 18px;
     line-height: 22px;
   }
-  /* line 1633, ../sass/screen.scss */
+  /* line 1636, ../sass/screen.scss */
   .welcome .right-box {
     margin-top: 68px;
   }
-  /* line 1635, ../sass/screen.scss */
+  /* line 1638, ../sass/screen.scss */
   .welcome .right-box .send {
     padding: 10px 45px;
     font-size: 24px;
   }
 
-  /* line 1642, ../sass/screen.scss */
+  /* line 1645, ../sass/screen.scss */
   .footer h4 {
     padding-bottom: 45px;
     font-size: 30px;
   }
-  /* line 1646, ../sass/screen.scss */
+  /* line 1649, ../sass/screen.scss */
   .footer p, .footer span {
     font-size: 15px;
   }
-  /* line 1649, ../sass/screen.scss */
+  /* line 1652, ../sass/screen.scss */
   .footer p {
     padding-bottom: 0px;
   }
-  /* line 1653, ../sass/screen.scss */
+  /* line 1656, ../sass/screen.scss */
   .footer .contacts li {
     margin-right: 0px;
   }
-  /* line 1658, ../sass/screen.scss */
+  /* line 1661, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 30px;
   }
 }
 @media (min-width: 992px) and (max-width: 1198px) {
-  /* line 1666, ../sass/screen.scss */
+  /* line 1669, ../sass/screen.scss */
   .head .overlay {
     background-position: -495px 50px;
   }
-  /* line 1670, ../sass/screen.scss */
+  /* line 1673, ../sass/screen.scss */
   .head nav .menu {
     left: 0;
     width: 71%;
   }
-  /* line 1674, ../sass/screen.scss */
+  /* line 1677, ../sass/screen.scss */
   .head nav .lang {
     margin-left: 0;
     right: 40px;
     top: 30px;
     position: absolute;
   }
-  /* line 1681, ../sass/screen.scss */
+  /* line 1684, ../sass/screen.scss */
   .head .logo {
     left: 0;
   }
-  /* line 1684, ../sass/screen.scss */
+  /* line 1687, ../sass/screen.scss */
   .head .mid-row {
     margin-bottom: 85px;
   }
-  /* line 1686, ../sass/screen.scss */
+  /* line 1689, ../sass/screen.scss */
   .head .mid-row p {
     left: 0;
     line-height: 24px;
     font-size: 18px;
   }
-  /* line 1692, ../sass/screen.scss */
+  /* line 1695, ../sass/screen.scss */
   .head .mid-row-eng {
     margin-bottom: 124px;
   }
-  /* line 1696, ../sass/screen.scss */
+  /* line 1699, ../sass/screen.scss */
   .head .scroll_hidden .select-lang {
-    right: 31px;
+    right: 71px;
     top: 59px;
   }
-  /* line 1700, ../sass/screen.scss */
+  /* line 1703, ../sass/screen.scss */
   .head .scroll_hidden .lang {
     margin-left: 260px;
   }
 
-  /* line 1706, ../sass/screen.scss */
+  /* line 1709, ../sass/screen.scss */
   .obzor h4 {
     font-size: 30px;
   }
-  /* line 1709, ../sass/screen.scss */
+  /* line 1712, ../sass/screen.scss */
   .obzor p {
     font-size: 18px;
   }
-  /* line 1713, ../sass/screen.scss */
+  /* line 1716, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 41px;
     right: 230px;
   }
-  /* line 1716, ../sass/screen.scss */
+  /* line 1719, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -290px;
   }
-  /* line 1721, ../sass/screen.scss */
+  /* line 1724, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 140px;
@@ -2457,66 +2460,66 @@ body .docSmart {
     font-size: 14px;
     line-height: 22px;
   }
-  /* line 1733, ../sass/screen.scss */
+  /* line 1736, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 75px;
   }
-  /* line 1736, ../sass/screen.scss */
+  /* line 1739, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     left: -150px;
   }
-  /* line 1739, ../sass/screen.scss */
+  /* line 1742, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     top: 300px;
   }
-  /* line 1742, ../sass/screen.scss */
+  /* line 1745, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-top: 85px;
     margin-left: 50px;
   }
-  /* line 1746, ../sass/screen.scss */
+  /* line 1749, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial-eng {
     margin-top: 75px;
     padding-top: 24px;
     margin-left: 50px;
   }
 
-  /* line 1754, ../sass/screen.scss */
+  /* line 1757, ../sass/screen.scss */
   .work h3 {
     padding-top: 30px;
     font-size: 30px;
   }
-  /* line 1758, ../sass/screen.scss */
+  /* line 1761, ../sass/screen.scss */
   .work p {
     font-size: 18px;
     padding-bottom: 30px;
     line-height: 24px;
   }
-  /* line 1763, ../sass/screen.scss */
+  /* line 1766, ../sass/screen.scss */
   .work .box {
     padding-bottom: 20px;
   }
-  /* line 1765, ../sass/screen.scss */
+  /* line 1768, ../sass/screen.scss */
   .work .box p {
     padding-bottom: 50px;
     margin-top: 20px;
   }
-  /* line 1770, ../sass/screen.scss */
+  /* line 1773, ../sass/screen.scss */
   .work .box .desc h5 {
     padding-top: 25px;
   }
-  /* line 1773, ../sass/screen.scss */
+  /* line 1776, ../sass/screen.scss */
   .work .box .desc span {
     line-height: 22px;
     font-size: 18px;
   }
 
-  /* line 1781, ../sass/screen.scss */
+  /* line 1784, ../sass/screen.scss */
   .garant h3 {
     left: 0;
     font-size: 30px;
   }
-  /* line 1785, ../sass/screen.scss */
+  /* line 1788, ../sass/screen.scss */
   .garant p {
     left: 0;
     text-align: center;
@@ -2524,228 +2527,228 @@ body .docSmart {
     line-height: 24px;
     font-size: 18px;
   }
-  /* line 1792, ../sass/screen.scss */
+  /* line 1795, ../sass/screen.scss */
   .garant p.serts_head {
     left: 0;
   }
-  /* line 1795, ../sass/screen.scss */
+  /* line 1798, ../sass/screen.scss */
   .garant .sert {
     left: 0;
   }
-  /* line 1797, ../sass/screen.scss */
+  /* line 1800, ../sass/screen.scss */
   .garant .sert img {
     margin-left: 0;
   }
 
-  /* line 1802, ../sass/screen.scss */
+  /* line 1805, ../sass/screen.scss */
   .service {
     background-position: 0px -140px;
   }
-  /* line 1804, ../sass/screen.scss */
+  /* line 1807, ../sass/screen.scss */
   .service h3 {
     font-size: 30px;
   }
-  /* line 1807, ../sass/screen.scss */
+  /* line 1810, ../sass/screen.scss */
   .service p {
     font-size: 18px;
     line-height: 24px;
     left: 0;
   }
-  /* line 1813, ../sass/screen.scss */
+  /* line 1816, ../sass/screen.scss */
   .service .box p {
     font-size: 16px;
     line-height: 20px;
     margin-top: 20px;
   }
-  /* line 1819, ../sass/screen.scss */
+  /* line 1822, ../sass/screen.scss */
   .service .box .desc span {
     line-height: 18px;
     padding: 30px 20px 30px;
     font-size: 16px;
   }
 
-  /* line 1827, ../sass/screen.scss */
+  /* line 1830, ../sass/screen.scss */
   .proect_creator {
     padding-bottom: 50px;
   }
-  /* line 1829, ../sass/screen.scss */
+  /* line 1832, ../sass/screen.scss */
   .proect_creator h3 {
     padding-top: 30px;
     padding-bottom: 0;
     font-size: 30px;
   }
-  /* line 1834, ../sass/screen.scss */
+  /* line 1837, ../sass/screen.scss */
   .proect_creator .box {
     position: relative;
     left: 0px;
   }
-  /* line 1837, ../sass/screen.scss */
+  /* line 1840, ../sass/screen.scss */
   .proect_creator .box p {
     font-size: 18px;
     left: 0;
     line-height: 22px;
     padding-top: 30px;
   }
-  /* line 1844, ../sass/screen.scss */
+  /* line 1847, ../sass/screen.scss */
   .proect_creator .box .desc h5 {
     padding-top: 15px;
   }
-  /* line 1847, ../sass/screen.scss */
+  /* line 1850, ../sass/screen.scss */
   .proect_creator .box .desc span {
     line-height: 19px;
     padding: 13px 30px 15px;
     font-size: 16px;
   }
-  /* line 1852, ../sass/screen.scss */
+  /* line 1855, ../sass/screen.scss */
   .proect_creator .box .desc .right_doc {
     padding-bottom: 72px;
   }
-  /* line 1857, ../sass/screen.scss */
+  /* line 1860, ../sass/screen.scss */
   .proect_creator .round1, .proect_creator .round2 {
     left: 0;
   }
 
-  /* line 1862, ../sass/screen.scss */
+  /* line 1865, ../sass/screen.scss */
   .team h3 {
     font-size: 30px;
     left: 0;
   }
-  /* line 1866, ../sass/screen.scss */
+  /* line 1869, ../sass/screen.scss */
   .team h4 {
     left: 0;
     font-size: 24px;
   }
-  /* line 1870, ../sass/screen.scss */
+  /* line 1873, ../sass/screen.scss */
   .team .box {
     padding-bottom: 70px;
   }
-  /* line 1872, ../sass/screen.scss */
+  /* line 1875, ../sass/screen.scss */
   .team .box span {
     padding: 15px 40px;
     font-size: 15px;
     line-height: 20px;
   }
-  /* line 1878, ../sass/screen.scss */
+  /* line 1881, ../sass/screen.scss */
   .team .box1 {
     padding-bottom: 70px;
   }
-  /* line 1881, ../sass/screen.scss */
+  /* line 1884, ../sass/screen.scss */
   .team .bottom-row {
     padding-bottom: 0;
   }
-  /* line 1884, ../sass/screen.scss */
+  /* line 1887, ../sass/screen.scss */
   .team p {
     font-size: 18px;
   }
 
-  /* line 1889, ../sass/screen.scss */
+  /* line 1892, ../sass/screen.scss */
   .edviser h3 {
     font-size: 30px;
   }
-  /* line 1892, ../sass/screen.scss */
+  /* line 1895, ../sass/screen.scss */
   .edviser p {
     font-size: 18px;
     line-height: 22px;
   }
-  /* line 1896, ../sass/screen.scss */
+  /* line 1899, ../sass/screen.scss */
   .edviser .box3 {
     padding-bottom: 192px;
   }
-  /* line 1901, ../sass/screen.scss */
+  /* line 1904, ../sass/screen.scss */
   .edviser .box .desc span {
     font-size: 16px;
   }
-  /* line 1906, ../sass/screen.scss */
+  /* line 1909, ../sass/screen.scss */
   .edviser .box4 {
     padding-bottom: 192px;
   }
-  /* line 1909, ../sass/screen.scss */
+  /* line 1912, ../sass/screen.scss */
   .edviser .box5 {
     padding-top: 70px;
     padding-bottom: 187px;
   }
-  /* line 1913, ../sass/screen.scss */
+  /* line 1916, ../sass/screen.scss */
   .edviser .box4_en {
     padding-top: 69px;
     padding-bottom: 120px;
   }
-  /* line 1917, ../sass/screen.scss */
+  /* line 1920, ../sass/screen.scss */
   .edviser .en_box_5 {
     padding-bottom: 119px;
   }
 
-  /* line 1922, ../sass/screen.scss */
+  /* line 1925, ../sass/screen.scss */
   .welcome h4 {
     font-size: 26px;
     padding-top: 65px;
   }
-  /* line 1926, ../sass/screen.scss */
+  /* line 1929, ../sass/screen.scss */
   .welcome p {
     font-size: 18px;
     line-height: 22px;
   }
-  /* line 1930, ../sass/screen.scss */
+  /* line 1933, ../sass/screen.scss */
   .welcome .right-box {
     margin-top: 68px;
   }
-  /* line 1932, ../sass/screen.scss */
+  /* line 1935, ../sass/screen.scss */
   .welcome .right-box .send {
     padding: 10px 45px;
     font-size: 24px;
   }
 
-  /* line 1939, ../sass/screen.scss */
+  /* line 1942, ../sass/screen.scss */
   .footer h4 {
     padding-bottom: 45px;
     font-size: 30px;
   }
-  /* line 1943, ../sass/screen.scss */
+  /* line 1946, ../sass/screen.scss */
   .footer p, .footer span {
     font-size: 15px;
   }
-  /* line 1946, ../sass/screen.scss */
+  /* line 1949, ../sass/screen.scss */
   .footer p {
     padding-bottom: 0px;
   }
-  /* line 1950, ../sass/screen.scss */
+  /* line 1953, ../sass/screen.scss */
   .footer .contacts li {
     margin-right: 0px;
   }
-  /* line 1955, ../sass/screen.scss */
+  /* line 1958, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 30px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 1962, ../sass/screen.scss */
+  /* line 1965, ../sass/screen.scss */
   #form1 {
     max-width: 480px;
     padding: 15px;
   }
-  /* line 1965, ../sass/screen.scss */
+  /* line 1968, ../sass/screen.scss */
   #form1 h3 {
     font-size: 28px;
     color: #73d0d5;
     padding-top: 20px;
     padding-bottom: 30px;
   }
-  /* line 1971, ../sass/screen.scss */
+  /* line 1974, ../sass/screen.scss */
   #form1 input {
     margin-bottom: 20px;
     padding: 5px 15px;
   }
-  /* line 1975, ../sass/screen.scss */
+  /* line 1978, ../sass/screen.scss */
   #form1 textarea {
     height: 100px;
   }
-  /* line 1978, ../sass/screen.scss */
+  /* line 1981, ../sass/screen.scss */
   #form1 .send_massage_btn {
     font-size: 26px;
     padding: 12px 35px;
     margin-bottom: 20px;
   }
 
-  /* line 1984, ../sass/screen.scss */
+  /* line 1987, ../sass/screen.scss */
   .mfp-close-btn-in .mfp-close {
     color: #73d0d5;
     font-weight: 100;
@@ -2754,70 +2757,70 @@ body .docSmart {
     font-size: 28px;
   }
 
-  /* line 1992, ../sass/screen.scss */
+  /* line 1995, ../sass/screen.scss */
   .head .overlay {
     background-position: -605px 58px;
   }
-  /* line 1996, ../sass/screen.scss */
+  /* line 1999, ../sass/screen.scss */
   .head nav .menu, .head .scroll_hidden .menu {
     left: 0;
     width: 80%;
   }
-  /* line 2000, ../sass/screen.scss */
+  /* line 2003, ../sass/screen.scss */
   .head nav .lang, .head .scroll_hidden .lang {
     margin-left: 0;
     right: 40px;
     top: 30px;
     position: absolute;
   }
-  /* line 2008, ../sass/screen.scss */
-  .head .scroll_hidden .lang {
-    top: 0;
-  }
   /* line 2011, ../sass/screen.scss */
+  .head .scroll_hidden .lang {
+    top: -15px;
+  }
+  /* line 2014, ../sass/screen.scss */
   .head .scroll_hidden .select-lang {
-    right: 30px;
+    right: 45px;
     top: 59px;
   }
-  /* line 2016, ../sass/screen.scss */
+  /* line 2019, ../sass/screen.scss */
   .head .logo {
     left: 0;
   }
-  /* line 2019, ../sass/screen.scss */
+  /* line 2022, ../sass/screen.scss */
   .head .mid-row {
     margin-bottom: 68px;
   }
-  /* line 2021, ../sass/screen.scss */
+  /* line 2024, ../sass/screen.scss */
   .head .mid-row p {
     left: 0;
     line-height: 24px;
     font-size: 18px;
     width: 400px;
   }
-  /* line 2028, ../sass/screen.scss */
+  /* line 2031, ../sass/screen.scss */
   .head .mid-row-eng {
     margin-bottom: 132px;
   }
 
-  /* line 2033, ../sass/screen.scss */
+  /* line 2036, ../sass/screen.scss */
   .obzor h4 {
     font-size: 30px;
   }
-  /* line 2036, ../sass/screen.scss */
+  /* line 2039, ../sass/screen.scss */
   .obzor p {
     font-size: 18px;
   }
-  /* line 2040, ../sass/screen.scss */
+  /* line 2043, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 25px;
     right: 175px;
   }
-  /* line 2043, ../sass/screen.scss */
+  /* line 2046, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -230px;
     right: -20px;
   }
-  /* line 2049, ../sass/screen.scss */
+  /* line 2052, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 94px;
@@ -2827,47 +2830,47 @@ body .docSmart {
     font-size: 13px;
     line-height: 20px;
   }
-  /* line 2061, ../sass/screen.scss */
+  /* line 2064, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 65px;
   }
-  /* line 2064, ../sass/screen.scss */
+  /* line 2067, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     left: -100px;
     top: 32px;
   }
-  /* line 2068, ../sass/screen.scss */
+  /* line 2071, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     top: 240px;
     left: -140px;
   }
-  /* line 2072, ../sass/screen.scss */
+  /* line 2075, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
   }
-  /* line 2075, ../sass/screen.scss */
+  /* line 2078, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     margin-top: 75px;
   }
-  /* line 2079, ../sass/screen.scss */
+  /* line 2082, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial-eng {
     margin-top: 65px;
     padding-top: 5px;
   }
 
-  /* line 2086, ../sass/screen.scss */
+  /* line 2089, ../sass/screen.scss */
   .work h3 {
     padding-top: 30px;
     font-size: 30px;
   }
-  /* line 2090, ../sass/screen.scss */
+  /* line 2093, ../sass/screen.scss */
   .work p {
     font-size: 18px;
     padding-bottom: 30px;
     line-height: 24px;
   }
-  /* line 2095, ../sass/screen.scss */
+  /* line 2098, ../sass/screen.scss */
   .work .box {
     margin-bottom: 40px;
     padding-bottom: 30px;
@@ -2876,33 +2879,33 @@ body .docSmart {
     left: 0;
     top: 0;
   }
-  /* line 2102, ../sass/screen.scss */
+  /* line 2105, ../sass/screen.scss */
   .work .box img {
     margin-bottom: 15px;
   }
-  /* line 2105, ../sass/screen.scss */
+  /* line 2108, ../sass/screen.scss */
   .work .box p {
     padding-bottom: 50px;
     margin-top: 0;
   }
-  /* line 2110, ../sass/screen.scss */
+  /* line 2113, ../sass/screen.scss */
   .work .box .desc h5 {
     padding-top: 30px;
   }
-  /* line 2113, ../sass/screen.scss */
+  /* line 2116, ../sass/screen.scss */
   .work .box .desc span {
     line-height: 22px;
     font-size: 18px;
   }
 
-  /* line 2121, ../sass/screen.scss */
+  /* line 2124, ../sass/screen.scss */
   .garant h3 {
     left: 0;
     font-size: 30px;
     padding-top: 20px;
     padding-bottom: 15px;
   }
-  /* line 2127, ../sass/screen.scss */
+  /* line 2130, ../sass/screen.scss */
   .garant p {
     left: 0;
     text-align: center;
@@ -2910,29 +2913,29 @@ body .docSmart {
     font-size: 20px;
     padding: 20px 40px;
   }
-  /* line 2134, ../sass/screen.scss */
+  /* line 2137, ../sass/screen.scss */
   .garant p.serts_head {
     left: 0;
   }
-  /* line 2137, ../sass/screen.scss */
+  /* line 2140, ../sass/screen.scss */
   .garant .sert {
     left: 0;
   }
-  /* line 2139, ../sass/screen.scss */
+  /* line 2142, ../sass/screen.scss */
   .garant .sert img {
     margin-left: 0;
     width: 100%;
   }
 
-  /* line 2145, ../sass/screen.scss */
+  /* line 2148, ../sass/screen.scss */
   .service {
     background-position: 0;
   }
-  /* line 2147, ../sass/screen.scss */
+  /* line 2150, ../sass/screen.scss */
   .service h3 {
     font-size: 30px;
   }
-  /* line 2150, ../sass/screen.scss */
+  /* line 2153, ../sass/screen.scss */
   .service p {
     font-size: 18px;
     line-height: 22px;
@@ -2941,12 +2944,12 @@ body .docSmart {
     padding-bottom: 30px;
     left: 0;
   }
-  /* line 2158, ../sass/screen.scss */
+  /* line 2161, ../sass/screen.scss */
   .service .box {
     margin-bottom: 30px;
     padding-bottom: 20px;
   }
-  /* line 2161, ../sass/screen.scss */
+  /* line 2164, ../sass/screen.scss */
   .service .box p {
     font-size: 18px;
     line-height: 20px;
@@ -2954,41 +2957,41 @@ body .docSmart {
     padding-bottom: 15px;
     margin-bottom: 30px;
   }
-  /* line 2171, ../sass/screen.scss */
+  /* line 2174, ../sass/screen.scss */
   .service .hover_section .desc span {
     line-height: 20px;
     font-size: 18px;
     padding-bottom: 80px;
   }
-  /* line 2176, ../sass/screen.scss */
+  /* line 2179, ../sass/screen.scss */
   .service .hover_section .desc .control_system {
     padding-bottom: 120px;
   }
-  /* line 2179, ../sass/screen.scss */
+  /* line 2182, ../sass/screen.scss */
   .service .hover_section .desc .check_system {
     padding-bottom: 120px;
   }
-  /* line 2184, ../sass/screen.scss */
+  /* line 2187, ../sass/screen.scss */
   .service .first_box {
     left: 0;
   }
 
-  /* line 2188, ../sass/screen.scss */
+  /* line 2191, ../sass/screen.scss */
   .proect_creator {
     padding-bottom: 0px;
   }
-  /* line 2190, ../sass/screen.scss */
+  /* line 2193, ../sass/screen.scss */
   .proect_creator h3 {
     padding-top: 30px;
     padding-bottom: 0;
     font-size: 30px;
   }
-  /* line 2195, ../sass/screen.scss */
+  /* line 2198, ../sass/screen.scss */
   .proect_creator .box {
     position: relative;
     left: 0;
   }
-  /* line 2198, ../sass/screen.scss */
+  /* line 2201, ../sass/screen.scss */
   .proect_creator .box p {
     padding-bottom: 120px;
     font-size: 18px;
@@ -2996,133 +2999,133 @@ body .docSmart {
     line-height: 22px;
     padding-top: 30px;
   }
-  /* line 2206, ../sass/screen.scss */
+  /* line 2209, ../sass/screen.scss */
   .proect_creator .box .desc h5 {
     padding-top: 15px;
   }
-  /* line 2209, ../sass/screen.scss */
+  /* line 2212, ../sass/screen.scss */
   .proect_creator .box .desc span {
     line-height: 17px;
     padding: 13px 15px 9px;
     font-size: 15px;
   }
-  /* line 2214, ../sass/screen.scss */
+  /* line 2217, ../sass/screen.scss */
   .proect_creator .box .desc .right_doc {
     padding-bottom: 77px;
   }
-  /* line 2219, ../sass/screen.scss */
+  /* line 2222, ../sass/screen.scss */
   .proect_creator .round1, .proect_creator .round2 {
     left: 0;
   }
-  /* line 2222, ../sass/screen.scss */
+  /* line 2225, ../sass/screen.scss */
   .proect_creator .round2 {
     background-position: 0 -18px;
   }
 
-  /* line 2227, ../sass/screen.scss */
+  /* line 2230, ../sass/screen.scss */
   .team h3 {
     font-size: 30px;
     left: 0;
   }
-  /* line 2231, ../sass/screen.scss */
+  /* line 2234, ../sass/screen.scss */
   .team h4 {
     left: 0;
     font-size: 24px;
     padding-bottom: 60px;
   }
-  /* line 2237, ../sass/screen.scss */
+  /* line 2240, ../sass/screen.scss */
   .team .box span {
     padding: 15px 40px;
     font-size: 15px;
     line-height: 20px;
   }
-  /* line 2243, ../sass/screen.scss */
+  /* line 2246, ../sass/screen.scss */
   .team .box .desc span {
     line-height: 20px;
   }
-  /* line 2248, ../sass/screen.scss */
+  /* line 2251, ../sass/screen.scss */
   .team .box1 {
     padding-bottom: 120px;
   }
-  /* line 2251, ../sass/screen.scss */
+  /* line 2254, ../sass/screen.scss */
   .team .bottom-row {
     padding-bottom: 0;
   }
-  /* line 2254, ../sass/screen.scss */
+  /* line 2257, ../sass/screen.scss */
   .team p {
     font-size: 18px;
   }
-  /* line 2258, ../sass/screen.scss */
+  /* line 2261, ../sass/screen.scss */
   .team .box2 .round2, .team .box4 .round2 {
     left: 0;
   }
-  /* line 2261, ../sass/screen.scss */
+  /* line 2264, ../sass/screen.scss */
   .team .box2 .round4, .team .box4 .round4 {
     left: 0;
   }
-  /* line 2264, ../sass/screen.scss */
+  /* line 2267, ../sass/screen.scss */
   .team .box2 p, .team .box4 p {
     margin-left: 0;
   }
 
-  /* line 2270, ../sass/screen.scss */
+  /* line 2273, ../sass/screen.scss */
   .edviser h3 {
     font-size: 30px;
   }
-  /* line 2273, ../sass/screen.scss */
+  /* line 2276, ../sass/screen.scss */
   .edviser p {
     font-size: 18px;
     line-height: 22px;
     margin-left: 0;
   }
-  /* line 2280, ../sass/screen.scss */
+  /* line 2283, ../sass/screen.scss */
   .edviser .box .desc span {
     font-size: 15px;
     line-height: 19px;
   }
-  /* line 2285, ../sass/screen.scss */
+  /* line 2288, ../sass/screen.scss */
   .edviser .box .round {
     left: 0;
   }
-  /* line 2289, ../sass/screen.scss */
+  /* line 2292, ../sass/screen.scss */
   .edviser .box3 {
     padding-bottom: 192px;
   }
-  /* line 2292, ../sass/screen.scss */
+  /* line 2295, ../sass/screen.scss */
   .edviser .box4 {
     padding-bottom: 192px;
   }
-  /* line 2295, ../sass/screen.scss */
+  /* line 2298, ../sass/screen.scss */
   .edviser .box5 {
     padding-top: 65px;
     padding-bottom: 192px;
   }
-  /* line 2299, ../sass/screen.scss */
+  /* line 2302, ../sass/screen.scss */
   .edviser .box4_en {
     padding-bottom: 119px;
   }
-  /* line 2302, ../sass/screen.scss */
+  /* line 2305, ../sass/screen.scss */
   .edviser .en_box_5 {
     padding-bottom: 119px;
   }
 
-  /* line 2307, ../sass/screen.scss */
+  /* line 2310, ../sass/screen.scss */
   .welcome h4 {
     font-size: 19px;
     padding-top: 35px;
     padding-bottom: 25px;
   }
-  /* line 2312, ../sass/screen.scss */
+  /* line 2315, ../sass/screen.scss */
   .welcome p {
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 20px;
   }
-  /* line 2317, ../sass/screen.scss */
+  /* line 2320, ../sass/screen.scss */
   .welcome .right-box {
     margin-top: 68px;
   }
-  /* line 2319, ../sass/screen.scss */
+  /* line 2322, ../sass/screen.scss */
   .welcome .right-box .send {
     padding: 10px 45px;
     font-size: 24px;
@@ -3130,103 +3133,103 @@ body .docSmart {
     right: 58px;
   }
 
-  /* line 2328, ../sass/screen.scss */
+  /* line 2331, ../sass/screen.scss */
   .footer h4 {
     padding-bottom: 45px;
     font-size: 30px;
   }
-  /* line 2332, ../sass/screen.scss */
+  /* line 2335, ../sass/screen.scss */
   .footer span {
     font-size: 17px;
   }
-  /* line 2335, ../sass/screen.scss */
+  /* line 2338, ../sass/screen.scss */
   .footer img {
     width: 50px;
     height: 50px;
   }
-  /* line 2340, ../sass/screen.scss */
+  /* line 2343, ../sass/screen.scss */
   .footer .contacts li {
     margin-right: 0px;
     margin-bottom: 10px;
   }
-  /* line 2346, ../sass/screen.scss */
+  /* line 2349, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 20px;
   }
 }
 @media (min-width: 412px) and (max-width: 767px) {
-  /* line 2353, ../sass/screen.scss */
+  /* line 2356, ../sass/screen.scss */
   .mfp-close-btn-in .mfp-close {
     top: 0px;
     right: 5px;
   }
 
-  /* line 2357, ../sass/screen.scss */
+  /* line 2360, ../sass/screen.scss */
   #form1 {
     max-width: 300px;
     padding: 15px;
   }
-  /* line 2360, ../sass/screen.scss */
+  /* line 2363, ../sass/screen.scss */
   #form1 h3 {
     font-size: 22px;
     color: #73d0d5;
     padding-top: 20px;
     padding-bottom: 30px;
   }
-  /* line 2366, ../sass/screen.scss */
+  /* line 2369, ../sass/screen.scss */
   #form1 input {
     margin-bottom: 20px;
     padding: 5px 15px;
     font-size: 18px;
   }
-  /* line 2371, ../sass/screen.scss */
+  /* line 2374, ../sass/screen.scss */
   #form1 textarea {
     height: 90px;
     font-size: 20px;
   }
-  /* line 2375, ../sass/screen.scss */
+  /* line 2378, ../sass/screen.scss */
   #form1 .send_massage_btn {
     font-size: 20px;
     padding: 10px 30px;
     margin-bottom: 20px;
   }
 
-  /* line 2382, ../sass/screen.scss */
+  /* line 2385, ../sass/screen.scss */
   .head .overlay {
     background-position: -1060px 380px;
   }
-  /* line 2385, ../sass/screen.scss */
+  /* line 2388, ../sass/screen.scss */
   .head nav {
     margin-top: 15px;
   }
-  /* line 2387, ../sass/screen.scss */
+  /* line 2390, ../sass/screen.scss */
   .head nav .menu {
     display: none;
   }
-  /* line 2390, ../sass/screen.scss */
+  /* line 2393, ../sass/screen.scss */
   .head nav .lang {
     display: none;
   }
-  /* line 2393, ../sass/screen.scss */
+  /* line 2396, ../sass/screen.scss */
   .head nav .mob_burger {
     z-index: 100;
   }
-  /* line 2397, ../sass/screen.scss */
+  /* line 2400, ../sass/screen.scss */
   .head .logo {
     width: 170px;
     height: 90px;
     margin: 0 auto;
     margin-top: -50px;
   }
-  /* line 2402, ../sass/screen.scss */
+  /* line 2405, ../sass/screen.scss */
   .head .logo img {
     width: 100%;
   }
-  /* line 2406, ../sass/screen.scss */
+  /* line 2409, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 300px;
   }
-  /* line 2408, ../sass/screen.scss */
+  /* line 2411, ../sass/screen.scss */
   .head .mid-row p {
     font-size: 20px;
     line-height: 20px;
@@ -3236,7 +3239,7 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.6px;
   }
-  /* line 2416, ../sass/screen.scss */
+  /* line 2419, ../sass/screen.scss */
   .head .mid-row p span {
     font-weight: 400;
     letter-spacing: 0.3px;
@@ -3245,16 +3248,16 @@ body .docSmart {
     letter-spacing: .5px;
     display: inline-block;
   }
-  /* line 2424, ../sass/screen.scss */
+  /* line 2427, ../sass/screen.scss */
   .head .mid-row p .bottom_span {
     width: 140px;
     margin-top: 50px;
   }
-  /* line 2430, ../sass/screen.scss */
+  /* line 2433, ../sass/screen.scss */
   .head .mid-row-eng {
     padding-bottom: 280px;
   }
-  /* line 2434, ../sass/screen.scss */
+  /* line 2437, ../sass/screen.scss */
   .head .mob-nav .close-menu {
     position: absolute;
     top: 0px;
@@ -3262,7 +3265,7 @@ body .docSmart {
     font-size: 23px;
   }
 
-  /* line 2442, ../sass/screen.scss */
+  /* line 2445, ../sass/screen.scss */
   .obzor {
     font-family: 'PF DinDisplay Pro';
     display: -webkit-flex;
@@ -3273,7 +3276,7 @@ body .docSmart {
     display: flex;
     flex-direction: column-reverse;
   }
-  /* line 2451, ../sass/screen.scss */
+  /* line 2454, ../sass/screen.scss */
   .obzor h4 {
     position: unset;
     position: initial;
@@ -3284,7 +3287,7 @@ body .docSmart {
     padding-top: 30px;
     letter-spacing: 0.7px;
   }
-  /* line 2461, ../sass/screen.scss */
+  /* line 2464, ../sass/screen.scss */
   .obzor p {
     font-family: 'PF DinDisplay Pro';
     position: unset;
@@ -3295,59 +3298,59 @@ body .docSmart {
     line-height: 21px;
     letter-spacing: 0.6px;
   }
-  /* line 2471, ../sass/screen.scss */
+  /* line 2474, ../sass/screen.scss */
   .obzor span {
     padding-top: 0;
     font-size: 20px;
     font-weight: 300;
   }
-  /* line 2476, ../sass/screen.scss */
+  /* line 2479, ../sass/screen.scss */
   .obzor .docSmart {
     font-size: 20px;
   }
-  /* line 2479, ../sass/screen.scss */
+  /* line 2482, ../sass/screen.scss */
   .obzor .grandview {
     padding-top: 0px;
   }
-  /* line 2482, ../sass/screen.scss */
+  /* line 2485, ../sass/screen.scss */
   .obzor .ist-world-bank {
     font-size: 20px;
     right: 10px;
   }
-  /* line 2486, ../sass/screen.scss */
+  /* line 2489, ../sass/screen.scss */
   .obzor .left-col {
     padding-bottom: 60px;
   }
-  /* line 2488, ../sass/screen.scss */
+  /* line 2491, ../sass/screen.scss */
   .obzor .left-col .usd-val {
     position: unset;
     position: initial;
   }
-  /* line 2492, ../sass/screen.scss */
+  /* line 2495, ../sass/screen.scss */
   .obzor .left-col .img-responsive {
     position: unset;
     position: initial;
   }
-  /* line 2496, ../sass/screen.scss */
+  /* line 2499, ../sass/screen.scss */
   .obzor .left-col span {
     position: unset;
     position: initial;
   }
-  /* line 2501, ../sass/screen.scss */
+  /* line 2504, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 2503, ../sass/screen.scss */
+  /* line 2506, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 165px;
   }
-  /* line 2506, ../sass/screen.scss */
+  /* line 2509, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -285px;
     right: 30px;
   }
-  /* line 2512, ../sass/screen.scss */
+  /* line 2515, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 144px;
@@ -3357,21 +3360,21 @@ body .docSmart {
     font-size: 14px;
     line-height: 20px;
   }
-  /* line 2522, ../sass/screen.scss */
+  /* line 2525, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 370px;
   }
-  /* line 2526, ../sass/screen.scss */
+  /* line 2529, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 2528, ../sass/screen.scss */
+  /* line 2531, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 60px;
   }
-  /* line 2533, ../sass/screen.scss */
+  /* line 2536, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -3379,34 +3382,34 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 2540, ../sass/screen.scss */
+  /* line 2543, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -410px;
     left: 0;
   }
-  /* line 2545, ../sass/screen.scss */
+  /* line 2548, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 2549, ../sass/screen.scss */
+  /* line 2552, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -530px;
   }
-  /* line 2553, ../sass/screen.scss */
+  /* line 2556, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
     top: -50px;
   }
 
-  /* line 2560, ../sass/screen.scss */
+  /* line 2563, ../sass/screen.scss */
   .work {
     background-position: -280px 0px;
   }
-  /* line 2564, ../sass/screen.scss */
+  /* line 2567, ../sass/screen.scss */
   .work h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -3414,7 +3417,7 @@ body .docSmart {
     position: initial;
     padding-bottom: 25px;
   }
-  /* line 2571, ../sass/screen.scss */
+  /* line 2574, ../sass/screen.scss */
   .work p {
     padding-bottom: 40px;
     line-height: 20px;
@@ -3425,38 +3428,38 @@ body .docSmart {
     letter-spacing: .3px;
     font-weight: 100;
   }
-  /* line 2581, ../sass/screen.scss */
+  /* line 2584, ../sass/screen.scss */
   .work .box {
     position: unset;
     position: initial;
     margin-bottom: 40px;
   }
-  /* line 2585, ../sass/screen.scss */
+  /* line 2588, ../sass/screen.scss */
   .work .box .desc {
     display: none;
     background-color: transparent;
     font-size: 16px;
     color: #fff;
   }
-  /* line 2592, ../sass/screen.scss */
+  /* line 2595, ../sass/screen.scss */
   .work .box:hover .desc {
     display: none;
   }
-  /* line 2596, ../sass/screen.scss */
+  /* line 2599, ../sass/screen.scss */
   .work .box p {
     display: none;
   }
-  /* line 2599, ../sass/screen.scss */
+  /* line 2602, ../sass/screen.scss */
   .work .box .mob-view {
     display: block;
   }
-  /* line 2601, ../sass/screen.scss */
+  /* line 2604, ../sass/screen.scss */
   .work .box .mob-view h5 {
     font-size: 20px;
     padding-top: 0;
     padding-bottom: 20px;
   }
-  /* line 2607, ../sass/screen.scss */
+  /* line 2610, ../sass/screen.scss */
   .work .box .mob-view span {
     display: inline-block;
     padding-right: 0;
@@ -3466,7 +3469,7 @@ body .docSmart {
     letter-spacing: .4px;
     font-weight: 200;
   }
-  /* line 2618, ../sass/screen.scss */
+  /* line 2621, ../sass/screen.scss */
   .work .box img {
     width: 120px;
     height: 120px;
@@ -3475,7 +3478,7 @@ body .docSmart {
     margin-bottom: 20px;
   }
 
-  /* line 2628, ../sass/screen.scss */
+  /* line 2631, ../sass/screen.scss */
   .garant h3 {
     font-size: 30px;
     padding-bottom: 10px;
@@ -3484,7 +3487,7 @@ body .docSmart {
     position: initial;
     font-weight: 100;
   }
-  /* line 2636, ../sass/screen.scss */
+  /* line 2639, ../sass/screen.scss */
   .garant p {
     font-size: 20px;
     text-align: left;
@@ -3495,14 +3498,14 @@ body .docSmart {
     position: unset;
     position: initial;
   }
-  /* line 2646, ../sass/screen.scss */
+  /* line 2649, ../sass/screen.scss */
   .garant p.serts_head {
     position: unset;
     position: initial;
     margin-bottom: 20px;
     font-weight: 400;
   }
-  /* line 2652, ../sass/screen.scss */
+  /* line 2655, ../sass/screen.scss */
   .garant .sert {
     display: -webkit-flex;
     display: -webkit-box;
@@ -3515,32 +3518,32 @@ body .docSmart {
     position: initial;
     margin-bottom: 40px;
   }
-  /* line 2663, ../sass/screen.scss */
+  /* line 2666, ../sass/screen.scss */
   .garant .sert img {
     margin-bottom: 35px;
   }
-  /* line 2666, ../sass/screen.scss */
+  /* line 2669, ../sass/screen.scss */
   .garant .sert .sert1 {
     width: 85px;
   }
-  /* line 2669, ../sass/screen.scss */
+  /* line 2672, ../sass/screen.scss */
   .garant .sert .sert2 {
     width: 90px;
   }
-  /* line 2672, ../sass/screen.scss */
+  /* line 2675, ../sass/screen.scss */
   .garant .sert .sert3, .garant .sert .sert5 {
     width: 130px;
   }
-  /* line 2675, ../sass/screen.scss */
+  /* line 2678, ../sass/screen.scss */
   .garant .sert .sert4 {
     width: 85px;
   }
 
-  /* line 2680, ../sass/screen.scss */
+  /* line 2683, ../sass/screen.scss */
   .service {
     background-position: -1050px 0;
   }
-  /* line 2682, ../sass/screen.scss */
+  /* line 2685, ../sass/screen.scss */
   .service h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -3550,7 +3553,7 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.6px;
   }
-  /* line 2691, ../sass/screen.scss */
+  /* line 2694, ../sass/screen.scss */
   .service p {
     left: 0;
     font-size: 20px;
@@ -3562,7 +3565,7 @@ body .docSmart {
     padding-left: 5px;
     padding-right: 5px;
   }
-  /* line 2702, ../sass/screen.scss */
+  /* line 2705, ../sass/screen.scss */
   .service .box {
     position: unset;
     position: initial;
@@ -3570,19 +3573,19 @@ body .docSmart {
     margin-bottom: 60px;
     padding-left: 0px;
   }
-  /* line 2709, ../sass/screen.scss */
+  /* line 2712, ../sass/screen.scss */
   .service .box:hover .desc {
     display: none;
   }
-  /* line 2713, ../sass/screen.scss */
+  /* line 2716, ../sass/screen.scss */
   .service .box p {
     display: none;
   }
-  /* line 2716, ../sass/screen.scss */
+  /* line 2719, ../sass/screen.scss */
   .service .box .mob-view {
     display: block;
   }
-  /* line 2718, ../sass/screen.scss */
+  /* line 2721, ../sass/screen.scss */
   .service .box .mob-view h5 {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -3592,7 +3595,7 @@ body .docSmart {
     font-weight: 300;
     letter-spacing: 0.6px;
   }
-  /* line 2726, ../sass/screen.scss */
+  /* line 2729, ../sass/screen.scss */
   .service .box .mob-view span {
     font-weight: 100;
     line-height: 21px;
@@ -3602,34 +3605,34 @@ body .docSmart {
     letter-spacing: 0.2px;
     line-height: 21px;
   }
-  /* line 2736, ../sass/screen.scss */
+  /* line 2739, ../sass/screen.scss */
   .service .box img {
     width: 120px;
     height: 120px;
     margin-right: 0px;
   }
-  /* line 2742, ../sass/screen.scss */
+  /* line 2745, ../sass/screen.scss */
   .service .first_box {
     position: unset;
     position: initial;
   }
 
-  /* line 2747, ../sass/screen.scss */
+  /* line 2750, ../sass/screen.scss */
   .proect_creator {
     padding-bottom: 0;
   }
-  /* line 2749, ../sass/screen.scss */
+  /* line 2752, ../sass/screen.scss */
   .proect_creator h3 {
     padding-top: 25px;
     padding-bottom: 0;
     font-size: 30px;
     margin-left: 0;
   }
-  /* line 2755, ../sass/screen.scss */
+  /* line 2758, ../sass/screen.scss */
   .proect_creator .box {
     left: 0;
   }
-  /* line 2757, ../sass/screen.scss */
+  /* line 2760, ../sass/screen.scss */
   .proect_creator .box .desc {
     display: block;
     position: unset;
@@ -3638,22 +3641,22 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 2764, ../sass/screen.scss */
+  /* line 2767, ../sass/screen.scss */
   .proect_creator .box .desc span {
     font-weight: 100;
     line-height: 23px;
     padding: 20px 5px 21px;
     font-size: 20px;
   }
-  /* line 2770, ../sass/screen.scss */
+  /* line 2773, ../sass/screen.scss */
   .proect_creator .box .desc h5 {
     display: none;
   }
-  /* line 2773, ../sass/screen.scss */
+  /* line 2776, ../sass/screen.scss */
   .proect_creator .box .desc .right_doc {
     padding-bottom: 60px;
   }
-  /* line 2777, ../sass/screen.scss */
+  /* line 2780, ../sass/screen.scss */
   .proect_creator .box p {
     position: unset;
     position: initial;
@@ -3661,35 +3664,35 @@ body .docSmart {
     line-height: 21px;
     padding-bottom: 0;
   }
-  /* line 2785, ../sass/screen.scss */
+  /* line 2788, ../sass/screen.scss */
   .proect_creator .round1, .proect_creator .round2 {
     position: unset;
     position: initial;
   }
-  /* line 2789, ../sass/screen.scss */
+  /* line 2792, ../sass/screen.scss */
   .proect_creator .round2 {
     background-position: 0 -18px;
   }
 
-  /* line 2794, ../sass/screen.scss */
+  /* line 2797, ../sass/screen.scss */
   .team h3 {
     padding-top: 25px;
     font-size: 30px;
   }
-  /* line 2798, ../sass/screen.scss */
+  /* line 2801, ../sass/screen.scss */
   .team h4 {
     padding-bottom: 40px;
     font-size: 24px;
   }
-  /* line 2802, ../sass/screen.scss */
+  /* line 2805, ../sass/screen.scss */
   .team .top-row {
     border: none;
   }
-  /* line 2805, ../sass/screen.scss */
+  /* line 2808, ../sass/screen.scss */
   .team .box {
     left: 0;
   }
-  /* line 2807, ../sass/screen.scss */
+  /* line 2810, ../sass/screen.scss */
   .team .box .desc {
     display: block;
     position: unset;
@@ -3698,7 +3701,7 @@ body .docSmart {
     font-size: 18px;
     color: #505050;
   }
-  /* line 2814, ../sass/screen.scss */
+  /* line 2817, ../sass/screen.scss */
   .team .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -3706,39 +3709,39 @@ body .docSmart {
     font-size: 20px;
     letter-spacing: .5px;
   }
-  /* line 2821, ../sass/screen.scss */
+  /* line 2824, ../sass/screen.scss */
   .team .box .desc h5 {
     display: none;
   }
-  /* line 2825, ../sass/screen.scss */
+  /* line 2828, ../sass/screen.scss */
   .team .box p {
     position: unset;
     position: initial;
     font-weight: 300;
     font-size: 20px;
   }
-  /* line 2832, ../sass/screen.scss */
+  /* line 2835, ../sass/screen.scss */
   .team .box1, .team .box2, .team .box3, .team .box4 {
     padding-bottom: 30px;
     padding-top: 30px;
     border: none;
   }
-  /* line 2836, ../sass/screen.scss */
+  /* line 2839, ../sass/screen.scss */
   .team .box1 p, .team .box2 p, .team .box3 p, .team .box4 p {
     margin-left: 0;
   }
-  /* line 2840, ../sass/screen.scss */
+  /* line 2843, ../sass/screen.scss */
   .team .round2 {
     position: unset;
     position: initial;
   }
-  /* line 2844, ../sass/screen.scss */
+  /* line 2847, ../sass/screen.scss */
   .team .round4 {
     position: unset;
     position: initial;
   }
 
-  /* line 2850, ../sass/screen.scss */
+  /* line 2853, ../sass/screen.scss */
   .edviser h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -3749,7 +3752,7 @@ body .docSmart {
     margin-bottom: 5px;
     letter-spacing: .5px;
   }
-  /* line 2860, ../sass/screen.scss */
+  /* line 2863, ../sass/screen.scss */
   .edviser h4 {
     font-weight: 100;
     padding-bottom: 40px;
@@ -3759,23 +3762,23 @@ body .docSmart {
     position: unset;
     position: initial;
   }
-  /* line 2869, ../sass/screen.scss */
+  /* line 2872, ../sass/screen.scss */
   .edviser p {
     font-size: 20px;
   }
-  /* line 2872, ../sass/screen.scss */
+  /* line 2875, ../sass/screen.scss */
   .edviser .top-row {
     border: none;
   }
-  /* line 2875, ../sass/screen.scss */
+  /* line 2878, ../sass/screen.scss */
   .edviser .bottom-row_2 {
     border: none;
   }
-  /* line 2878, ../sass/screen.scss */
+  /* line 2881, ../sass/screen.scss */
   .edviser .box {
     left: 0;
   }
-  /* line 2880, ../sass/screen.scss */
+  /* line 2883, ../sass/screen.scss */
   .edviser .box .desc {
     display: block;
     position: unset;
@@ -3784,7 +3787,7 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 2887, ../sass/screen.scss */
+  /* line 2890, ../sass/screen.scss */
   .edviser .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -3792,11 +3795,11 @@ body .docSmart {
     letter-spacing: 0.5px;
     padding: 20px 0px 25px;
   }
-  /* line 2894, ../sass/screen.scss */
+  /* line 2897, ../sass/screen.scss */
   .edviser .box .desc h5 {
     display: none;
   }
-  /* line 2898, ../sass/screen.scss */
+  /* line 2901, ../sass/screen.scss */
   .edviser .box p {
     position: unset;
     position: initial;
@@ -3804,23 +3807,23 @@ body .docSmart {
     position: unset;
     position: initial;
   }
-  /* line 2906, ../sass/screen.scss */
+  /* line 2909, ../sass/screen.scss */
   .edviser .box1, .edviser .box3, .edviser .box2, .edviser .box4, .edviser .box5 {
     border: none;
     padding-bottom: 0px;
     padding-top: 30px;
   }
-  /* line 2911, ../sass/screen.scss */
+  /* line 2914, ../sass/screen.scss */
   .edviser .round {
     position: unset;
     position: initial;
   }
 
-  /* line 2917, ../sass/screen.scss */
+  /* line 2920, ../sass/screen.scss */
   .welcome .flex-row {
     padding: 0;
   }
-  /* line 2920, ../sass/screen.scss */
+  /* line 2923, ../sass/screen.scss */
   .welcome .left-box {
     position: unset;
     position: initial;
@@ -3830,7 +3833,7 @@ body .docSmart {
     background-position: 100px 0px;
     margin-bottom: 110px;
   }
-  /* line 2929, ../sass/screen.scss */
+  /* line 2932, ../sass/screen.scss */
   .welcome .right-box {
     position: unset;
     position: initial;
@@ -3838,7 +3841,7 @@ body .docSmart {
     margin-top: -80px;
     margin-bottom: 20px;
   }
-  /* line 2935, ../sass/screen.scss */
+  /* line 2938, ../sass/screen.scss */
   .welcome .right-box .send {
     position: unset;
     position: initial;
@@ -3847,11 +3850,11 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.8px;
   }
-  /* line 2944, ../sass/screen.scss */
+  /* line 2947, ../sass/screen.scss */
   .welcome .img-responsive {
     display: none;
   }
-  /* line 2947, ../sass/screen.scss */
+  /* line 2950, ../sass/screen.scss */
   .welcome h4 {
     display: inline-block;
     padding-left: 20px;
@@ -3863,14 +3866,14 @@ body .docSmart {
     letter-spacing: 0.6px;
     width: 180px;
   }
-  /* line 2958, ../sass/screen.scss */
+  /* line 2961, ../sass/screen.scss */
   .welcome p {
     font-size: 20px;
     line-height: 20px;
     padding-left: 7%;
   }
 
-  /* line 2965, ../sass/screen.scss */
+  /* line 2968, ../sass/screen.scss */
   .footer h4 {
     position: unset;
     position: initial;
@@ -3879,20 +3882,20 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.7px;
   }
-  /* line 2973, ../sass/screen.scss */
+  /* line 2976, ../sass/screen.scss */
   .footer span {
     position: unset;
     position: initial;
     padding-bottom: 10px;
     font-size: 20px;
   }
-  /* line 2980, ../sass/screen.scss */
+  /* line 2983, ../sass/screen.scss */
   .footer .contacts li {
     float: none;
     margin-right: 0;
     padding-bottom: 15px;
   }
-  /* line 2986, ../sass/screen.scss */
+  /* line 2989, ../sass/screen.scss */
   .footer .social_icons {
     padding-top: 30px;
     display: -webkit-flex;
@@ -3908,84 +3911,84 @@ body .docSmart {
     -webkit-justify-content: space-around;
     border-top: 1px solid #fff;
   }
-  /* line 3000, ../sass/screen.scss */
+  /* line 3003, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 0px;
   }
 }
 @media (min-width: 375px) and (max-width: 411px) {
-  /* line 3007, ../sass/screen.scss */
+  /* line 3010, ../sass/screen.scss */
   .mfp-close-btn-in .mfp-close {
     top: 0px;
     right: 5px;
   }
 
-  /* line 3011, ../sass/screen.scss */
+  /* line 3014, ../sass/screen.scss */
   #form1 {
     max-width: 300px;
     padding: 15px;
   }
-  /* line 3014, ../sass/screen.scss */
+  /* line 3017, ../sass/screen.scss */
   #form1 h3 {
     font-size: 22px;
     color: #73d0d5;
     padding-top: 20px;
     padding-bottom: 30px;
   }
-  /* line 3020, ../sass/screen.scss */
+  /* line 3023, ../sass/screen.scss */
   #form1 input {
     margin-bottom: 20px;
     padding: 5px 15px;
     font-size: 18px;
   }
-  /* line 3025, ../sass/screen.scss */
+  /* line 3028, ../sass/screen.scss */
   #form1 textarea {
     height: 90px;
     font-size: 20px;
   }
-  /* line 3029, ../sass/screen.scss */
+  /* line 3032, ../sass/screen.scss */
   #form1 .send_massage_btn {
     font-size: 20px;
     padding: 10px 30px;
     margin-bottom: 20px;
   }
 
-  /* line 3036, ../sass/screen.scss */
+  /* line 3039, ../sass/screen.scss */
   .head .overlay {
     background-position: -1060px 400px;
   }
-  /* line 3039, ../sass/screen.scss */
+  /* line 3042, ../sass/screen.scss */
   .head nav {
     margin-top: 15px;
   }
-  /* line 3041, ../sass/screen.scss */
+  /* line 3044, ../sass/screen.scss */
   .head nav .menu {
     display: none;
   }
-  /* line 3044, ../sass/screen.scss */
+  /* line 3047, ../sass/screen.scss */
   .head nav .lang {
     display: none;
   }
-  /* line 3047, ../sass/screen.scss */
+  /* line 3050, ../sass/screen.scss */
   .head nav .mob_burger {
     z-index: 100;
   }
-  /* line 3051, ../sass/screen.scss */
+  /* line 3054, ../sass/screen.scss */
   .head .logo {
     width: 170px;
     height: 90px;
     margin: 0 auto;
     margin-top: -50px;
   }
-  /* line 3056, ../sass/screen.scss */
+  /* line 3059, ../sass/screen.scss */
   .head .logo img {
     width: 100%;
   }
-  /* line 3060, ../sass/screen.scss */
+  /* line 3063, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 270px;
   }
-  /* line 3062, ../sass/screen.scss */
+  /* line 3065, ../sass/screen.scss */
   .head .mid-row p {
     font-size: 21px;
     line-height: 20px;
@@ -3995,7 +3998,7 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.6px;
   }
-  /* line 3070, ../sass/screen.scss */
+  /* line 3073, ../sass/screen.scss */
   .head .mid-row p span {
     font-weight: 400;
     letter-spacing: 0.3px;
@@ -4004,20 +4007,20 @@ body .docSmart {
     letter-spacing: .5px;
     display: inline-block;
   }
-  /* line 3078, ../sass/screen.scss */
+  /* line 3081, ../sass/screen.scss */
   .head .mid-row p .bottom_span {
     width: 140px;
     margin-top: 35px;
   }
-  /* line 3082, ../sass/screen.scss */
+  /* line 3085, ../sass/screen.scss */
   .head .mid-row p .bottom_span_en {
     margin-top: 45px;
   }
-  /* line 3087, ../sass/screen.scss */
+  /* line 3090, ../sass/screen.scss */
   .head .mid-row-eng {
     padding-bottom: 280px;
   }
-  /* line 3091, ../sass/screen.scss */
+  /* line 3094, ../sass/screen.scss */
   .head .mob-nav .close-menu {
     position: absolute;
     top: 0px;
@@ -4025,7 +4028,7 @@ body .docSmart {
     font-size: 23px;
   }
 
-  /* line 3099, ../sass/screen.scss */
+  /* line 3102, ../sass/screen.scss */
   .obzor {
     font-family: 'PF DinDisplay Pro';
     display: -webkit-flex;
@@ -4036,7 +4039,7 @@ body .docSmart {
     display: flex;
     flex-direction: column-reverse;
   }
-  /* line 3108, ../sass/screen.scss */
+  /* line 3111, ../sass/screen.scss */
   .obzor h4 {
     position: unset;
     position: initial;
@@ -4047,7 +4050,7 @@ body .docSmart {
     padding-top: 30px;
     letter-spacing: 0.7px;
   }
-  /* line 3118, ../sass/screen.scss */
+  /* line 3121, ../sass/screen.scss */
   .obzor p {
     font-family: 'PF DinDisplay Pro';
     position: unset;
@@ -4058,59 +4061,59 @@ body .docSmart {
     line-height: 21px;
     letter-spacing: 0.6px;
   }
-  /* line 3128, ../sass/screen.scss */
+  /* line 3131, ../sass/screen.scss */
   .obzor span {
     padding-top: 0;
     font-size: 20px;
     font-weight: 300;
   }
-  /* line 3133, ../sass/screen.scss */
+  /* line 3136, ../sass/screen.scss */
   .obzor .docSmart {
     font-size: 20px;
   }
-  /* line 3136, ../sass/screen.scss */
+  /* line 3139, ../sass/screen.scss */
   .obzor .grandview {
     padding-top: 0px;
   }
-  /* line 3139, ../sass/screen.scss */
+  /* line 3142, ../sass/screen.scss */
   .obzor .ist-world-bank {
     font-size: 20px;
     right: 10px;
   }
-  /* line 3143, ../sass/screen.scss */
+  /* line 3146, ../sass/screen.scss */
   .obzor .left-col {
     padding-bottom: 60px;
   }
-  /* line 3145, ../sass/screen.scss */
+  /* line 3148, ../sass/screen.scss */
   .obzor .left-col .usd-val {
     position: unset;
     position: initial;
   }
-  /* line 3149, ../sass/screen.scss */
+  /* line 3152, ../sass/screen.scss */
   .obzor .left-col .img-responsive {
     position: unset;
     position: initial;
   }
-  /* line 3153, ../sass/screen.scss */
+  /* line 3156, ../sass/screen.scss */
   .obzor .left-col span {
     position: unset;
     position: initial;
   }
-  /* line 3158, ../sass/screen.scss */
+  /* line 3161, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 3160, ../sass/screen.scss */
+  /* line 3163, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 45px;
     right: 155px;
   }
-  /* line 3163, ../sass/screen.scss */
+  /* line 3166, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -265px;
     right: 0px;
   }
-  /* line 3169, ../sass/screen.scss */
+  /* line 3172, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 146px;
@@ -4120,21 +4123,21 @@ body .docSmart {
     font-size: 12px;
     line-height: 20px;
   }
-  /* line 3179, ../sass/screen.scss */
+  /* line 3182, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 350px;
   }
-  /* line 3183, ../sass/screen.scss */
+  /* line 3186, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 3185, ../sass/screen.scss */
+  /* line 3188, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 60px;
   }
-  /* line 3190, ../sass/screen.scss */
+  /* line 3193, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -4142,34 +4145,34 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 3197, ../sass/screen.scss */
+  /* line 3200, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -380px;
     left: 0;
   }
-  /* line 3202, ../sass/screen.scss */
+  /* line 3205, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 3206, ../sass/screen.scss */
+  /* line 3209, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -500px;
   }
-  /* line 3210, ../sass/screen.scss */
+  /* line 3213, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
     top: -50px;
   }
 
-  /* line 3217, ../sass/screen.scss */
+  /* line 3220, ../sass/screen.scss */
   .work {
     background-position: -280px 0px;
   }
-  /* line 3221, ../sass/screen.scss */
+  /* line 3224, ../sass/screen.scss */
   .work h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -4177,7 +4180,7 @@ body .docSmart {
     position: initial;
     padding-bottom: 25px;
   }
-  /* line 3228, ../sass/screen.scss */
+  /* line 3231, ../sass/screen.scss */
   .work p {
     padding-bottom: 40px;
     line-height: 20px;
@@ -4188,38 +4191,38 @@ body .docSmart {
     letter-spacing: .3px;
     font-weight: 100;
   }
-  /* line 3238, ../sass/screen.scss */
+  /* line 3241, ../sass/screen.scss */
   .work .box {
     position: unset;
     position: initial;
     margin-bottom: 40px;
   }
-  /* line 3242, ../sass/screen.scss */
+  /* line 3245, ../sass/screen.scss */
   .work .box .desc {
     display: none;
     background-color: transparent;
     font-size: 16px;
     color: #fff;
   }
-  /* line 3249, ../sass/screen.scss */
+  /* line 3252, ../sass/screen.scss */
   .work .box:hover .desc {
     display: none;
   }
-  /* line 3253, ../sass/screen.scss */
+  /* line 3256, ../sass/screen.scss */
   .work .box p {
     display: none;
   }
-  /* line 3256, ../sass/screen.scss */
+  /* line 3259, ../sass/screen.scss */
   .work .box .mob-view {
     display: block;
   }
-  /* line 3258, ../sass/screen.scss */
+  /* line 3261, ../sass/screen.scss */
   .work .box .mob-view h5 {
     font-size: 20px;
     padding-top: 0;
     padding-bottom: 20px;
   }
-  /* line 3264, ../sass/screen.scss */
+  /* line 3267, ../sass/screen.scss */
   .work .box .mob-view span {
     display: inline-block;
     padding-right: 0;
@@ -4229,7 +4232,7 @@ body .docSmart {
     letter-spacing: .4px;
     font-weight: 200;
   }
-  /* line 3275, ../sass/screen.scss */
+  /* line 3278, ../sass/screen.scss */
   .work .box img {
     width: 120px;
     height: 120px;
@@ -4238,7 +4241,7 @@ body .docSmart {
     margin-bottom: 20px;
   }
 
-  /* line 3285, ../sass/screen.scss */
+  /* line 3288, ../sass/screen.scss */
   .garant h3 {
     font-size: 30px;
     padding-bottom: 10px;
@@ -4247,7 +4250,7 @@ body .docSmart {
     position: initial;
     font-weight: 100;
   }
-  /* line 3293, ../sass/screen.scss */
+  /* line 3296, ../sass/screen.scss */
   .garant p {
     font-size: 20px;
     text-align: left;
@@ -4258,14 +4261,14 @@ body .docSmart {
     position: unset;
     position: initial;
   }
-  /* line 3303, ../sass/screen.scss */
+  /* line 3306, ../sass/screen.scss */
   .garant p.serts_head {
     position: unset;
     position: initial;
     margin-bottom: 20px;
     font-weight: 400;
   }
-  /* line 3309, ../sass/screen.scss */
+  /* line 3312, ../sass/screen.scss */
   .garant .sert {
     display: -webkit-flex;
     display: -webkit-box;
@@ -4278,32 +4281,32 @@ body .docSmart {
     position: initial;
     margin-bottom: 40px;
   }
-  /* line 3320, ../sass/screen.scss */
+  /* line 3323, ../sass/screen.scss */
   .garant .sert img {
     margin-bottom: 35px;
   }
-  /* line 3323, ../sass/screen.scss */
+  /* line 3326, ../sass/screen.scss */
   .garant .sert .sert1 {
     width: 85px;
   }
-  /* line 3326, ../sass/screen.scss */
+  /* line 3329, ../sass/screen.scss */
   .garant .sert .sert2 {
     width: 90px;
   }
-  /* line 3329, ../sass/screen.scss */
+  /* line 3332, ../sass/screen.scss */
   .garant .sert .sert3, .garant .sert .sert5 {
     width: 130px;
   }
-  /* line 3332, ../sass/screen.scss */
+  /* line 3335, ../sass/screen.scss */
   .garant .sert .sert4 {
     width: 85px;
   }
 
-  /* line 3337, ../sass/screen.scss */
+  /* line 3340, ../sass/screen.scss */
   .service {
     background-position: -1050px 0;
   }
-  /* line 3339, ../sass/screen.scss */
+  /* line 3342, ../sass/screen.scss */
   .service h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -4313,7 +4316,7 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.6px;
   }
-  /* line 3348, ../sass/screen.scss */
+  /* line 3351, ../sass/screen.scss */
   .service p {
     left: 0;
     font-size: 20px;
@@ -4325,7 +4328,7 @@ body .docSmart {
     padding-left: 5px;
     padding-right: 5px;
   }
-  /* line 3359, ../sass/screen.scss */
+  /* line 3362, ../sass/screen.scss */
   .service .box {
     position: unset;
     position: initial;
@@ -4333,19 +4336,19 @@ body .docSmart {
     margin-bottom: 60px;
     padding-left: 0px;
   }
-  /* line 3366, ../sass/screen.scss */
+  /* line 3369, ../sass/screen.scss */
   .service .box:hover .desc {
     display: none;
   }
-  /* line 3370, ../sass/screen.scss */
+  /* line 3373, ../sass/screen.scss */
   .service .box p {
     display: none;
   }
-  /* line 3373, ../sass/screen.scss */
+  /* line 3376, ../sass/screen.scss */
   .service .box .mob-view {
     display: block;
   }
-  /* line 3375, ../sass/screen.scss */
+  /* line 3378, ../sass/screen.scss */
   .service .box .mob-view h5 {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -4355,7 +4358,7 @@ body .docSmart {
     font-weight: 300;
     letter-spacing: 0.6px;
   }
-  /* line 3383, ../sass/screen.scss */
+  /* line 3386, ../sass/screen.scss */
   .service .box .mob-view span {
     font-weight: 100;
     line-height: 21px;
@@ -4365,34 +4368,34 @@ body .docSmart {
     letter-spacing: 0.2px;
     line-height: 21px;
   }
-  /* line 3393, ../sass/screen.scss */
+  /* line 3396, ../sass/screen.scss */
   .service .box img {
     width: 120px;
     height: 120px;
     margin-right: 0px;
   }
-  /* line 3399, ../sass/screen.scss */
+  /* line 3402, ../sass/screen.scss */
   .service .first_box {
     position: unset;
     position: initial;
   }
 
-  /* line 3404, ../sass/screen.scss */
+  /* line 3407, ../sass/screen.scss */
   .proect_creator {
     padding-bottom: 0;
   }
-  /* line 3406, ../sass/screen.scss */
+  /* line 3409, ../sass/screen.scss */
   .proect_creator h3 {
     padding-top: 25px;
     padding-bottom: 0;
     font-size: 30px;
     margin-left: 0;
   }
-  /* line 3412, ../sass/screen.scss */
+  /* line 3415, ../sass/screen.scss */
   .proect_creator .box {
     left: 0;
   }
-  /* line 3414, ../sass/screen.scss */
+  /* line 3417, ../sass/screen.scss */
   .proect_creator .box .desc {
     display: block;
     position: unset;
@@ -4401,22 +4404,22 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 3421, ../sass/screen.scss */
+  /* line 3424, ../sass/screen.scss */
   .proect_creator .box .desc span {
     font-weight: 100;
     line-height: 23px;
     padding: 20px 5px 21px;
     font-size: 20px;
   }
-  /* line 3427, ../sass/screen.scss */
+  /* line 3430, ../sass/screen.scss */
   .proect_creator .box .desc h5 {
     display: none;
   }
-  /* line 3430, ../sass/screen.scss */
+  /* line 3433, ../sass/screen.scss */
   .proect_creator .box .desc .right_doc {
     padding-bottom: 60px;
   }
-  /* line 3434, ../sass/screen.scss */
+  /* line 3437, ../sass/screen.scss */
   .proect_creator .box p {
     position: unset;
     position: initial;
@@ -4424,35 +4427,35 @@ body .docSmart {
     line-height: 21px;
     padding-bottom: 0;
   }
-  /* line 3442, ../sass/screen.scss */
+  /* line 3445, ../sass/screen.scss */
   .proect_creator .round1, .proect_creator .round2 {
     position: unset;
     position: initial;
   }
-  /* line 3446, ../sass/screen.scss */
+  /* line 3449, ../sass/screen.scss */
   .proect_creator .round2 {
     background-position: 0 -18px;
   }
 
-  /* line 3451, ../sass/screen.scss */
+  /* line 3454, ../sass/screen.scss */
   .team h3 {
     padding-top: 25px;
     font-size: 30px;
   }
-  /* line 3455, ../sass/screen.scss */
+  /* line 3458, ../sass/screen.scss */
   .team h4 {
     padding-bottom: 40px;
     font-size: 24px;
   }
-  /* line 3459, ../sass/screen.scss */
+  /* line 3462, ../sass/screen.scss */
   .team .top-row {
     border: none;
   }
-  /* line 3462, ../sass/screen.scss */
+  /* line 3465, ../sass/screen.scss */
   .team .box {
     left: 0;
   }
-  /* line 3464, ../sass/screen.scss */
+  /* line 3467, ../sass/screen.scss */
   .team .box .desc {
     display: block;
     position: unset;
@@ -4461,7 +4464,7 @@ body .docSmart {
     font-size: 18px;
     color: #505050;
   }
-  /* line 3471, ../sass/screen.scss */
+  /* line 3474, ../sass/screen.scss */
   .team .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -4469,39 +4472,39 @@ body .docSmart {
     font-size: 20px;
     letter-spacing: .5px;
   }
-  /* line 3478, ../sass/screen.scss */
+  /* line 3481, ../sass/screen.scss */
   .team .box .desc h5 {
     display: none;
   }
-  /* line 3482, ../sass/screen.scss */
+  /* line 3485, ../sass/screen.scss */
   .team .box p {
     position: unset;
     position: initial;
     font-weight: 300;
     font-size: 20px;
   }
-  /* line 3489, ../sass/screen.scss */
+  /* line 3492, ../sass/screen.scss */
   .team .box1, .team .box2, .team .box3, .team .box4 {
     padding-bottom: 30px;
     padding-top: 30px;
     border: none;
   }
-  /* line 3493, ../sass/screen.scss */
+  /* line 3496, ../sass/screen.scss */
   .team .box1 p, .team .box2 p, .team .box3 p, .team .box4 p {
     margin-left: 0;
   }
-  /* line 3497, ../sass/screen.scss */
+  /* line 3500, ../sass/screen.scss */
   .team .round2 {
     position: unset;
     position: initial;
   }
-  /* line 3501, ../sass/screen.scss */
+  /* line 3504, ../sass/screen.scss */
   .team .round4 {
     position: unset;
     position: initial;
   }
 
-  /* line 3507, ../sass/screen.scss */
+  /* line 3510, ../sass/screen.scss */
   .edviser h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -4512,7 +4515,7 @@ body .docSmart {
     margin-bottom: 5px;
     letter-spacing: .5px;
   }
-  /* line 3517, ../sass/screen.scss */
+  /* line 3520, ../sass/screen.scss */
   .edviser h4 {
     font-weight: 100;
     padding-bottom: 40px;
@@ -4522,23 +4525,23 @@ body .docSmart {
     position: unset;
     position: initial;
   }
-  /* line 3526, ../sass/screen.scss */
+  /* line 3529, ../sass/screen.scss */
   .edviser p {
     font-size: 20px;
   }
-  /* line 3529, ../sass/screen.scss */
+  /* line 3532, ../sass/screen.scss */
   .edviser .top-row {
     border: none;
   }
-  /* line 3532, ../sass/screen.scss */
+  /* line 3535, ../sass/screen.scss */
   .edviser .bottom-row_2 {
     border: none;
   }
-  /* line 3535, ../sass/screen.scss */
+  /* line 3538, ../sass/screen.scss */
   .edviser .box {
     left: 0;
   }
-  /* line 3537, ../sass/screen.scss */
+  /* line 3540, ../sass/screen.scss */
   .edviser .box .desc {
     display: block;
     position: unset;
@@ -4547,7 +4550,7 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 3544, ../sass/screen.scss */
+  /* line 3547, ../sass/screen.scss */
   .edviser .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -4555,33 +4558,33 @@ body .docSmart {
     letter-spacing: 0.5px;
     padding: 20px 0px 25px;
   }
-  /* line 3551, ../sass/screen.scss */
+  /* line 3554, ../sass/screen.scss */
   .edviser .box .desc h5 {
     display: none;
   }
-  /* line 3555, ../sass/screen.scss */
+  /* line 3558, ../sass/screen.scss */
   .edviser .box p {
     position: unset;
     margin-left: 0;
     position: initial;
   }
-  /* line 3561, ../sass/screen.scss */
+  /* line 3564, ../sass/screen.scss */
   .edviser .box1, .edviser .box3, .edviser .box2, .edviser .box4, .edviser .box5 {
     border: none;
     padding-bottom: 0px;
     padding-top: 30px;
   }
-  /* line 3566, ../sass/screen.scss */
+  /* line 3569, ../sass/screen.scss */
   .edviser .round {
     position: unset;
     position: initial;
   }
 
-  /* line 3572, ../sass/screen.scss */
+  /* line 3575, ../sass/screen.scss */
   .welcome .flex-row {
     padding: 0;
   }
-  /* line 3575, ../sass/screen.scss */
+  /* line 3578, ../sass/screen.scss */
   .welcome .left-box {
     position: unset;
     position: initial;
@@ -4591,7 +4594,7 @@ body .docSmart {
     background-position: 100px 0px;
     margin-bottom: 110px;
   }
-  /* line 3584, ../sass/screen.scss */
+  /* line 3587, ../sass/screen.scss */
   .welcome .right-box {
     position: unset;
     position: initial;
@@ -4599,7 +4602,7 @@ body .docSmart {
     margin-top: -80px;
     margin-bottom: 20px;
   }
-  /* line 3590, ../sass/screen.scss */
+  /* line 3593, ../sass/screen.scss */
   .welcome .right-box .send {
     position: unset;
     position: initial;
@@ -4608,11 +4611,11 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.8px;
   }
-  /* line 3599, ../sass/screen.scss */
+  /* line 3602, ../sass/screen.scss */
   .welcome .img-responsive {
     display: none;
   }
-  /* line 3602, ../sass/screen.scss */
+  /* line 3605, ../sass/screen.scss */
   .welcome h4 {
     display: inline-block;
     padding-left: 20px;
@@ -4624,14 +4627,14 @@ body .docSmart {
     letter-spacing: 0.6px;
     width: 180px;
   }
-  /* line 3613, ../sass/screen.scss */
+  /* line 3616, ../sass/screen.scss */
   .welcome p {
     font-size: 20px;
     line-height: 20px;
     padding-left: 5%;
   }
 
-  /* line 3620, ../sass/screen.scss */
+  /* line 3623, ../sass/screen.scss */
   .footer h4 {
     position: unset;
     position: initial;
@@ -4640,20 +4643,20 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.7px;
   }
-  /* line 3628, ../sass/screen.scss */
+  /* line 3631, ../sass/screen.scss */
   .footer span {
     position: unset;
     position: initial;
     padding-bottom: 10px;
     font-size: 20px;
   }
-  /* line 3635, ../sass/screen.scss */
+  /* line 3638, ../sass/screen.scss */
   .footer .contacts li {
     float: none;
     margin-right: 0;
     padding-bottom: 15px;
   }
-  /* line 3641, ../sass/screen.scss */
+  /* line 3644, ../sass/screen.scss */
   .footer .social_icons {
     padding-top: 30px;
     display: -webkit-flex;
@@ -4669,84 +4672,84 @@ body .docSmart {
     -webkit-justify-content: space-around;
     border-top: 1px solid #fff;
   }
-  /* line 3655, ../sass/screen.scss */
+  /* line 3658, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 0px;
   }
 }
 @media (min-width: 360px) and (max-width: 374px) {
-  /* line 3662, ../sass/screen.scss */
+  /* line 3665, ../sass/screen.scss */
   .mfp-close-btn-in .mfp-close {
     top: 0px;
     right: 5px;
   }
 
-  /* line 3666, ../sass/screen.scss */
+  /* line 3669, ../sass/screen.scss */
   #form1 {
     max-width: 300px;
     padding: 15px;
   }
-  /* line 3669, ../sass/screen.scss */
+  /* line 3672, ../sass/screen.scss */
   #form1 h3 {
     font-size: 22px;
     color: #73d0d5;
     padding-top: 20px;
     padding-bottom: 30px;
   }
-  /* line 3675, ../sass/screen.scss */
+  /* line 3678, ../sass/screen.scss */
   #form1 input {
     margin-bottom: 20px;
     padding: 5px 15px;
     font-size: 18px;
   }
-  /* line 3680, ../sass/screen.scss */
+  /* line 3683, ../sass/screen.scss */
   #form1 textarea {
     height: 90px;
     font-size: 20px;
   }
-  /* line 3684, ../sass/screen.scss */
+  /* line 3687, ../sass/screen.scss */
   #form1 .send_massage_btn {
     font-size: 20px;
     padding: 10px 30px;
     margin-bottom: 20px;
   }
 
-  /* line 3691, ../sass/screen.scss */
+  /* line 3694, ../sass/screen.scss */
   .head .overlay {
     background-position: -1060px 420px;
   }
-  /* line 3694, ../sass/screen.scss */
+  /* line 3697, ../sass/screen.scss */
   .head nav {
     margin-top: 15px;
   }
-  /* line 3696, ../sass/screen.scss */
+  /* line 3699, ../sass/screen.scss */
   .head nav .menu {
     display: none;
   }
-  /* line 3699, ../sass/screen.scss */
+  /* line 3702, ../sass/screen.scss */
   .head nav .lang {
     display: none;
   }
-  /* line 3702, ../sass/screen.scss */
+  /* line 3705, ../sass/screen.scss */
   .head nav .mob_burger {
     z-index: 100;
   }
-  /* line 3706, ../sass/screen.scss */
+  /* line 3709, ../sass/screen.scss */
   .head .logo {
     width: 170px;
     height: 90px;
     margin: 0 auto;
     margin-top: -50px;
   }
-  /* line 3711, ../sass/screen.scss */
+  /* line 3714, ../sass/screen.scss */
   .head .logo img {
     width: 100%;
   }
-  /* line 3715, ../sass/screen.scss */
+  /* line 3718, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 260px;
   }
-  /* line 3717, ../sass/screen.scss */
+  /* line 3720, ../sass/screen.scss */
   .head .mid-row p {
     font-size: 21px;
     line-height: 20px;
@@ -4756,7 +4759,7 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.6px;
   }
-  /* line 3725, ../sass/screen.scss */
+  /* line 3728, ../sass/screen.scss */
   .head .mid-row p span {
     font-weight: 400;
     letter-spacing: 0.3px;
@@ -4765,20 +4768,20 @@ body .docSmart {
     letter-spacing: .5px;
     display: inline-block;
   }
-  /* line 3733, ../sass/screen.scss */
+  /* line 3736, ../sass/screen.scss */
   .head .mid-row p .bottom_span {
     width: 140px;
     margin-top: 20px;
   }
-  /* line 3737, ../sass/screen.scss */
+  /* line 3740, ../sass/screen.scss */
   .head .mid-row p .bottom_span_en {
     margin-top: 45px;
   }
-  /* line 3742, ../sass/screen.scss */
+  /* line 3745, ../sass/screen.scss */
   .head .mid-row-eng {
     padding-bottom: 280px;
   }
-  /* line 3746, ../sass/screen.scss */
+  /* line 3749, ../sass/screen.scss */
   .head .mob-nav .close-menu {
     position: absolute;
     top: 0px;
@@ -4786,7 +4789,7 @@ body .docSmart {
     font-size: 23px;
   }
 
-  /* line 3754, ../sass/screen.scss */
+  /* line 3757, ../sass/screen.scss */
   .obzor {
     font-family: 'PF DinDisplay Pro';
     display: -webkit-flex;
@@ -4797,7 +4800,7 @@ body .docSmart {
     display: flex;
     flex-direction: column-reverse;
   }
-  /* line 3763, ../sass/screen.scss */
+  /* line 3766, ../sass/screen.scss */
   .obzor h4 {
     position: unset;
     position: initial;
@@ -4808,7 +4811,7 @@ body .docSmart {
     padding-top: 30px;
     letter-spacing: 0.7px;
   }
-  /* line 3773, ../sass/screen.scss */
+  /* line 3776, ../sass/screen.scss */
   .obzor p {
     font-family: 'PF DinDisplay Pro';
     position: unset;
@@ -4819,59 +4822,59 @@ body .docSmart {
     line-height: 21px;
     letter-spacing: 0.6px;
   }
-  /* line 3783, ../sass/screen.scss */
+  /* line 3786, ../sass/screen.scss */
   .obzor span {
     padding-top: 0;
     font-size: 20px;
     font-weight: 300;
   }
-  /* line 3788, ../sass/screen.scss */
+  /* line 3791, ../sass/screen.scss */
   .obzor .docSmart {
     font-size: 20px;
   }
-  /* line 3791, ../sass/screen.scss */
+  /* line 3794, ../sass/screen.scss */
   .obzor .grandview {
     padding-top: 0px;
   }
-  /* line 3794, ../sass/screen.scss */
+  /* line 3797, ../sass/screen.scss */
   .obzor .ist-world-bank {
     font-size: 20px;
     right: 10px;
   }
-  /* line 3798, ../sass/screen.scss */
+  /* line 3801, ../sass/screen.scss */
   .obzor .left-col {
     padding-bottom: 60px;
   }
-  /* line 3800, ../sass/screen.scss */
+  /* line 3803, ../sass/screen.scss */
   .obzor .left-col .usd-val {
     position: unset;
     position: initial;
   }
-  /* line 3804, ../sass/screen.scss */
+  /* line 3807, ../sass/screen.scss */
   .obzor .left-col .img-responsive {
     position: unset;
     position: initial;
   }
-  /* line 3808, ../sass/screen.scss */
+  /* line 3811, ../sass/screen.scss */
   .obzor .left-col span {
     position: unset;
     position: initial;
   }
-  /* line 3813, ../sass/screen.scss */
+  /* line 3816, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 3815, ../sass/screen.scss */
+  /* line 3818, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 35px;
     right: 155px;
   }
-  /* line 3818, ../sass/screen.scss */
+  /* line 3821, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -265px;
     right: 0px;
   }
-  /* line 3824, ../sass/screen.scss */
+  /* line 3827, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 120px;
@@ -4881,21 +4884,21 @@ body .docSmart {
     font-size: 12px;
     line-height: 20px;
   }
-  /* line 3834, ../sass/screen.scss */
+  /* line 3837, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 320px;
   }
-  /* line 3838, ../sass/screen.scss */
+  /* line 3841, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 3840, ../sass/screen.scss */
+  /* line 3843, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 60px;
   }
-  /* line 3845, ../sass/screen.scss */
+  /* line 3848, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -4903,34 +4906,34 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 3852, ../sass/screen.scss */
+  /* line 3855, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -360px;
     left: 0;
   }
-  /* line 3857, ../sass/screen.scss */
+  /* line 3860, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 3861, ../sass/screen.scss */
+  /* line 3864, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -480px;
   }
-  /* line 3865, ../sass/screen.scss */
+  /* line 3868, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
     top: -50px;
   }
 
-  /* line 3872, ../sass/screen.scss */
+  /* line 3875, ../sass/screen.scss */
   .work {
     background-position: -280px 0px;
   }
-  /* line 3876, ../sass/screen.scss */
+  /* line 3879, ../sass/screen.scss */
   .work h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -4938,7 +4941,7 @@ body .docSmart {
     position: initial;
     padding-bottom: 25px;
   }
-  /* line 3883, ../sass/screen.scss */
+  /* line 3886, ../sass/screen.scss */
   .work p {
     padding-bottom: 40px;
     line-height: 20px;
@@ -4949,38 +4952,38 @@ body .docSmart {
     letter-spacing: .3px;
     font-weight: 100;
   }
-  /* line 3893, ../sass/screen.scss */
+  /* line 3896, ../sass/screen.scss */
   .work .box {
     position: unset;
     position: initial;
     margin-bottom: 40px;
   }
-  /* line 3897, ../sass/screen.scss */
+  /* line 3900, ../sass/screen.scss */
   .work .box .desc {
     display: none;
     background-color: transparent;
     font-size: 16px;
     color: #fff;
   }
-  /* line 3904, ../sass/screen.scss */
+  /* line 3907, ../sass/screen.scss */
   .work .box:hover .desc {
     display: none;
   }
-  /* line 3908, ../sass/screen.scss */
+  /* line 3911, ../sass/screen.scss */
   .work .box p {
     display: none;
   }
-  /* line 3911, ../sass/screen.scss */
+  /* line 3914, ../sass/screen.scss */
   .work .box .mob-view {
     display: block;
   }
-  /* line 3913, ../sass/screen.scss */
+  /* line 3916, ../sass/screen.scss */
   .work .box .mob-view h5 {
     font-size: 20px;
     padding-top: 0;
     padding-bottom: 20px;
   }
-  /* line 3919, ../sass/screen.scss */
+  /* line 3922, ../sass/screen.scss */
   .work .box .mob-view span {
     display: inline-block;
     padding-right: 0;
@@ -4990,7 +4993,7 @@ body .docSmart {
     letter-spacing: .4px;
     font-weight: 200;
   }
-  /* line 3930, ../sass/screen.scss */
+  /* line 3933, ../sass/screen.scss */
   .work .box img {
     width: 120px;
     height: 120px;
@@ -4999,7 +5002,7 @@ body .docSmart {
     margin-bottom: 20px;
   }
 
-  /* line 3940, ../sass/screen.scss */
+  /* line 3943, ../sass/screen.scss */
   .garant h3 {
     font-size: 30px;
     padding-bottom: 10px;
@@ -5008,7 +5011,7 @@ body .docSmart {
     position: initial;
     font-weight: 100;
   }
-  /* line 3948, ../sass/screen.scss */
+  /* line 3951, ../sass/screen.scss */
   .garant p {
     font-size: 20px;
     text-align: left;
@@ -5019,14 +5022,14 @@ body .docSmart {
     position: unset;
     position: initial;
   }
-  /* line 3958, ../sass/screen.scss */
+  /* line 3961, ../sass/screen.scss */
   .garant p.serts_head {
     position: unset;
     position: initial;
     margin-bottom: 20px;
     font-weight: 400;
   }
-  /* line 3964, ../sass/screen.scss */
+  /* line 3967, ../sass/screen.scss */
   .garant .sert {
     display: -webkit-flex;
     display: -webkit-box;
@@ -5039,32 +5042,32 @@ body .docSmart {
     position: initial;
     margin-bottom: 40px;
   }
-  /* line 3975, ../sass/screen.scss */
+  /* line 3978, ../sass/screen.scss */
   .garant .sert img {
     margin-bottom: 35px;
   }
-  /* line 3978, ../sass/screen.scss */
+  /* line 3981, ../sass/screen.scss */
   .garant .sert .sert1 {
     width: 85px;
   }
-  /* line 3981, ../sass/screen.scss */
+  /* line 3984, ../sass/screen.scss */
   .garant .sert .sert2 {
     width: 90px;
   }
-  /* line 3984, ../sass/screen.scss */
+  /* line 3987, ../sass/screen.scss */
   .garant .sert .sert3, .garant .sert .sert5 {
     width: 130px;
   }
-  /* line 3987, ../sass/screen.scss */
+  /* line 3990, ../sass/screen.scss */
   .garant .sert .sert4 {
     width: 85px;
   }
 
-  /* line 3992, ../sass/screen.scss */
+  /* line 3995, ../sass/screen.scss */
   .service {
     background-position: -1100px 0;
   }
-  /* line 3994, ../sass/screen.scss */
+  /* line 3997, ../sass/screen.scss */
   .service h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -5074,7 +5077,7 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.6px;
   }
-  /* line 4003, ../sass/screen.scss */
+  /* line 4006, ../sass/screen.scss */
   .service p {
     left: 0;
     font-size: 20px;
@@ -5086,7 +5089,7 @@ body .docSmart {
     padding-left: 5px;
     padding-right: 5px;
   }
-  /* line 4014, ../sass/screen.scss */
+  /* line 4017, ../sass/screen.scss */
   .service .box {
     position: unset;
     position: initial;
@@ -5094,19 +5097,19 @@ body .docSmart {
     margin-bottom: 60px;
     padding-left: 0px;
   }
-  /* line 4021, ../sass/screen.scss */
+  /* line 4024, ../sass/screen.scss */
   .service .box:hover .desc {
     display: none;
   }
-  /* line 4025, ../sass/screen.scss */
+  /* line 4028, ../sass/screen.scss */
   .service .box p {
     display: none;
   }
-  /* line 4028, ../sass/screen.scss */
+  /* line 4031, ../sass/screen.scss */
   .service .box .mob-view {
     display: block;
   }
-  /* line 4030, ../sass/screen.scss */
+  /* line 4033, ../sass/screen.scss */
   .service .box .mob-view h5 {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -5116,7 +5119,7 @@ body .docSmart {
     font-weight: 300;
     letter-spacing: 0.6px;
   }
-  /* line 4038, ../sass/screen.scss */
+  /* line 4041, ../sass/screen.scss */
   .service .box .mob-view span {
     font-weight: 100;
     line-height: 21px;
@@ -5126,34 +5129,34 @@ body .docSmart {
     letter-spacing: 0.2px;
     line-height: 21px;
   }
-  /* line 4048, ../sass/screen.scss */
+  /* line 4051, ../sass/screen.scss */
   .service .box img {
     width: 120px;
     height: 120px;
     margin-right: 0px;
   }
-  /* line 4054, ../sass/screen.scss */
+  /* line 4057, ../sass/screen.scss */
   .service .first_box {
     position: unset;
     position: initial;
   }
 
-  /* line 4059, ../sass/screen.scss */
+  /* line 4062, ../sass/screen.scss */
   .proect_creator {
     padding-bottom: 0;
   }
-  /* line 4061, ../sass/screen.scss */
+  /* line 4064, ../sass/screen.scss */
   .proect_creator h3 {
     padding-top: 25px;
     padding-bottom: 0;
     font-size: 30px;
     margin-left: 0;
   }
-  /* line 4067, ../sass/screen.scss */
+  /* line 4070, ../sass/screen.scss */
   .proect_creator .box {
     left: 0;
   }
-  /* line 4069, ../sass/screen.scss */
+  /* line 4072, ../sass/screen.scss */
   .proect_creator .box .desc {
     display: block;
     position: unset;
@@ -5162,22 +5165,22 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 4076, ../sass/screen.scss */
+  /* line 4079, ../sass/screen.scss */
   .proect_creator .box .desc span {
     font-weight: 100;
     line-height: 23px;
     padding: 20px 5px 21px;
     font-size: 20px;
   }
-  /* line 4082, ../sass/screen.scss */
+  /* line 4085, ../sass/screen.scss */
   .proect_creator .box .desc h5 {
     display: none;
   }
-  /* line 4085, ../sass/screen.scss */
+  /* line 4088, ../sass/screen.scss */
   .proect_creator .box .desc .right_doc {
     padding-bottom: 60px;
   }
-  /* line 4089, ../sass/screen.scss */
+  /* line 4092, ../sass/screen.scss */
   .proect_creator .box p {
     position: unset;
     position: initial;
@@ -5185,35 +5188,35 @@ body .docSmart {
     line-height: 21px;
     padding-bottom: 0;
   }
-  /* line 4097, ../sass/screen.scss */
+  /* line 4100, ../sass/screen.scss */
   .proect_creator .round1, .proect_creator .round2 {
     position: unset;
     position: initial;
   }
-  /* line 4101, ../sass/screen.scss */
+  /* line 4104, ../sass/screen.scss */
   .proect_creator .round2 {
     background-position: 0px -18px;
   }
 
-  /* line 4106, ../sass/screen.scss */
+  /* line 4109, ../sass/screen.scss */
   .team h3 {
     padding-top: 25px;
     font-size: 30px;
   }
-  /* line 4110, ../sass/screen.scss */
+  /* line 4113, ../sass/screen.scss */
   .team h4 {
     padding-bottom: 40px;
     font-size: 24px;
   }
-  /* line 4114, ../sass/screen.scss */
+  /* line 4117, ../sass/screen.scss */
   .team .top-row {
     border: none;
   }
-  /* line 4117, ../sass/screen.scss */
+  /* line 4120, ../sass/screen.scss */
   .team .box {
     left: 0;
   }
-  /* line 4119, ../sass/screen.scss */
+  /* line 4122, ../sass/screen.scss */
   .team .box .desc {
     display: block;
     position: unset;
@@ -5222,7 +5225,7 @@ body .docSmart {
     font-size: 18px;
     color: #505050;
   }
-  /* line 4126, ../sass/screen.scss */
+  /* line 4129, ../sass/screen.scss */
   .team .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -5230,39 +5233,39 @@ body .docSmart {
     font-size: 20px;
     letter-spacing: .5px;
   }
-  /* line 4133, ../sass/screen.scss */
+  /* line 4136, ../sass/screen.scss */
   .team .box .desc h5 {
     display: none;
   }
-  /* line 4137, ../sass/screen.scss */
+  /* line 4140, ../sass/screen.scss */
   .team .box p {
     position: unset;
     position: initial;
     font-weight: 300;
     font-size: 20px;
   }
-  /* line 4144, ../sass/screen.scss */
+  /* line 4147, ../sass/screen.scss */
   .team .box1, .team .box2, .team .box3, .team .box4 {
     padding-bottom: 30px;
     padding-top: 30px;
     border: none;
   }
-  /* line 4148, ../sass/screen.scss */
+  /* line 4151, ../sass/screen.scss */
   .team .box1 p, .team .box2 p, .team .box3 p, .team .box4 p {
     margin-left: 0;
   }
-  /* line 4152, ../sass/screen.scss */
+  /* line 4155, ../sass/screen.scss */
   .team .round2 {
     position: unset;
     position: initial;
   }
-  /* line 4156, ../sass/screen.scss */
+  /* line 4159, ../sass/screen.scss */
   .team .round4 {
     position: unset;
     position: initial;
   }
 
-  /* line 4162, ../sass/screen.scss */
+  /* line 4165, ../sass/screen.scss */
   .edviser h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -5273,7 +5276,7 @@ body .docSmart {
     margin-bottom: 5px;
     letter-spacing: .5px;
   }
-  /* line 4172, ../sass/screen.scss */
+  /* line 4175, ../sass/screen.scss */
   .edviser h4 {
     font-weight: 100;
     padding-bottom: 40px;
@@ -5283,23 +5286,23 @@ body .docSmart {
     position: unset;
     position: initial;
   }
-  /* line 4181, ../sass/screen.scss */
+  /* line 4184, ../sass/screen.scss */
   .edviser p {
     font-size: 20px;
   }
-  /* line 4184, ../sass/screen.scss */
+  /* line 4187, ../sass/screen.scss */
   .edviser .top-row {
     border: none;
   }
-  /* line 4187, ../sass/screen.scss */
+  /* line 4190, ../sass/screen.scss */
   .edviser .bottom-row_2 {
     border: none;
   }
-  /* line 4190, ../sass/screen.scss */
+  /* line 4193, ../sass/screen.scss */
   .edviser .box {
     left: 0;
   }
-  /* line 4192, ../sass/screen.scss */
+  /* line 4195, ../sass/screen.scss */
   .edviser .box .desc {
     display: block;
     position: unset;
@@ -5308,7 +5311,7 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 4199, ../sass/screen.scss */
+  /* line 4202, ../sass/screen.scss */
   .edviser .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -5316,33 +5319,33 @@ body .docSmart {
     letter-spacing: 0.5px;
     padding: 20px 0px 25px;
   }
-  /* line 4206, ../sass/screen.scss */
+  /* line 4209, ../sass/screen.scss */
   .edviser .box .desc h5 {
     display: none;
   }
-  /* line 4210, ../sass/screen.scss */
+  /* line 4213, ../sass/screen.scss */
   .edviser .box p {
     position: unset;
     position: initial;
     margin-left: 0;
   }
-  /* line 4216, ../sass/screen.scss */
+  /* line 4219, ../sass/screen.scss */
   .edviser .box1, .edviser .box3, .edviser .box2, .edviser .box4, .edviser .box5 {
     border: none;
     padding-bottom: 0px;
     padding-top: 30px;
   }
-  /* line 4221, ../sass/screen.scss */
+  /* line 4224, ../sass/screen.scss */
   .edviser .round {
     position: unset;
     position: initial;
   }
 
-  /* line 4227, ../sass/screen.scss */
+  /* line 4230, ../sass/screen.scss */
   .welcome .flex-row {
     padding: 0;
   }
-  /* line 4230, ../sass/screen.scss */
+  /* line 4233, ../sass/screen.scss */
   .welcome .left-box {
     position: unset;
     position: initial;
@@ -5352,7 +5355,7 @@ body .docSmart {
     background-position: 100px 0px;
     margin-bottom: 110px;
   }
-  /* line 4239, ../sass/screen.scss */
+  /* line 4242, ../sass/screen.scss */
   .welcome .right-box {
     position: unset;
     position: initial;
@@ -5360,7 +5363,7 @@ body .docSmart {
     margin-top: -80px;
     margin-bottom: 20px;
   }
-  /* line 4245, ../sass/screen.scss */
+  /* line 4248, ../sass/screen.scss */
   .welcome .right-box .send {
     position: unset;
     position: initial;
@@ -5369,11 +5372,11 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.8px;
   }
-  /* line 4254, ../sass/screen.scss */
+  /* line 4257, ../sass/screen.scss */
   .welcome .img-responsive {
     display: none;
   }
-  /* line 4257, ../sass/screen.scss */
+  /* line 4260, ../sass/screen.scss */
   .welcome h4 {
     display: inline-block;
     padding-left: 20px;
@@ -5385,14 +5388,14 @@ body .docSmart {
     letter-spacing: 0.6px;
     width: 180px;
   }
-  /* line 4268, ../sass/screen.scss */
+  /* line 4271, ../sass/screen.scss */
   .welcome p {
     font-size: 20px;
     line-height: 20px;
     padding-left: 7%;
   }
 
-  /* line 4275, ../sass/screen.scss */
+  /* line 4278, ../sass/screen.scss */
   .footer h4 {
     position: unset;
     position: initial;
@@ -5401,20 +5404,20 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.7px;
   }
-  /* line 4283, ../sass/screen.scss */
+  /* line 4286, ../sass/screen.scss */
   .footer span {
     position: unset;
     position: initial;
     padding-bottom: 10px;
     font-size: 20px;
   }
-  /* line 4290, ../sass/screen.scss */
+  /* line 4293, ../sass/screen.scss */
   .footer .contacts li {
     float: none;
     margin-right: 0;
     padding-bottom: 15px;
   }
-  /* line 4296, ../sass/screen.scss */
+  /* line 4299, ../sass/screen.scss */
   .footer .social_icons {
     padding-top: 30px;
     display: -webkit-flex;
@@ -5430,84 +5433,84 @@ body .docSmart {
     -webkit-justify-content: space-around;
     border-top: 1px solid #fff;
   }
-  /* line 4310, ../sass/screen.scss */
+  /* line 4313, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 0px;
   }
 }
 @media (min-width: 320px) and (max-width: 359px) {
-  /* line 4317, ../sass/screen.scss */
+  /* line 4320, ../sass/screen.scss */
   .mfp-close-btn-in .mfp-close {
     top: 0px;
     right: 5px;
   }
 
-  /* line 4321, ../sass/screen.scss */
+  /* line 4324, ../sass/screen.scss */
   #form1 {
     max-width: 300px;
     padding: 15px;
   }
-  /* line 4324, ../sass/screen.scss */
+  /* line 4327, ../sass/screen.scss */
   #form1 h3 {
     font-size: 22px;
     color: #73d0d5;
     padding-top: 20px;
     padding-bottom: 30px;
   }
-  /* line 4330, ../sass/screen.scss */
+  /* line 4333, ../sass/screen.scss */
   #form1 input {
     margin-bottom: 20px;
     padding: 5px 15px;
     font-size: 18px;
   }
-  /* line 4335, ../sass/screen.scss */
+  /* line 4338, ../sass/screen.scss */
   #form1 textarea {
     height: 90px;
     font-size: 20px;
   }
-  /* line 4339, ../sass/screen.scss */
+  /* line 4342, ../sass/screen.scss */
   #form1 .send_massage_btn {
     font-size: 20px;
     padding: 10px 30px;
     margin-bottom: 20px;
   }
 
-  /* line 4346, ../sass/screen.scss */
+  /* line 4349, ../sass/screen.scss */
   .head .overlay {
     background-position: -1060px 395px;
   }
-  /* line 4349, ../sass/screen.scss */
+  /* line 4352, ../sass/screen.scss */
   .head nav {
     margin-top: 15px;
   }
-  /* line 4351, ../sass/screen.scss */
+  /* line 4354, ../sass/screen.scss */
   .head nav .menu {
     display: none;
   }
-  /* line 4354, ../sass/screen.scss */
+  /* line 4357, ../sass/screen.scss */
   .head nav .lang {
     display: none;
   }
-  /* line 4357, ../sass/screen.scss */
+  /* line 4360, ../sass/screen.scss */
   .head nav .mob_burger {
     z-index: 100;
   }
-  /* line 4361, ../sass/screen.scss */
+  /* line 4364, ../sass/screen.scss */
   .head .logo {
     width: 170px;
     height: 90px;
     margin: 0 auto;
     margin-top: -50px;
   }
-  /* line 4366, ../sass/screen.scss */
+  /* line 4369, ../sass/screen.scss */
   .head .logo img {
     width: 100%;
   }
-  /* line 4370, ../sass/screen.scss */
+  /* line 4373, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 280px;
   }
-  /* line 4372, ../sass/screen.scss */
+  /* line 4375, ../sass/screen.scss */
   .head .mid-row p {
     letter-spacing: 0.6px;
     font-size: 20px;
@@ -5517,7 +5520,7 @@ body .docSmart {
     left: -10px;
     font-weight: 100;
   }
-  /* line 4380, ../sass/screen.scss */
+  /* line 4383, ../sass/screen.scss */
   .head .mid-row p span {
     font-weight: 400;
     letter-spacing: 0.3px;
@@ -5526,15 +5529,15 @@ body .docSmart {
     letter-spacing: .5px;
     display: inline-block;
   }
-  /* line 4388, ../sass/screen.scss */
+  /* line 4391, ../sass/screen.scss */
   .head .mid-row p .bottom_span {
     width: 140px;
   }
-  /* line 4393, ../sass/screen.scss */
+  /* line 4396, ../sass/screen.scss */
   .head .mid-row-eng {
     padding-bottom: 280px;
   }
-  /* line 4397, ../sass/screen.scss */
+  /* line 4400, ../sass/screen.scss */
   .head .mob-nav .close-menu {
     position: absolute;
     top: 0px;
@@ -5542,7 +5545,7 @@ body .docSmart {
     font-size: 23px;
   }
 
-  /* line 4405, ../sass/screen.scss */
+  /* line 4408, ../sass/screen.scss */
   .obzor {
     font-family: 'PF DinDisplay Pro';
     display: -webkit-flex;
@@ -5553,7 +5556,7 @@ body .docSmart {
     display: flex;
     flex-direction: column-reverse;
   }
-  /* line 4414, ../sass/screen.scss */
+  /* line 4417, ../sass/screen.scss */
   .obzor h4 {
     position: unset;
     position: initial;
@@ -5564,7 +5567,7 @@ body .docSmart {
     padding-top: 30px;
     letter-spacing: 0.7px;
   }
-  /* line 4424, ../sass/screen.scss */
+  /* line 4427, ../sass/screen.scss */
   .obzor p {
     font-family: 'PF DinDisplay Pro';
     position: unset;
@@ -5575,59 +5578,59 @@ body .docSmart {
     line-height: 21px;
     letter-spacing: 0.6px;
   }
-  /* line 4434, ../sass/screen.scss */
+  /* line 4437, ../sass/screen.scss */
   .obzor span {
     padding-top: 0;
     font-size: 20px;
     font-weight: 300;
   }
-  /* line 4439, ../sass/screen.scss */
+  /* line 4442, ../sass/screen.scss */
   .obzor .docSmart {
     font-size: 20px;
   }
-  /* line 4442, ../sass/screen.scss */
+  /* line 4445, ../sass/screen.scss */
   .obzor .grandview {
     padding-top: 0px;
   }
-  /* line 4445, ../sass/screen.scss */
+  /* line 4448, ../sass/screen.scss */
   .obzor .ist-world-bank {
     font-size: 20px;
     right: 10px;
   }
-  /* line 4449, ../sass/screen.scss */
+  /* line 4452, ../sass/screen.scss */
   .obzor .left-col {
     padding-bottom: 60px;
   }
-  /* line 4451, ../sass/screen.scss */
+  /* line 4454, ../sass/screen.scss */
   .obzor .left-col .usd-val {
     position: unset;
     position: initial;
   }
-  /* line 4455, ../sass/screen.scss */
+  /* line 4458, ../sass/screen.scss */
   .obzor .left-col .img-responsive {
     position: unset;
     position: initial;
   }
-  /* line 4459, ../sass/screen.scss */
+  /* line 4462, ../sass/screen.scss */
   .obzor .left-col span {
     position: unset;
     position: initial;
   }
-  /* line 4464, ../sass/screen.scss */
+  /* line 4467, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 4466, ../sass/screen.scss */
+  /* line 4469, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 35px;
     right: 155px;
   }
-  /* line 4469, ../sass/screen.scss */
+  /* line 4472, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -230px;
     right: -20px;
   }
-  /* line 4475, ../sass/screen.scss */
+  /* line 4478, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 106px;
@@ -5637,21 +5640,21 @@ body .docSmart {
     font-size: 12px;
     line-height: 20px;
   }
-  /* line 4485, ../sass/screen.scss */
+  /* line 4488, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 290px;
   }
-  /* line 4489, ../sass/screen.scss */
+  /* line 4492, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 4491, ../sass/screen.scss */
+  /* line 4494, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 60px;
   }
-  /* line 4496, ../sass/screen.scss */
+  /* line 4499, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -5659,34 +5662,34 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 4503, ../sass/screen.scss */
+  /* line 4506, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -320px;
     left: 0;
   }
-  /* line 4508, ../sass/screen.scss */
+  /* line 4511, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 4512, ../sass/screen.scss */
+  /* line 4515, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -450px;
   }
-  /* line 4516, ../sass/screen.scss */
+  /* line 4519, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
     top: -50px;
   }
 
-  /* line 4523, ../sass/screen.scss */
+  /* line 4526, ../sass/screen.scss */
   .work {
     background-position: -280px 0px;
   }
-  /* line 4527, ../sass/screen.scss */
+  /* line 4530, ../sass/screen.scss */
   .work h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -5694,7 +5697,7 @@ body .docSmart {
     position: initial;
     padding-bottom: 25px;
   }
-  /* line 4534, ../sass/screen.scss */
+  /* line 4537, ../sass/screen.scss */
   .work p {
     padding-bottom: 40px;
     line-height: 20px;
@@ -5705,38 +5708,38 @@ body .docSmart {
     letter-spacing: .3px;
     font-weight: 100;
   }
-  /* line 4544, ../sass/screen.scss */
+  /* line 4547, ../sass/screen.scss */
   .work .box {
     position: unset;
     position: initial;
     margin-bottom: 40px;
   }
-  /* line 4548, ../sass/screen.scss */
+  /* line 4551, ../sass/screen.scss */
   .work .box .desc {
     display: none;
     background-color: transparent;
     font-size: 16px;
     color: #fff;
   }
-  /* line 4555, ../sass/screen.scss */
+  /* line 4558, ../sass/screen.scss */
   .work .box:hover .desc {
     display: none;
   }
-  /* line 4559, ../sass/screen.scss */
+  /* line 4562, ../sass/screen.scss */
   .work .box p {
     display: none;
   }
-  /* line 4562, ../sass/screen.scss */
+  /* line 4565, ../sass/screen.scss */
   .work .box .mob-view {
     display: block;
   }
-  /* line 4564, ../sass/screen.scss */
+  /* line 4567, ../sass/screen.scss */
   .work .box .mob-view h5 {
     font-size: 20px;
     padding-top: 0;
     padding-bottom: 20px;
   }
-  /* line 4570, ../sass/screen.scss */
+  /* line 4573, ../sass/screen.scss */
   .work .box .mob-view span {
     display: inline-block;
     padding-right: 0;
@@ -5746,7 +5749,7 @@ body .docSmart {
     letter-spacing: .4px;
     font-weight: 200;
   }
-  /* line 4581, ../sass/screen.scss */
+  /* line 4584, ../sass/screen.scss */
   .work .box img {
     width: 120px;
     height: 120px;
@@ -5755,7 +5758,7 @@ body .docSmart {
     margin-bottom: 20px;
   }
 
-  /* line 4591, ../sass/screen.scss */
+  /* line 4594, ../sass/screen.scss */
   .garant h3 {
     font-size: 30px;
     padding-bottom: 10px;
@@ -5764,7 +5767,7 @@ body .docSmart {
     position: initial;
     font-weight: 100;
   }
-  /* line 4599, ../sass/screen.scss */
+  /* line 4602, ../sass/screen.scss */
   .garant p {
     font-size: 20px;
     text-align: left;
@@ -5775,14 +5778,14 @@ body .docSmart {
     position: unset;
     position: initial;
   }
-  /* line 4609, ../sass/screen.scss */
+  /* line 4612, ../sass/screen.scss */
   .garant p.serts_head {
     position: unset;
     position: initial;
     margin-bottom: 20px;
     font-weight: 400;
   }
-  /* line 4615, ../sass/screen.scss */
+  /* line 4618, ../sass/screen.scss */
   .garant .sert {
     display: -webkit-flex;
     display: -webkit-box;
@@ -5795,32 +5798,32 @@ body .docSmart {
     position: initial;
     margin-bottom: 40px;
   }
-  /* line 4626, ../sass/screen.scss */
+  /* line 4629, ../sass/screen.scss */
   .garant .sert img {
     margin-bottom: 35px;
   }
-  /* line 4629, ../sass/screen.scss */
+  /* line 4632, ../sass/screen.scss */
   .garant .sert .sert1 {
     width: 85px;
   }
-  /* line 4632, ../sass/screen.scss */
+  /* line 4635, ../sass/screen.scss */
   .garant .sert .sert2 {
     width: 90px;
   }
-  /* line 4635, ../sass/screen.scss */
+  /* line 4638, ../sass/screen.scss */
   .garant .sert .sert3, .garant .sert .sert5 {
     width: 130px;
   }
-  /* line 4638, ../sass/screen.scss */
+  /* line 4641, ../sass/screen.scss */
   .garant .sert .sert4 {
     width: 85px;
   }
 
-  /* line 4643, ../sass/screen.scss */
+  /* line 4646, ../sass/screen.scss */
   .service {
     background-position: -1100px 0;
   }
-  /* line 4645, ../sass/screen.scss */
+  /* line 4648, ../sass/screen.scss */
   .service h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -5830,7 +5833,7 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.6px;
   }
-  /* line 4654, ../sass/screen.scss */
+  /* line 4657, ../sass/screen.scss */
   .service p {
     left: 0;
     font-size: 20px;
@@ -5842,7 +5845,7 @@ body .docSmart {
     padding-left: 5px;
     padding-right: 5px;
   }
-  /* line 4665, ../sass/screen.scss */
+  /* line 4668, ../sass/screen.scss */
   .service .box {
     position: unset;
     position: initial;
@@ -5850,19 +5853,19 @@ body .docSmart {
     margin-bottom: 60px;
     padding-left: 0px;
   }
-  /* line 4672, ../sass/screen.scss */
+  /* line 4675, ../sass/screen.scss */
   .service .box:hover .desc {
     display: none;
   }
-  /* line 4676, ../sass/screen.scss */
+  /* line 4679, ../sass/screen.scss */
   .service .box p {
     display: none;
   }
-  /* line 4679, ../sass/screen.scss */
+  /* line 4682, ../sass/screen.scss */
   .service .box .mob-view {
     display: block;
   }
-  /* line 4681, ../sass/screen.scss */
+  /* line 4684, ../sass/screen.scss */
   .service .box .mob-view h5 {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -5872,7 +5875,7 @@ body .docSmart {
     font-weight: 300;
     letter-spacing: 0.6px;
   }
-  /* line 4689, ../sass/screen.scss */
+  /* line 4692, ../sass/screen.scss */
   .service .box .mob-view span {
     font-weight: 100;
     line-height: 21px;
@@ -5882,34 +5885,34 @@ body .docSmart {
     letter-spacing: 0.2px;
     line-height: 21px;
   }
-  /* line 4699, ../sass/screen.scss */
+  /* line 4702, ../sass/screen.scss */
   .service .box img {
     width: 120px;
     height: 120px;
     margin-right: 0px;
   }
-  /* line 4705, ../sass/screen.scss */
+  /* line 4708, ../sass/screen.scss */
   .service .first_box {
     position: unset;
     position: initial;
   }
 
-  /* line 4710, ../sass/screen.scss */
+  /* line 4713, ../sass/screen.scss */
   .proect_creator {
     padding-bottom: 0;
   }
-  /* line 4712, ../sass/screen.scss */
+  /* line 4715, ../sass/screen.scss */
   .proect_creator h3 {
     padding-top: 25px;
     padding-bottom: 0;
     font-size: 30px;
     margin-left: 0;
   }
-  /* line 4718, ../sass/screen.scss */
+  /* line 4721, ../sass/screen.scss */
   .proect_creator .box {
     left: 0;
   }
-  /* line 4720, ../sass/screen.scss */
+  /* line 4723, ../sass/screen.scss */
   .proect_creator .box .desc {
     display: block;
     position: unset;
@@ -5918,22 +5921,22 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 4727, ../sass/screen.scss */
+  /* line 4730, ../sass/screen.scss */
   .proect_creator .box .desc span {
     font-weight: 100;
     line-height: 23px;
     padding: 20px 5px 21px;
     font-size: 20px;
   }
-  /* line 4733, ../sass/screen.scss */
+  /* line 4736, ../sass/screen.scss */
   .proect_creator .box .desc h5 {
     display: none;
   }
-  /* line 4736, ../sass/screen.scss */
+  /* line 4739, ../sass/screen.scss */
   .proect_creator .box .desc .right_doc {
     padding-bottom: 60px;
   }
-  /* line 4740, ../sass/screen.scss */
+  /* line 4743, ../sass/screen.scss */
   .proect_creator .box p {
     position: unset;
     position: initial;
@@ -5941,35 +5944,35 @@ body .docSmart {
     line-height: 21px;
     padding-bottom: 0;
   }
-  /* line 4748, ../sass/screen.scss */
+  /* line 4751, ../sass/screen.scss */
   .proect_creator .round1, .proect_creator .round2 {
     position: unset;
     position: initial;
   }
-  /* line 4752, ../sass/screen.scss */
+  /* line 4755, ../sass/screen.scss */
   .proect_creator .round2 {
     background-position: 0px -18px;
   }
 
-  /* line 4757, ../sass/screen.scss */
+  /* line 4760, ../sass/screen.scss */
   .team h3 {
     padding-top: 25px;
     font-size: 30px;
   }
-  /* line 4761, ../sass/screen.scss */
+  /* line 4764, ../sass/screen.scss */
   .team h4 {
     padding-bottom: 40px;
     font-size: 24px;
   }
-  /* line 4765, ../sass/screen.scss */
+  /* line 4768, ../sass/screen.scss */
   .team .top-row {
     border: none;
   }
-  /* line 4768, ../sass/screen.scss */
+  /* line 4771, ../sass/screen.scss */
   .team .box {
     left: 0;
   }
-  /* line 4770, ../sass/screen.scss */
+  /* line 4773, ../sass/screen.scss */
   .team .box .desc {
     display: block;
     position: unset;
@@ -5978,7 +5981,7 @@ body .docSmart {
     font-size: 18px;
     color: #505050;
   }
-  /* line 4777, ../sass/screen.scss */
+  /* line 4780, ../sass/screen.scss */
   .team .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -5986,39 +5989,39 @@ body .docSmart {
     font-size: 20px;
     letter-spacing: .5px;
   }
-  /* line 4784, ../sass/screen.scss */
+  /* line 4787, ../sass/screen.scss */
   .team .box .desc h5 {
     display: none;
   }
-  /* line 4788, ../sass/screen.scss */
+  /* line 4791, ../sass/screen.scss */
   .team .box p {
     position: unset;
     position: initial;
     font-weight: 300;
     font-size: 20px;
   }
-  /* line 4795, ../sass/screen.scss */
+  /* line 4798, ../sass/screen.scss */
   .team .box1, .team .box2, .team .box3, .team .box4 {
     padding-bottom: 30px;
     padding-top: 30px;
     border: none;
   }
-  /* line 4799, ../sass/screen.scss */
+  /* line 4802, ../sass/screen.scss */
   .team .box1 p, .team .box2 p, .team .box3 p, .team .box4 p {
     margin-left: 0;
   }
-  /* line 4803, ../sass/screen.scss */
+  /* line 4806, ../sass/screen.scss */
   .team .round2 {
     position: unset;
     position: initial;
   }
-  /* line 4807, ../sass/screen.scss */
+  /* line 4810, ../sass/screen.scss */
   .team .round4 {
     position: unset;
     position: initial;
   }
 
-  /* line 4813, ../sass/screen.scss */
+  /* line 4816, ../sass/screen.scss */
   .edviser h3 {
     font-size: 30px;
     padding-top: 25px;
@@ -6029,7 +6032,7 @@ body .docSmart {
     margin-bottom: 5px;
     letter-spacing: .5px;
   }
-  /* line 4823, ../sass/screen.scss */
+  /* line 4826, ../sass/screen.scss */
   .edviser h4 {
     font-weight: 100;
     padding-bottom: 40px;
@@ -6039,23 +6042,23 @@ body .docSmart {
     position: unset;
     position: initial;
   }
-  /* line 4832, ../sass/screen.scss */
+  /* line 4835, ../sass/screen.scss */
   .edviser p {
     font-size: 20px;
   }
-  /* line 4835, ../sass/screen.scss */
+  /* line 4838, ../sass/screen.scss */
   .edviser .top-row {
     border: none;
   }
-  /* line 4838, ../sass/screen.scss */
+  /* line 4841, ../sass/screen.scss */
   .edviser .bottom-row_2 {
     border: none;
   }
-  /* line 4841, ../sass/screen.scss */
+  /* line 4844, ../sass/screen.scss */
   .edviser .box {
     left: 0;
   }
-  /* line 4843, ../sass/screen.scss */
+  /* line 4846, ../sass/screen.scss */
   .edviser .box .desc {
     display: block;
     position: unset;
@@ -6064,7 +6067,7 @@ body .docSmart {
     font-size: 18px;
     color: #fff;
   }
-  /* line 4850, ../sass/screen.scss */
+  /* line 4853, ../sass/screen.scss */
   .edviser .box .desc span {
     font-weight: 100;
     line-height: 23px;
@@ -6072,11 +6075,11 @@ body .docSmart {
     letter-spacing: 0.5px;
     padding: 20px 0px 25px;
   }
-  /* line 4857, ../sass/screen.scss */
+  /* line 4860, ../sass/screen.scss */
   .edviser .box .desc h5 {
     display: none;
   }
-  /* line 4861, ../sass/screen.scss */
+  /* line 4864, ../sass/screen.scss */
   .edviser .box p {
     position: unset;
     position: initial;
@@ -6084,23 +6087,23 @@ body .docSmart {
     position: unset;
     position: initial;
   }
-  /* line 4869, ../sass/screen.scss */
+  /* line 4872, ../sass/screen.scss */
   .edviser .box1, .edviser .box3, .edviser .box2, .edviser .box4, .edviser .box5 {
     border: none;
     padding-bottom: 0px;
     padding-top: 30px;
   }
-  /* line 4874, ../sass/screen.scss */
+  /* line 4877, ../sass/screen.scss */
   .edviser .round {
     position: unset;
     position: initial;
   }
 
-  /* line 4880, ../sass/screen.scss */
+  /* line 4883, ../sass/screen.scss */
   .welcome .flex-row {
     padding: 0;
   }
-  /* line 4883, ../sass/screen.scss */
+  /* line 4886, ../sass/screen.scss */
   .welcome .left-box {
     position: unset;
     position: initial;
@@ -6110,7 +6113,7 @@ body .docSmart {
     background-position: 100px 0px;
     margin-bottom: 110px;
   }
-  /* line 4892, ../sass/screen.scss */
+  /* line 4895, ../sass/screen.scss */
   .welcome .right-box {
     position: unset;
     position: initial;
@@ -6118,7 +6121,7 @@ body .docSmart {
     margin-top: -80px;
     margin-bottom: 20px;
   }
-  /* line 4898, ../sass/screen.scss */
+  /* line 4901, ../sass/screen.scss */
   .welcome .right-box .send {
     position: unset;
     position: initial;
@@ -6127,11 +6130,11 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.8px;
   }
-  /* line 4907, ../sass/screen.scss */
+  /* line 4910, ../sass/screen.scss */
   .welcome .img-responsive {
     display: none;
   }
-  /* line 4910, ../sass/screen.scss */
+  /* line 4913, ../sass/screen.scss */
   .welcome h4 {
     display: inline-block;
     padding-left: 20px;
@@ -6143,14 +6146,14 @@ body .docSmart {
     letter-spacing: 0.6px;
     width: 180px;
   }
-  /* line 4921, ../sass/screen.scss */
+  /* line 4924, ../sass/screen.scss */
   .welcome p {
     font-size: 20px;
     line-height: 20px;
     padding-left: 5%;
   }
 
-  /* line 4928, ../sass/screen.scss */
+  /* line 4931, ../sass/screen.scss */
   .footer h4 {
     position: unset;
     position: initial;
@@ -6159,20 +6162,20 @@ body .docSmart {
     font-weight: 100;
     letter-spacing: 0.7px;
   }
-  /* line 4936, ../sass/screen.scss */
+  /* line 4939, ../sass/screen.scss */
   .footer span {
     position: unset;
     position: initial;
     padding-bottom: 10px;
     font-size: 20px;
   }
-  /* line 4943, ../sass/screen.scss */
+  /* line 4946, ../sass/screen.scss */
   .footer .contacts li {
     float: none;
     margin-right: 0;
     padding-bottom: 15px;
   }
-  /* line 4949, ../sass/screen.scss */
+  /* line 4952, ../sass/screen.scss */
   .footer .social_icons {
     padding-top: 30px;
     display: -webkit-flex;
@@ -6188,33 +6191,37 @@ body .docSmart {
     -webkit-justify-content: space-around;
     border-top: 1px solid #fff;
   }
-  /* line 4963, ../sass/screen.scss */
+  /* line 4966, ../sass/screen.scss */
   .footer .social_icons li {
     margin-right: 0px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 4970, ../sass/screen.scss */
+  /* line 4973, ../sass/screen.scss */
   #woho {
     display: block;
     z-index: 101;
     position: fixed;
   }
 
-  /* line 4975, ../sass/screen.scss */
+  /* line 4978, ../sass/screen.scss */
   .navbar-inverse {
     display: block;
   }
 
-  /* line 4978, ../sass/screen.scss */
+  /* line 4981, ../sass/screen.scss */
   .head {
     background-color: #f1f1f1;
   }
-  /* line 4980, ../sass/screen.scss */
+  /* line 4984, ../sass/screen.scss */
+  .head .overlay .select-lang-mob {
+    top: 61px;
+  }
+  /* line 4988, ../sass/screen.scss */
   .head .scroll_hidden {
     display: none;
   }
-  /* line 4983, ../sass/screen.scss */
+  /* line 4991, ../sass/screen.scss */
   .head .mob-nav {
     position: fixed;
     top: 0;
@@ -6222,67 +6229,67 @@ body .docSmart {
     -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
   }
-  /* line 4990, ../sass/screen.scss */
+  /* line 4998, ../sass/screen.scss */
   .head .logo {
     margin-top: 0;
     left: 0;
     height: 65px;
   }
 
-  /* line 4998, ../sass/screen.scss */
+  /* line 5006, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     width: 180px;
     margin: 20px auto;
     text-align: left;
   }
-  /* line 5003, ../sass/screen.scss */
+  /* line 5011, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-top: 0;
   }
 
-  /* line 5009, ../sass/screen.scss */
+  /* line 5017, ../sass/screen.scss */
   .team .bottom-row {
     border: none;
   }
-  /* line 5012, ../sass/screen.scss */
+  /* line 5020, ../sass/screen.scss */
   .team .box5 {
     border: none;
   }
 
-  /* line 5018, ../sass/screen.scss */
+  /* line 5026, ../sass/screen.scss */
   .proect_creator .box .desc {
     width: 100%;
   }
 }
 @media (min-width: 480px) and (max-width: 567px) {
-  /* line 5029, ../sass/screen.scss */
+  /* line 5037, ../sass/screen.scss */
   .head .overlay {
     background-position: -920px 340px;
   }
-  /* line 5032, ../sass/screen.scss */
+  /* line 5040, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 250px;
   }
-  /* line 5034, ../sass/screen.scss */
+  /* line 5042, ../sass/screen.scss */
   .head .mid-row p .bottom_span {
     width: 190px;
   }
 
-  /* line 5040, ../sass/screen.scss */
+  /* line 5048, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 5042, ../sass/screen.scss */
+  /* line 5050, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 215px;
   }
-  /* line 5045, ../sass/screen.scss */
+  /* line 5053, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -350px;
     right: 30px;
   }
-  /* line 5051, ../sass/screen.scss */
+  /* line 5059, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 175px;
@@ -6292,21 +6299,21 @@ body .docSmart {
     font-size: 17px;
     line-height: 20px;
   }
-  /* line 5061, ../sass/screen.scss */
+  /* line 5069, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 450px;
   }
-  /* line 5065, ../sass/screen.scss */
+  /* line 5073, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 5067, ../sass/screen.scss */
+  /* line 5075, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 5072, ../sass/screen.scss */
+  /* line 5080, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6314,23 +6321,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 5079, ../sass/screen.scss */
+  /* line 5087, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -490px;
     left: 0;
   }
-  /* line 5084, ../sass/screen.scss */
+  /* line 5092, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 5088, ../sass/screen.scss */
+  /* line 5096, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -620px;
   }
-  /* line 5092, ../sass/screen.scss */
+  /* line 5100, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
@@ -6338,34 +6345,34 @@ body .docSmart {
   }
 }
 @media (min-width: 568px) and (max-width: 639px) {
-  /* line 5102, ../sass/screen.scss */
+  /* line 5110, ../sass/screen.scss */
   .head .overlay {
     background-position: -900px 300px;
   }
-  /* line 5105, ../sass/screen.scss */
+  /* line 5113, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 250px;
   }
-  /* line 5107, ../sass/screen.scss */
+  /* line 5115, ../sass/screen.scss */
   .head .mid-row p .bottom_span {
     width: 190px;
   }
 
-  /* line 5113, ../sass/screen.scss */
+  /* line 5121, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 5115, ../sass/screen.scss */
+  /* line 5123, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 255px;
   }
-  /* line 5118, ../sass/screen.scss */
+  /* line 5126, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -350px;
     right: 30px;
   }
-  /* line 5124, ../sass/screen.scss */
+  /* line 5132, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 178px;
@@ -6375,21 +6382,21 @@ body .docSmart {
     font-size: 18px;
     line-height: 20px;
   }
-  /* line 5134, ../sass/screen.scss */
+  /* line 5142, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 450px;
   }
-  /* line 5138, ../sass/screen.scss */
+  /* line 5146, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 5140, ../sass/screen.scss */
+  /* line 5148, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 5145, ../sass/screen.scss */
+  /* line 5153, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6397,23 +6404,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 5152, ../sass/screen.scss */
+  /* line 5160, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -490px;
     left: 0;
   }
-  /* line 5157, ../sass/screen.scss */
+  /* line 5165, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 5161, ../sass/screen.scss */
+  /* line 5169, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -620px;
   }
-  /* line 5165, ../sass/screen.scss */
+  /* line 5173, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
@@ -6421,34 +6428,34 @@ body .docSmart {
   }
 }
 @media (min-width: 640px) and (max-width: 666px) {
-  /* line 5175, ../sass/screen.scss */
+  /* line 5183, ../sass/screen.scss */
   .head .overlay {
     background-position: -760px 270px;
   }
-  /* line 5178, ../sass/screen.scss */
+  /* line 5186, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 250px;
   }
-  /* line 5180, ../sass/screen.scss */
+  /* line 5188, ../sass/screen.scss */
   .head .mid-row p .bottom_span {
     width: 190px;
   }
 
-  /* line 5186, ../sass/screen.scss */
+  /* line 5194, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 5188, ../sass/screen.scss */
+  /* line 5196, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 295px;
   }
-  /* line 5191, ../sass/screen.scss */
+  /* line 5199, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -350px;
     right: 30px;
   }
-  /* line 5197, ../sass/screen.scss */
+  /* line 5205, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 174px;
@@ -6458,21 +6465,21 @@ body .docSmart {
     font-size: 20px;
     line-height: 20px;
   }
-  /* line 5207, ../sass/screen.scss */
+  /* line 5215, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 75%;
   }
-  /* line 5211, ../sass/screen.scss */
+  /* line 5219, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 5213, ../sass/screen.scss */
+  /* line 5221, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 5218, ../sass/screen.scss */
+  /* line 5226, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6480,23 +6487,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 5225, ../sass/screen.scss */
+  /* line 5233, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -515px;
     left: 0;
   }
-  /* line 5230, ../sass/screen.scss */
+  /* line 5238, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 5234, ../sass/screen.scss */
+  /* line 5242, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -610px;
   }
-  /* line 5238, ../sass/screen.scss */
+  /* line 5246, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
@@ -6504,30 +6511,30 @@ body .docSmart {
   }
 }
 @media (min-width: 667px) and (max-width: 731px) {
-  /* line 5248, ../sass/screen.scss */
+  /* line 5256, ../sass/screen.scss */
   .head .overlay {
     background-position: -760px 270px;
   }
-  /* line 5251, ../sass/screen.scss */
+  /* line 5259, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 220px;
   }
 
-  /* line 5256, ../sass/screen.scss */
+  /* line 5264, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 5258, ../sass/screen.scss */
+  /* line 5266, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 295px;
   }
-  /* line 5261, ../sass/screen.scss */
+  /* line 5269, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -380px;
     right: 30px;
   }
-  /* line 5267, ../sass/screen.scss */
+  /* line 5275, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 210px;
@@ -6537,21 +6544,21 @@ body .docSmart {
     font-size: 20px;
     line-height: 20px;
   }
-  /* line 5277, ../sass/screen.scss */
+  /* line 5285, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 500px;
   }
-  /* line 5281, ../sass/screen.scss */
+  /* line 5289, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 5283, ../sass/screen.scss */
+  /* line 5291, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 5288, ../sass/screen.scss */
+  /* line 5296, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6559,23 +6566,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 5295, ../sass/screen.scss */
+  /* line 5303, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -554px;
     left: 0;
   }
-  /* line 5300, ../sass/screen.scss */
+  /* line 5308, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 5304, ../sass/screen.scss */
+  /* line 5312, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -650px;
   }
-  /* line 5308, ../sass/screen.scss */
+  /* line 5316, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
@@ -6583,30 +6590,30 @@ body .docSmart {
   }
 }
 @media (min-width: 732px) and (max-width: 735px) {
-  /* line 5318, ../sass/screen.scss */
+  /* line 5326, ../sass/screen.scss */
   .head .overlay {
     background-position: -760px 250px;
   }
-  /* line 5321, ../sass/screen.scss */
+  /* line 5329, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 220px;
   }
 
-  /* line 5326, ../sass/screen.scss */
+  /* line 5334, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 5328, ../sass/screen.scss */
+  /* line 5336, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 335px;
   }
-  /* line 5331, ../sass/screen.scss */
+  /* line 5339, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -410px;
     right: 30px;
   }
-  /* line 5337, ../sass/screen.scss */
+  /* line 5345, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 199px;
@@ -6616,21 +6623,21 @@ body .docSmart {
     font-size: 21px;
     line-height: 20px;
   }
-  /* line 5347, ../sass/screen.scss */
+  /* line 5355, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 75%;
   }
-  /* line 5351, ../sass/screen.scss */
+  /* line 5359, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 5353, ../sass/screen.scss */
+  /* line 5361, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 5358, ../sass/screen.scss */
+  /* line 5366, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6638,23 +6645,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 5365, ../sass/screen.scss */
+  /* line 5373, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -570px;
     left: 0;
   }
-  /* line 5370, ../sass/screen.scss */
+  /* line 5378, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 5374, ../sass/screen.scss */
+  /* line 5382, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -670px;
   }
-  /* line 5378, ../sass/screen.scss */
+  /* line 5386, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;
@@ -6662,30 +6669,30 @@ body .docSmart {
   }
 }
 @media (min-width: 736px) and (max-width: 767px) {
-  /* line 5388, ../sass/screen.scss */
+  /* line 5396, ../sass/screen.scss */
   .head .overlay {
     background-position: -760px 250px;
   }
-  /* line 5391, ../sass/screen.scss */
+  /* line 5399, ../sass/screen.scss */
   .head .mid-row {
     padding-bottom: 220px;
   }
 
-  /* line 5396, ../sass/screen.scss */
+  /* line 5404, ../sass/screen.scss */
   .obzor .diagram-block {
     margin-top: 150px;
   }
-  /* line 5398, ../sass/screen.scss */
+  /* line 5406, ../sass/screen.scss */
   .obzor .diagram-block .number {
     top: 55px;
     right: 335px;
   }
-  /* line 5401, ../sass/screen.scss */
+  /* line 5409, ../sass/screen.scss */
   .obzor .diagram-block .number .num2 {
     bottom: -410px;
     right: 30px;
   }
-  /* line 5407, ../sass/screen.scss */
+  /* line 5415, ../sass/screen.scss */
   .obzor .diagram-block .center p {
     position: absolute;
     top: 229px;
@@ -6695,21 +6702,21 @@ body .docSmart {
     font-size: 21px;
     line-height: 20px;
   }
-  /* line 5417, ../sass/screen.scss */
+  /* line 5425, ../sass/screen.scss */
   .obzor .diagram-block img {
     width: 75%;
   }
-  /* line 5421, ../sass/screen.scss */
+  /* line 5429, ../sass/screen.scss */
   .obzor .diagram-block-right {
     text-align: center;
   }
-  /* line 5423, ../sass/screen.scss */
+  /* line 5431, ../sass/screen.scss */
   .obzor .diagram-block-right .list {
     margin-bottom: 45px;
     position: relative;
     top: 80px;
   }
-  /* line 5428, ../sass/screen.scss */
+  /* line 5436, ../sass/screen.scss */
   .obzor .diagram-block-right .line {
     margin: 0 auto;
     position: unset;
@@ -6717,23 +6724,23 @@ body .docSmart {
     border-bottom: 2px dashed #73d0d5;
     width: 60%;
   }
-  /* line 5435, ../sass/screen.scss */
+  /* line 5443, ../sass/screen.scss */
   .obzor .diagram-block-right .line2 {
     position: relative;
     top: -590px;
     left: 0;
   }
-  /* line 5440, ../sass/screen.scss */
+  /* line 5448, ../sass/screen.scss */
   .obzor .diagram-block-right p {
     padding-top: 7px;
     left: 0;
   }
-  /* line 5444, ../sass/screen.scss */
+  /* line 5452, ../sass/screen.scss */
   .obzor .diagram-block-right .top-p {
     position: absolute;
     top: -670px;
   }
-  /* line 5448, ../sass/screen.scss */
+  /* line 5456, ../sass/screen.scss */
   .obzor .diagram-block-right .potencial {
     margin-left: 0px;
     position: relative;

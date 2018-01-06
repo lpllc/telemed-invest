@@ -15,23 +15,23 @@ use yii\helpers\Html;
             <a href="javascript:;" class="lang">
                 <?php if($user_language == 'ru') { ?>
                     <span class="display_lang">
-                  <img src="img/blank.gif" class="flag flag-ru " alt="Russian" />
+                  <img src="img/ru.png" class="" alt="Russian" />
               </span>
                 <?php } ?>
                 <?php if($user_language == 'en') { ?>
                     <span class="display_lang">
-                  <img src="img/blank.gif" class="flag flag-us" alt="Usa" />
+                  <img src="img/en.png" class="" alt="Usa" />
               </span>
                 <?php } ?>
                 <i class="fa fa-angle-down" aria-hidden="true"></i>
             </a>
             <ul class="select-lang">
                 <?php if($user_language == 'ru') { ?>
-                    <li><a href="/en"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
+                    <li><a href="/en"><img src="img/en.png" class="" alt="Usa" /></a></li>
                     </span>
                 <?php } ?>
                 <?php if($user_language == 'en') { ?>
-                    <li><a href="/ru"><img src="img/blank.gif" class="flag flag-ru " alt="Russian" /></a></li>
+                    <li><a href="/ru"><img src="img/ru.png" class="" alt="Russian" /></a></li>
                     </span>
                 <?php } ?>
             </ul>
@@ -59,27 +59,27 @@ use yii\helpers\Html;
                                     <span class="icon-bar"></span>
                                 </button>
                                 <div class="logo">
-                                    <img src="img/logo_1.png" alt="">
+                                    <img src="img/logo.svg" alt="">
                                 </div>
                                 <a href="javascript:;" class="lang_mob">
                                     <?php if($user_language == 'ru') { ?>
                                         <span class="display_lang_mob">
-                              <img src="img/blank.gif" class="flag flag-ru " alt="Russian" />
+                              <img src="img/ru.png" class="" alt="Russian" />
                           </span>
                                     <?php } ?>
                                     <?php if($user_language == 'en') { ?>
                                         <span class="display_lang_mob">
-                              <img src="img/blank.gif" class="flag flag-us" alt="Usa" />
+                              <img src="img/en.png" class="" alt="Usa" />
                           </span>
                                     <?php } ?>
                                     <i class="fa fa-angle-down" aria-hidden="true"></i>
                                 </a>
                                 <ul class="select-lang-mob">
                                     <?php if($user_language == 'ru') { ?>
-                                        <li><a href="/en"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
+                                        <li><a href="/en"><img src="img/en.png" class="" alt="Usa" /></a></li>
                                     <?php } ?>
                                     <?php if($user_language == 'en') { ?>
-                                        <li><a href="/ru"><img src="img/blank.gif" class="flag flag-ru" alt="Russian" /></a></li>
+                                        <li><a href="/ru"><img src="img/ru.png" class="" alt="Russian" /></a></li>
                                     <?php } ?>
                                 </ul>
                             </div>
@@ -127,7 +127,7 @@ use yii\helpers\Html;
             <div class="row mid-row">
                 <div class="col-lg-6 col-md-6 col-sm-9 col-sm-offset-1">
                     <div class="logo">
-                        <img src="img/logo_1.png" alt="">
+                        <img src="img/logo.svg" alt="">
                     </div>
                     <p><span class="docSmart"> Doctor Smart </span>-  инновационная экосистема цифровых услуг в области здоровья на базе блокчейн и смарт-контрактов. Она открывает полный цикл возможностей в области поддержания и укрепления здоровья, а также увеличения продолжительности жизни.</p>
                     <p>Платформа, обеспечивающая мгновенную связь с авторитетными врачами, психологами, диетологами, ветеринарами и фитнес-тренерами со всего мира.
