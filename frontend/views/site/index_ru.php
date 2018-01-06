@@ -590,8 +590,8 @@ use yii\helpers\Html;
                 </ul>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 emal">
-                <p>Подробная информация о продукте: <a href="http://www.doctorsmart.me">doctorsmart.me</a></p>
-                <p>Инициатива Doctor Smart по использованию AI и нейронных сетей для анализа медицинских изображений: doctorsmart…</p>
+                <p>Подробная информация для наших партнеров: <a href="http://www.doctorsmart.me">doctorsmart.me</a></p>
+                <p>Информация об инициативе Doctor Smart по использованию AI и нейронных сетей для анализа медицинских изображений: doctorsmart...</p>
             </div>
         </div>
     </div>

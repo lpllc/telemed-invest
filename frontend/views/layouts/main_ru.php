@@ -22,11 +22,11 @@ AppAsset::register($this);
     <meta name="description" content="Сервис обеспечивает мгновенную связь с врачами, психологами, диетологами, ветеринарами и фитнес тренерами со всего мира.">
     <meta name="keywords" content="Сервис обеспечивает мгновенную связь с врачами, психологами, диетологами, ветеринарами и фитнес тренерами со всего мира.">
     <meta name="author" content="Boris Adamyan Boramos">
-    <link rel='shortcut icon' type=image/vnd.microsoft.icon href=img/favico.png>
-    <link rel=apple-touch-icon type=image/png href=img/favico.png>
-    <link rel=apple-touch-icon type=image/png sizes=72x72 href=img/favico.png>
-    <link rel=apple-touch-icon type=image/png sizes=114x114 href=img/favico.png>
-    <link rel=icon type=image/png href=img/favico.png>
+    <link rel='shortcut icon' type=image/vnd.microsoft.icon href=img/favicon.ico>
+    <link rel=apple-touch-icon type=image/png href=img/favicon.ico>
+    <link rel=apple-touch-icon type=image/png sizes=72x72 href=img/favicon.ico>
+    <link rel=apple-touch-icon type=image/png sizes=114x114 href=img/favicon.ico>
+    <link rel=icon type=image/png href=img/favicon.ico>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     
     <?= Html::csrfMetaTags() ?>

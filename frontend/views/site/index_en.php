@@ -150,7 +150,7 @@ use yii\helpers\Html;
                             <li>* - Grand View Reserch. Inc.</li>
                             <li>** - McKinsey</li>
                         </ul>
-                        <p class="potencial">Digital health market potential</p>
+                        <p class="potencial potencial-eng">Digital health market potential</p>
                     </div>
                 </div>
             </div>
