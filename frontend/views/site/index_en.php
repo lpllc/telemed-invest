@@ -51,36 +51,61 @@ use yii\helpers\Html;
                          <button id="toggle">
                          </button>
                        </div> -->
-                        <button id="woho" type="button" class="navbar-toggle" data-toggle=" collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <div class="mob-nav">
-                            <div class="logo">
-                                <img src="img/logo_1.png" alt="">
-                            </div>
-                            <a href="javascript:;" class="lang_mob">
-                                <?php if($user_language == 'ru') { ?>
-                                    <span class="display_lang_mob">
+                        <div class="navbar navbar-inverse navbar-fixed-top">
+                            <div class="navbar-header">
+                                <button id="woho" type="button" class="navbar-toggle" data-toggle=" collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="logo">
+                                    <img src="img/logo_1.png" alt="">
+                                </div>
+                                <a href="javascript:;" class="lang_mob">
+                                    <?php if($user_language == 'ru') { ?>
+                                        <span class="display_lang_mob">
                                   <img src="img/blank.gif" class="flag flag-ru " alt="Russian" />
                               </span>
-                                <?php } ?>
-                                <?php if($user_language == 'en') { ?>
-                                    <span class="display_lang_mob">
+                                    <?php } ?>
+                                    <?php if($user_language == 'en') { ?>
+                                        <span class="display_lang_mob">
                                   <img src="img/blank.gif" class="flag flag-us" alt="Usa" />
                               </span>
-                                <?php } ?>
-                                <i class="fa fa-angle-down" aria-hidden="true"></i>
-                            </a>
-                            <ul class="select-lang-mob">
-                                <?php if($user_language == 'ru') { ?>
-                                    <li><a href="/en"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
-                                <?php } ?>
-                                <?php if($user_language == 'en') { ?>
-                                    <li><a href="/ru"><img src="img/blank.gif" class="flag flag-ru" alt="Russian" /></a></li>
-                                <?php } ?>
-                            </ul>
+                                    <?php } ?>
+                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </a>
+                                <ul class="select-lang-mob">
+                                    <?php if($user_language == 'ru') { ?>
+                                        <li><a href="/en"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
+                                    <?php } ?>
+                                    <?php if($user_language == 'en') { ?>
+                                        <li><a href="/ru"><img src="img/blank.gif" class="flag flag-ru" alt="Russian" /></a></li>
+                                    <?php } ?>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mob-nav">
+                            <!--  <a href="javascript:;" class="lang_mob">
+                          <?php if($user_language == 'ru') { ?>
+                              <span class="display_lang_mob">
+                                  <img src="img/blank.gif" class="flag flag-ru " alt="Russian" />
+                              </span>
+                          <?php } ?>
+                          <?php if($user_language == 'en') { ?>
+                              <span class="display_lang_mob">
+                                  <img src="img/blank.gif" class="flag flag-us" alt="Usa" />
+                              </span>
+                          <?php } ?>
+                          <i class="fa fa-angle-down" aria-hidden="true"></i>
+                      </a>
+                      <ul class="select-lang-mob">
+                          <?php if($user_language == 'ru') { ?>
+                              <li><a href="/en"><img src="img/blank.gif" class="flag flag-us" alt="Usa" /></a></li>
+                          <?php } ?>
+                          <?php if($user_language == 'en') { ?>
+                              <li><a href="/ru"><img src="img/blank.gif" class="flag flag-ru" alt="Russian" /></a></li>
+                          <?php } ?>
+                      </ul> -->
                             <ul class="mob-menu">
                                 <li><a href="#head">About Service</a></li>
                                 <li><a href="#obzor">Market Review</a></li>
