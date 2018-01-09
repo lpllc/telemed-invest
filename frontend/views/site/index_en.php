@@ -269,7 +269,7 @@ use yii\helpers\Html;
             <div class="col-lg-12">
                 <h3>ROADMAP</h3>
                 <div class="map">
-                    <img src="img/work-map.png" alt="">
+                    <img src="img/roadmap-en.png" alt="">
                 </div>
             </div>
         </div>
