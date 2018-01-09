@@ -601,21 +601,22 @@ use yii\helpers\Html;
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 emal">
                 <ul class="contacts">
-                    <li>Электронная почта:<a href="javascript:send_email_1('my massage')">
+                    <li>Email: <a href="javascript:send_email_1('my massage')">
                             <span>info@drs.team</span>
                         </a></li>
                     <!-- <li><a href="javascript:;">
                       <img src="img/tel.svg" alt=""><br>
                       <span>7(XXX) XXX-XX-XX</span>
                     </a></li> -->
-                    <li>Контакты пресс-службы:<a href="javascript:send_email_2('my massage')">
+                    <li>Пресс-служба: <a href="javascript:send_email_2('my massage')">
                             <span>pr@drs.team</span>
                         </a></li>
                 </ul>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 emal">
-                <p>Подробная информация для наших партнеров: <a href="http://www.doctorsmart.me">doctorsmart.me</a></p>
-                <p>Информация об инициативе Doctor Smart по использованию AI и нейронных сетей для анализа медицинских изображений: doctorsmart...</p>
+                <p>О продукте: <a href="http://doctorsmart.me/">doctorsmart.me</a></p>
+                <p>Для партнеров: <a href="http://doctorsmart.vc/">doctorsmart.vc</a></p>
+                <p>Инициатива по использованию AI: <a href="http://doctorsmart.vc/AI/">doctorsmart.vc/AI</a></p>
             </div>
         </div>
     </div>

@@ -601,8 +601,9 @@ use yii\helpers\Html;
                 </ul>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 emal">
-                <p>More information about product:<a href="http://www.doctorsmart.me">doctorsmart.me</a></p>
-                <p>Doctor Smart Initiative for AI-based medical images recognition and analysis: doctorsmart….</p>
+                <p>Product: <a href="http://doctorsmart.me/">doctorsmart.me</a></p>
+                <p>For Partners: <a href="http://doctorsmart.vc/">doctorsmart.vc</a></p>
+                <p>Initiative for AI: <a href="http://doctorsmart.vc/AI">doctorsmart.vc/AI</a></p>
             </div>
         </div>
     </div>
