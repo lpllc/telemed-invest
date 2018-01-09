@@ -614,9 +614,9 @@ use yii\helpers\Html;
                 </ul>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 emal">
-                <p>О продукте: <a href="http://doctorsmart.me/">doctorsmart.me</a></p>
-                <p>Для партнеров: <a href="http://doctorsmart.vc/">doctorsmart.vc</a></p>
-                <p>Инициатива по использованию AI: <a href="http://doctorsmart.vc/AI/">doctorsmart.vc/AI</a></p>
+                <p>О продукте: <a href="http://doctorsmart.me/" target="_blank">doctorsmart.me</a></p>
+                <p>Для партнеров: <a href="http://doctorsmart.vc/" target="_blank">doctorsmart.vc</a></p>
+                <p>Инициатива по использованию AI: <a href="http://doctorsmart.vc/AI/" target="_blank">doctorsmart.vc/AI</a></p>
             </div>
         </div>
     </div>
